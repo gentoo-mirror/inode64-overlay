@@ -1,0 +1,10 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
+app-emulation/libnbd:go - Build the GO bindings
+dev-util/pycharm-community:bundled-jdk - Use bundled jdk
+dev-util/pycharm-professional:bundled-jdk - Use bundled jdk
+net-misc/guacamole-server:ssh - enable support for SSH protocol
+net-misc/guacamole-server:telnet - enable support for telnet protocol

@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile unpack
+DESCRIPTION=Gentoo Linux update system
+EAPI=7
+HOMEPAGE=https://github.com/inode64/glus
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-admin/perl-cleaner app-portage/gentoolkit virtual/mta
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=6f2076ecc68a4fc90a458eb8eb87bf31
