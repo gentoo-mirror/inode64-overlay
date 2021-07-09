@@ -2,6 +2,7 @@ acct-group/guacamole 0: System group: guacamole
 acct-group/librenms 0: System group: librenms
 acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/librenms 0: A user for Librenms
+app-backup/bareos 19.2.10 20.0.2: Featureful client/server network backup suite
 app-backup/virtnbdbackup 0.22: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/libnbd 1.6.4: NBD client library in userspace
 app-portage/glus 9999: Gentoo Linux update system

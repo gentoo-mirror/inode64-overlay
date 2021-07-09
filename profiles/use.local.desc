@@ -2,6 +2,17 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-backup/bareos:ceph - Enable ceph support
+app-backup/bareos:clientonly - Only install file-daemon (client)
+app-backup/bareos:director - Install director
+app-backup/bareos:glusterfs - Enable glusterfs storage backend
+app-backup/bareos:jansson - JSON API support using JANSSON for director
+app-backup/bareos:lmdb - enable build of LMDB support for faster accurate backup
+app-backup/bareos:logwatch - Install support files for logwatch
+app-backup/bareos:ndmp - Enable support for NDMP (Network Data Management Protocol)
+app-backup/bareos:scsi-crypto - Enable low level SCSI crypto support
+app-backup/bareos:storage-daemon - Install storage daemon (bareos-sd)
+app-backup/bareos:traymonitor - Install Bareos Tray Monitor (QT)
 app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
 app-emulation/libnbd:go - Build the GO bindings
 dev-util/pycharm-community:bundled-jdk - Use bundled jdk
