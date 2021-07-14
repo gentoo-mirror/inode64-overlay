@@ -1,7 +1,9 @@
 acct-group/guacamole 0: System group: guacamole
 acct-group/librenms 0: System group: librenms
+acct-group/zigbee2mqtt 0: System group: zigbee2mqtt
 acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/librenms 0: A user for Librenms
+acct-user/zigeebe2mqtt 0: A user for zigbee2mqtt
 app-admin/salt 3003.1: Salt is a remote execution and configuration manager
 app-backup/bareos 19.2.10 20.0.2: Featureful client/server network backup suite
 app-backup/virtnbdbackup 0.22: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
