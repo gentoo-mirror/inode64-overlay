@@ -13,13 +13,16 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64"
 
-DEPEND=""
 RDEPEND="
+	acct-group/zigbee2mqtt
+	acct-user/zigbee2mqtt
 	app-misc/mosquitto
 	net-libs/nodejs
 "
 BDEPEND="
 	net-libs/nodejs[npm]
+"
+DEPEND="${PYTHON_DEPS}
 "
 
 # To enable download packages
@@ -54,6 +57,9 @@ src_install() {
 	doins *.js *.json
 
 	dodoc *.md
+
+	fowners zigbee2mqtt:zigbee2mqtt /var/lib/${PN}
+	fowners zigbee2mqtt:zigbee2mqtt /var/log/${PN}
 
 	doinitd "${FILESDIR}"/${PN}
 	systemd_dounit "${FILESDIR}/${PN}.service"
