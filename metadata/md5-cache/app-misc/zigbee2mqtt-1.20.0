@@ -11,4 +11,4 @@ RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/Koenkk/zigbee2mqtt/archive/1.20.0.tar.gz -> zigbee2mqtt-1.20.0.tar.gz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	systemd	c846b9e02ac8293bfc9ca38a195c2a18
-_md5_=b3e5275b16ad963588bac4804898408e
+_md5_=0b71b88012297508839399b6db62fa10
