@@ -7,7 +7,7 @@ acct-user/zigbee2mqtt 0: A user for zigbee2mqtt
 app-admin/salt 3003.1: Salt is a remote execution and configuration manager
 app-backup/bareos 19.2.10 20.0.2: Featureful client/server network backup suite
 app-backup/virtnbdbackup 0.22: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-emulation/libnbd 1.6.4: NBD client library in userspace
+app-emulation/libnbd 1.6.4 1.8.2: NBD client library in userspace
 app-misc/zigbee2mqtt 1.20.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
