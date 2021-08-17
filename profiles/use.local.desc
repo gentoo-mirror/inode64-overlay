@@ -17,3 +17,16 @@ app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual
 app-emulation/libnbd:go - Build the GO bindings
 net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
+sys-apps/cockpit:debug - Enables debug information
+sys-apps/cockpit:maintainer-mode - Enables maintaner mode
+sys-apps/pcp:discovery - Support for service discovery
+sys-apps/pcp:doc - Enable building of the PCP books
+sys-apps/pcp:infiniband - Support for inifiniband metrics
+sys-apps/pcp:manager - Support for daemon manager
+sys-apps/pcp:papi - Support for PAPI
+sys-apps/pcp:perfevent - Perfevent pmda
+sys-apps/pcp:pie - Build position-independent-executable
+sys-apps/pcp:python - Support for tools requiring Python
+sys-apps/pcp:ssp - Enable gcc stack-protector
+sys-apps/pcp:systemd - Support for systemd services
+sys-apps/pcp:webapi - Enable REST API daemon
