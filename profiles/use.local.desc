@@ -15,6 +15,10 @@ app-backup/bareos:storage-daemon - Install storage daemon (bareos-sd)
 app-backup/bareos:traymonitor - Install Bareos Tray Monitor (QT)
 app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
 app-emulation/libnbd:go - Build the GO bindings
+media-libs/dav1d:10bit - Add support for building 10-bit and 12-bit AV1.
+media-libs/dav1d:8bit - Add support for decoding 8-bit AV1.
+media-libs/dav1d:asm - Enable custom assembly for faster decoding.
+media-libs/dav1d:xxhash - Enable dev-libs/xxhash support for hashing muxer
 net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
 sys-apps/cockpit:debug - Enables debug information
