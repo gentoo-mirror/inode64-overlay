@@ -13,7 +13,7 @@ app-misc/zigbee2mqtt 1.20.0: It bridges events and allows you to control your Zi
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
-dev-util/phpstorm 2021.1.4: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2021.1.4 2021.2.3: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-libs/dav1d 0.8.0 0.8.2 0.9.0 0.9.1 0.9.2 9999: dav1d is an AV1 Decoder :)
 net-analyzer/librenms 21.5.0 21.9.1: A fully featured network monitoring system
