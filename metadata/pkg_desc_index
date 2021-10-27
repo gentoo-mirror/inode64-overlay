@@ -12,6 +12,7 @@ app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-misc/zigbee2mqtt 1.20.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
+dev-libs/amdgpu-pro-opencl 21.30.1290604: Proprietary OpenCL implementation for AMD GPUs
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-util/phpstorm 2021.1.4 2021.2.3: A complete toolset for web, mobile and enterprise development
