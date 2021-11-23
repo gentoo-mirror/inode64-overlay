@@ -23,6 +23,7 @@ net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-misc/guacamole-server 1.3.0 9999: This is the proxy-daemon used by www-apps/guacamole
 sys-apps/cockpit 250: Server Administration Web Interface
 sys-apps/pcp 5.3.2: Performance Co-Pilot, system performance and analysis framework
+sys-apps/usbredir 0.12.0: TCP daemon and set of libraries for usbredir protocol (redirecting USB traffic)
 sys-process/pm2 5.0.3: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 virtual/developer-php 0: Tools needed for developing applications in php
