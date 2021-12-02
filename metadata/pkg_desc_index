@@ -5,9 +5,9 @@ acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/librenms 0: A user for Librenms
 acct-user/zigbee2mqtt 0: A user for zigbee2mqtt
 app-backup/bareos 19.2.10 20.0.2: Featureful client/server network backup suite
-app-backup/virtnbdbackup 0.22 0.24: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-emulation/cockpit-machines 249.1: This is the Cockpit user interface for virtual machines
-app-emulation/libnbd 1.6.4 1.8.2 1.8.4: NBD client library in userspace
+app-backup/virtnbdbackup 0.22 0.24 0.35: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-emulation/cockpit-machines 249.1 257: This is the Cockpit user interface for virtual machines
+app-emulation/libnbd 1.6.4 1.8.2 1.8.4 1.8.5: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-misc/zigbee2mqtt 1.20.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
@@ -18,11 +18,11 @@ dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutil
 dev-util/phpstorm 2021.1.4 2021.2.3: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-video/davinci-resolve-studio 17.4: Professional A/V post-production software suite from Blackmagic Design
-net-analyzer/librenms 21.5.0 21.9.1: A fully featured network monitoring system
+net-analyzer/librenms 21.5.0 21.9.1 21.11.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-misc/guacamole-server 1.3.0 9999: This is the proxy-daemon used by www-apps/guacamole
-sys-apps/cockpit 250: Server Administration Web Interface
-sys-apps/pcp 5.3.2: Performance Co-Pilot, system performance and analysis framework
+sys-apps/cockpit 250 258: Server Administration Web Interface
+sys-apps/pcp 5.3.2 5.3.5: Performance Co-Pilot, system performance and analysis framework
 sys-apps/usbredir 0.12.0: TCP daemon and set of libraries for usbredir protocol (redirecting USB traffic)
 sys-process/pm2 5.0.3: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
