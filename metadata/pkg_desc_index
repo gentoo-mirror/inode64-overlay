@@ -15,7 +15,7 @@ app-portage/portage-lostfiles 0.2.3: A simple script to identify files not track
 dev-libs/amdgpu-pro-opencl 21.30.1290604: Proprietary OpenCL implementation for AMD GPUs
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
-dev-util/phpstorm 2021.1.4 2021.2.3: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2021.1.4 2021.2.3 2021.3: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-video/davinci-resolve-studio 17.4: Professional A/V post-production software suite from Blackmagic Design
 net-analyzer/librenms 21.5.0 21.9.1 21.11.0: A fully featured network monitoring system
