@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=app-admin/perl-cleaner app-portage/gentoolkit virtual/mta
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=6f2076ecc68a4fc90a458eb8eb87bf31
+_md5_=8d5c7b784eea727effdada17b209d6d2
