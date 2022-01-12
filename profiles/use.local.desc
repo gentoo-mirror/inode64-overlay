@@ -35,3 +35,4 @@ sys-apps/pcp:ssp - Enable gcc stack-protector
 sys-apps/pcp:systemd - Support for systemd services
 sys-apps/pcp:webapi - Enable REST API daemon
 sys-devel/llvm-roc:runtime - Builds the compiler runtime libraries.
+www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
