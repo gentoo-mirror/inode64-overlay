@@ -6,9 +6,9 @@ acct-user/librenms 0: A user for Librenms
 acct-user/zigbee2mqtt 0: A user for zigbee2mqtt
 app-backup/bareos 19.2.10 20.0.2: Featureful client/server network backup suite
 app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 0.22 0.24 0.35 0.36: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 0.22 0.24 0.35 0.36 0.41: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 249.1 257 258.1: This is the Cockpit user interface for virtual machines
-app-emulation/libnbd 1.6.4 1.8.2 1.8.4 1.8.5 1.10.2: NBD client library in userspace
+app-emulation/libnbd 1.6.4 1.8.2 1.8.4 1.8.5 1.10.2 1.10.3: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-misc/zigbee2mqtt 1.20.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
