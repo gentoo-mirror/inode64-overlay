@@ -62,8 +62,6 @@ src_prepare() {
 	default
 
 	local remove_me=(
-		bin/fsnotifier
-		bin/phpstorm.vmoptions
 		help/ReferenceCardForMac.pdf
 		lib/pty4j-native/linux/aarch64
 		lib/pty4j-native/linux/arm
