@@ -19,7 +19,7 @@ dev-libs/rocm-opencl-runtime 4.5.2: Radeon Open Compute OpenCL Compatible Runtim
 dev-libs/rocr-runtime 4.5.2: Radeon Open Compute Runtime
 dev-libs/roct-thunk-interface 4.5.2: Radeon Open Compute Thunk Interface
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
-dev-php/xdebug 3.1.2: A PHP debugging and profiling extension
+dev-php/xdebug 3.1.2 3.1.3: A PHP debugging and profiling extension
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.55: Common libraries for RedmineCRM plugins for Redmine
