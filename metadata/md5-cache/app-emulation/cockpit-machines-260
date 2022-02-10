@@ -1,0 +1,12 @@
+BDEPEND=
+DEFINED_PHASES=-
+DEPEND=
+DESCRIPTION=This is the Cockpit user interface for virtual machines
+EAPI=7
+HOMEPAGE=http://cockpit-project.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=sys-apps/cockpit-260 app-emulation/libvirt-dbus app-emulation/libvirt[firewalld,policykit] app-emulation/virt-manager[policykit]
+SLOT=0
+SRC_URI=https://github.com/cockpit-project/cockpit-machines/releases/download/260/cockpit-machines-260.tar.xz
+_md5_=d03488ed31f2ea20608ed43505bf2dc6
