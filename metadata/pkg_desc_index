@@ -13,6 +13,7 @@ app-misc/itaca 1.0.6: ITACA administrative management of centers
 app-misc/zigbee2mqtt 1.20.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
+app-text/ghostscript-gpl 9.53.3-r5: Interpreter for the PostScript language and PDF
 dev-libs/amdgpu-pro-opencl 21.30.1290604 21.40.1.40501: Proprietary OpenCL implementation for AMD GPUs
 dev-libs/rocm-comgr 4.5.2: Radeon Open Compute Code Object Manager
 dev-libs/rocm-device-libs 4.5.2: Radeon Open Compute Device Libraries

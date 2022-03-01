@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install prepare
-DEPEND=print? ( app-text/ghostscript-gpl ) net-analyzer/openbsd-netcat ssh? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) telnet? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) kubernetes? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) acct-group/guacamole acct-user/guacamole dev-libs/openssl:0= || ( dev-libs/ossp-uuid sys-libs/libuuid ) encode? ( media-video/ffmpeg ) kubernetes? ( net-libs/libwebsockets ) media-libs/libpng:0= rdp? ( net-misc/freerdp ) ssh? ( net-libs/libssh2 x11-libs/pango ) telnet? ( net-libs/libtelnet x11-libs/pango ) virtual/jpeg:0 vnc? ( net-libs/libvncserver[threads] pulseaudio? ( media-sound/pulseaudio ) ) vorbis? ( media-libs/libvorbis ) webp? ( media-libs/libwebp ) x11-libs/cairo
+DEPEND=print? ( =app-text/ghostscript-gpl-9.53.3-r5[-X] ) net-analyzer/openbsd-netcat ssh? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) telnet? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) kubernetes? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) acct-group/guacamole acct-user/guacamole dev-libs/openssl:0= || ( dev-libs/ossp-uuid sys-libs/libuuid ) encode? ( media-video/ffmpeg ) kubernetes? ( net-libs/libwebsockets ) media-libs/libpng:0= rdp? ( net-misc/freerdp ) ssh? ( net-libs/libssh2 x11-libs/pango ) telnet? ( net-libs/libtelnet x11-libs/pango ) virtual/jpeg:0 vnc? ( net-libs/libvncserver[threads] pulseaudio? ( media-sound/pulseaudio ) ) vorbis? ( media-libs/libvorbis ) webp? ( media-libs/libwebp ) x11-libs/cairo
 DESCRIPTION=This is the proxy-daemon used by www-apps/guacamole
 EAPI=8
 HOMEPAGE=https://guacamole.apache.org/
@@ -8,9 +8,9 @@ INHERIT=systemd autotools
 IUSE=encode kubernetes print pulseaudio rdp ssh telnet vnc vorbis webp
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=print? ( app-text/ghostscript-gpl ) net-analyzer/openbsd-netcat ssh? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) telnet? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) kubernetes? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font )
+RDEPEND=print? ( =app-text/ghostscript-gpl-9.53.3-r5[-X] ) net-analyzer/openbsd-netcat ssh? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) telnet? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) kubernetes? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font )
 REQUIRED_USE=pulseaudio? ( vnc )
 SLOT=0
 SRC_URI=https://mirrors.ircam.fr/pub/apache/guacamole/1.4.0/source/guacamole-server-1.4.0.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1	gnuconfig	262062cef0ba4f22b397193da514a350	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6cc26735fa9dd59e8c62880beda05b6e
-_md5_=2ffcfd3f1bb45234987feac2adb5f197
+_md5_=71657c36de01440450a63ece8fad85e1
