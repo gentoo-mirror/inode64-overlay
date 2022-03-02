@@ -20,6 +20,7 @@ dev-libs/rocm-device-libs 4.5.2: Radeon Open Compute Device Libraries
 dev-libs/rocm-opencl-runtime 4.5.2: Radeon Open Compute OpenCL Compatible Runtime
 dev-libs/rocr-runtime 4.5.2: Radeon Open Compute Runtime
 dev-libs/roct-thunk-interface 4.5.2: Radeon Open Compute Thunk Interface
+dev-php/pecl-imagick 3.5.1 3.6.0 3.7.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
