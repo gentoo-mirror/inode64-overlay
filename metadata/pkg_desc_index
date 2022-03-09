@@ -4,6 +4,7 @@ acct-group/zigbee2mqtt 0: System group: zigbee2mqtt
 acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/librenms 0: A user for Librenms
 acct-user/zigbee2mqtt 0: A user for zigbee2mqtt
+app-admin/metricbeat 7.17.1: Lightweight shipper for metrics
 app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 0.22 0.24 0.35 0.36 0.41 0.42: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 249.1 257 258.1 260: This is the Cockpit user interface for virtual machines
