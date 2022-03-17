@@ -1,8 +1,14 @@
+acct-group/cockpit-ws 0: System group: cockpit-ws
+acct-group/cockpit-wsinstance 0: System group: cockpit-wsinstance
 acct-group/guacamole 0: System group: guacamole
 acct-group/librenms 0: System group: librenms
+acct-group/libvirtdbus 0: System group: libvirtdbus
 acct-group/zigbee2mqtt 0: System group: zigbee2mqtt
+acct-user/cockpit-ws 0: System user: cockpit-ws
+acct-user/cockpit-wsinstance 0: System user: cockpit-wsinstance
 acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/librenms 0: A user for Librenms
+acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/zigbee2mqtt 0: A user for zigbee2mqtt
 app-admin/metricbeat 7.17.1: Lightweight shipper for metrics
 app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
