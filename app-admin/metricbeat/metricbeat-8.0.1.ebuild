@@ -10,6 +10,7 @@ HOMEPAGE="https://www.elastic.co/es/beats/metricbeat"
 
 # TODO: Space used 2.5Gb for create a dependency tarball (see go-module.eclass for more info)
 # TODO: packetbeat fail to compile
+# TODO: Fail to compile when "emake update"
 EGO_SUM=(
 "bazil.org/fuse v0.0.0-20160811212531-371fbbdaa898/go.mod"
 "cloud.google.com/go v0.26.0/go.mod"
@@ -1805,13 +1806,13 @@ EGO_SUM=(
 go-module_set_globals
 
 SRC_URI="https://github.com/elastic/beats/archive/v${PV}.tar.gz -> ${P}.tar.gz
-        ${EGO_SUM_SRC_URI}"
+	${EGO_SUM_SRC_URI}"
 
 EGO_PN=github.com/elastic/beats/${PN}
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 
 BDEPEND="dev-util/mage"
 DEPEND="net-libs/libpcap"
@@ -1830,27 +1831,27 @@ pkg_setup() {
 }
 
 src_compile() {
-    cd ${PN}
-    CGO_ENABLED=0 go build -v -buildmode=pie -trimpath -mod=readonly -modcacherw
+	cd ${PN}
+	CGO_ENABLED=0 go build -v -buildmode=pie -trimpath -mod=readonly -modcacherw
 
-    emake update
+	emake update
 }
 
 src_install() {
-    dobin ${PN}/${PN}
+	dobin ${PN}/${PN}
 
-    insinto /etc/${PN}
-    doins ${PN}/fields.yml
-    doins ${PN}/${PN}.yml
-    doins ${PN}/${PN}.reference.yml
-    doins -r ${PN}/modules.d
+	insinto /etc/${PN}
+	doins ${PN}/fields.yml
+	doins ${PN}/${PN}.yml
+	doins ${PN}/${PN}.reference.yml
+	doins -r ${PN}/modules.d
 
-    keepdir /usr/share/${PN}
-    cp -r ${PN}/modules/ ${S}/usr/share/${PN}/
+	keepdir /usr/share/${PN}
+	cp -r ${PN}/modules/ "${ED}"/usr/share/${PN}/
 
-    keepdir /var/lib/${PN}
+	keepdir /var/lib/${PN}
 
-    newconfd "${FILESDIR}/${PN}.confd" ${PN}
+	newconfd "${FILESDIR}/${PN}.confd" ${PN}
 	newinitd "${FILESDIR}/${PN}.initd" ${PN}
-    systemd_dounit "${FILESDIR}/${PN}.service"
+	systemd_dounit "${FILESDIR}/${PN}.service"
 }
