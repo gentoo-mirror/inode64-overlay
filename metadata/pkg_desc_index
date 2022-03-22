@@ -11,6 +11,7 @@ acct-user/librenms 0: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/zigbee2mqtt 0: A user for zigbee2mqtt
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
+app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 0.22 0.24 0.35 0.36 0.41 0.42 0.54: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 249.1 257 258.1 260 264: This is the Cockpit user interface for virtual machines
