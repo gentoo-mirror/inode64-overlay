@@ -20,7 +20,7 @@ app-emulation/cockpit-machines 249.1 257 258.1 260 264: This is the Cockpit user
 app-emulation/libnbd 1.6.4 1.8.2 1.8.4 1.8.5 1.10.2 1.10.3 1.10.4 1.10.5 1.12.2: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-misc/itaca 1.0.6: ITACA administrative management of centers
-app-misc/zigbee2mqtt 1.20.0: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.20.0 1.24.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 app-text/ghostscript-gpl 9.53.3-r5: Interpreter for the PostScript language and PDF
