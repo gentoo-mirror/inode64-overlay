@@ -12,4 +12,4 @@ RDEPEND=readline? ( sys-libs/readline:0= ) tcpd? ( sys-apps/tcp-wrappers ) selin
 SLOT=0
 SRC_URI=https://www.kernel.org/pub/software/network/tftp/tftp-hpa/tftp-hpa-5.2.tar.xz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=e059593d4c21b2129560c5aba2d81d6e
+_md5_=69f2bb4d796da34c376f8edae2c22866

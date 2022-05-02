@@ -6,4 +6,4 @@ KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~loong m68k ~mips ppc ppc64 ~riscv s390
 RDEPEND=acct-group/pcp
 SLOT=0
 _eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ccdfe713e9e8d4a8714f0370512ca086	acct-user	38e6655114f60cacc969baf808da755b
-_md5_=1170986cfe831841fef202895924d047
+_md5_=2ca71fc0361c8b1b251c7118c857ebe3
