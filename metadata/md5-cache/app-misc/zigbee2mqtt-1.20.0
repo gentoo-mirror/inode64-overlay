@@ -1,4 +1,4 @@
-BDEPEND=net-libs/nodejs[npm] virtual/pkgconfig
+BDEPEND=~net-libs/nodejs-16[npm] virtual/pkgconfig
 DEFINED_PHASES=compile install
 DEPEND=
 DESCRIPTION=It bridges events and allows you to control your Zigbee devices via MQTT
@@ -12,4 +12,4 @@ RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/Koenkk/zigbee2mqtt/archive/1.20.0.tar.gz -> zigbee2mqtt-1.20.0.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=576e3a5b51b7fd50a9a40e4d2b1d690a
+_md5_=669687fdd5f60374f137461d555394c0
