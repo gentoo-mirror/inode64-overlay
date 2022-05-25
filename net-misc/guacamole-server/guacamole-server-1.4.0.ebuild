@@ -25,7 +25,7 @@ FONTS="
 	media-fonts/terminus-font
 "
 RDEPEND="
-	print? ( =app-text/ghostscript-gpl-9.53.3-r5[-X] )
+	print? ( app-text/ghostscript-gpl[-X] )
 	net-analyzer/openbsd-netcat
 	ssh? ( ${FONTS} )
 	telnet? ( ${FONTS} )
@@ -59,6 +59,9 @@ DEPEND="${RDEPEND}
 	webp? ( media-libs/libwebp )
 	x11-libs/cairo
 "
+PATCHES=(
+        "${FILESDIR}"/guacamole-1115.patch
+)
 
 src_prepare() {
 	eautoreconf -fi
