@@ -13,4 +13,4 @@ REQUIRED_USE=pulseaudio? ( vnc )
 SLOT=0
 SRC_URI=https://mirrors.ircam.fr/pub/apache/guacamole/1.4.0/source/guacamole-server-1.4.0.tar.gz
 _eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	systemd	2736b403a83f194b59b767f3b344c2c1	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	136117fb43a9bf5598530e9cc642f710
-_md5_=82f803ace624e90f100dff75230f4458
+_md5_=57957fc6458ed2ad395e03cd1f01ffa7
