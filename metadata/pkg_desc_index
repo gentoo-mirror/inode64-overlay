@@ -18,7 +18,7 @@ app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 0.59: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 249.1 257 258.1 260 264 267: This is the Cockpit user interface for virtual machines
-app-emulation/libnbd 1.6.4 1.8.2 1.8.4 1.8.5 1.10.2 1.10.3 1.10.4 1.10.5 1.12.2 1.12.3: NBD client library in userspace
+app-emulation/libnbd 1.12.3: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-misc/itaca 1.0.6: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
