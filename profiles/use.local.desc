@@ -37,4 +37,9 @@ sys-apps/pcp:python - Support for tools requiring Python
 sys-apps/pcp:ssp - Enable gcc stack-protector
 sys-apps/pcp:systemd - Support for systemd services
 sys-apps/pcp:webapi - Enable REST API daemon
+sys-cluster/glusterfs:fuse - Add FUSE mount helper
+sys-cluster/glusterfs:georeplication - Enable support for georeplication (requires dev-lang/python)
+sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc
+sys-cluster/glusterfs:libtirpc - Build against net-libs/libtirpc for RPC support
+sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsyslog
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
