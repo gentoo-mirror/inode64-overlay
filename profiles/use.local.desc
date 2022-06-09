@@ -15,6 +15,7 @@ net-misc/guacamole-server:kubernetes - Support connecting to Kubernetes server
 net-misc/guacamole-server:print - Support for printing in RDP
 net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
+net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
 net-proxy/squid:ecap - Adds support for loadable content adaptation modules (http://www.e-cap.org)
 net-proxy/squid:esi - Enable ESI for accelerators, will cause squid reverse proxies to be capable of the Edge Acceleration Specification (www.esi.org)
 net-proxy/squid:htcp - Enable HTCP protocol
