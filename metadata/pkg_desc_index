@@ -22,7 +22,7 @@ app-emulation/libnbd 1.12.3: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-misc/itaca 1.0.6: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/zigbee2mqtt 1.25.1 9999: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.25.1 1.25.2 9999: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 app-text/ghostscript-gpl 9.53.3-r5: Interpreter for the PostScript language and PDF
