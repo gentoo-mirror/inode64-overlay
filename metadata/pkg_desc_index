@@ -44,7 +44,6 @@ net-misc/openvswitch 2.17.1: Production quality, multilayer virtual switch
 net-proxy/squid 5.5: A full-featured web proxy cache
 sys-apps/cockpit 250 258 259 262 265 268.1: Server Administration Web Interface
 sys-apps/pcp 5.3.2 5.3.5 5.3.6 5.3.7: Performance Co-Pilot, system performance and analysis framework
-sys-cluster/glusterfs 10.2: GlusterFS is a powerful network/cluster filesystem
 sys-power/nut 9999: Network-UPS Tools
 sys-process/pm2 5.0.3 5.1.2 5.2.0: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
