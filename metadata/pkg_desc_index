@@ -30,7 +30,7 @@ app-text/ghostscript-gpl 9.53.3-r5: Interpreter for the PostScript language and 
 dev-libs/amdgpu-pro-opencl 21.30.1290604 21.40.1.40501: Proprietary OpenCL implementation for AMD GPUs
 dev-php/pecl-imagick 3.5.1 3.6.0 3.7.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
-dev-php/xdebug 3.1.4: A PHP debugging and profiling extension
+dev-php/xdebug 3.1.4 3.1.5: A PHP debugging and profiling extension
 dev-python/command-runner 1.4.0: Platform agnostic command and shell execution tool
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
