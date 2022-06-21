@@ -15,6 +15,7 @@ acct-user/zigbee2mqtt 0 0-r1: A user for zigbee2mqtt
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
+app-admin/salt 3003.3-r1: Salt is a remote execution and configuration manager
 app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 0.59: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 249.1 257 258.1 260 264 267: This is the Cockpit user interface for virtual machines
