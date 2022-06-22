@@ -6,9 +6,9 @@ HOMEPAGE=https://pm2.keymetrics.io/
 INHERIT=systemd
 KEYWORDS=~amd64
 LICENSE=AGPL-3
-RDEPEND=net-libs/nodejs
+RDEPEND=net-libs/nodejs:=
 RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/Unitech/pm2/archive/5.2.0.tar.gz -> pm2-5.2.0.tar.gz
 _eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=9e38d172f500e4aafb7c56c9742505e8
+_md5_=92e50eef08775f24677bed53ceb693d8
