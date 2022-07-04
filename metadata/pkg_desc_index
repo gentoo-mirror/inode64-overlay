@@ -32,6 +32,7 @@ dev-php/pecl-imagick 3.5.1 3.6.0 3.7.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/xdebug 3.1.4 3.1.5: A PHP debugging and profiling extension
 dev-python/command-runner 1.4.0: Platform agnostic command and shell execution tool
+dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.55 0.0.56 0.0.57: Common libraries for RedmineCRM plugins for Redmine
