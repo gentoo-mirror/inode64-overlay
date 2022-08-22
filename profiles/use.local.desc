@@ -2,8 +2,21 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/cockpit:debug - Enables debug information
+app-admin/cockpit:maintainer-mode - Enables maintaner mode
 app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
 app-emulation/libnbd:go - Build the GO bindings
+app-metrics/pcp:discovery - Support for service discovery
+app-metrics/pcp:doc - Enable building of the PCP books
+app-metrics/pcp:infiniband - Support for inifiniband metrics
+app-metrics/pcp:manager - Support for daemon manager
+app-metrics/pcp:papi - Support for PAPI
+app-metrics/pcp:perfevent - Perfevent pmda
+app-metrics/pcp:pie - Build position-independent-executable
+app-metrics/pcp:python - Support for tools requiring Python
+app-metrics/pcp:ssp - Enable gcc stack-protector
+app-metrics/pcp:systemd - Support for systemd services
+app-metrics/pcp:webapi - Enable REST API daemon
 app-text/ghostscript-gpl:unicode - Add support for unicode passwords via net-dns/libidn
 media-video/davinci-resolve-studio:amdgpu - Enable AMDGPU opencl for speeding up computations.
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
@@ -24,19 +37,6 @@ net-proxy/squid:ssl-crtd - Adds support for dynamic SSL certificate generation i
 net-proxy/squid:tproxy - Enables real Transparent Proxy support for Linux Netfilter TPROXY
 net-proxy/squid:wccp - Enable Web Cache Coordination Protocol
 net-proxy/squid:wccpv2 - Enable Web Cache Coordination V2 Protocol
-sys-apps/cockpit:debug - Enables debug information
-sys-apps/cockpit:maintainer-mode - Enables maintaner mode
-sys-apps/pcp:discovery - Support for service discovery
-sys-apps/pcp:doc - Enable building of the PCP books
-sys-apps/pcp:infiniband - Support for inifiniband metrics
-sys-apps/pcp:manager - Support for daemon manager
-sys-apps/pcp:papi - Support for PAPI
-sys-apps/pcp:perfevent - Perfevent pmda
-sys-apps/pcp:pie - Build position-independent-executable
-sys-apps/pcp:python - Support for tools requiring Python
-sys-apps/pcp:ssp - Enable gcc stack-protector
-sys-apps/pcp:systemd - Support for systemd services
-sys-apps/pcp:webapi - Enable REST API daemon
 sys-power/nut:ipmi - Support IPMI-based UPSes.
 sys-power/nut:ups_drivers_al175 - Driver for Eltek UPS models with AL175 alarm module
 sys-power/nut:ups_drivers_apcsmart - Driver for American Power Conversion Smart Protocol UPS equipment
