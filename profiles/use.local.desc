@@ -6,17 +6,23 @@ app-admin/cockpit:debug - Enables debug information
 app-admin/cockpit:maintainer-mode - Enables maintaner mode
 app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
 app-emulation/libnbd:go - Build the GO bindings
-app-metrics/pcp:discovery - Support for service discovery
+app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ
+app-metrics/pcp:bind - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from BIND via its REST interface
+app-metrics/pcp:discovery - Support discover PCP services on the network
 app-metrics/pcp:doc - Enable building of the PCP books
 app-metrics/pcp:infiniband - Support for inifiniband metrics
-app-metrics/pcp:manager - Support for daemon manager
-app-metrics/pcp:papi - Support for PAPI
-app-metrics/pcp:perfevent - Perfevent pmda
-app-metrics/pcp:pie - Build position-independent-executable
-app-metrics/pcp:python - Support for tools requiring Python
-app-metrics/pcp:ssp - Enable gcc stack-protector
+app-metrics/pcp:influxdb - Customizable performance metrics exporter tool from PCP to InfluxDB
+app-metrics/pcp:json - Customizable performance metrics exporter tool from PCP to JSON
+app-metrics/pcp:libvirt - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from libvirt virtual machines
+app-metrics/pcp:nginx - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from Nginx
+app-metrics/pcp:nutcracker - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from NutCracker (TwemCache)
+app-metrics/pcp:perfevent - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from hardware performance counters using the Linux kernel perf_event API
+app-metrics/pcp:pie - Build programs as Position Independent Executables (a security hardening technique)
+app-metrics/pcp:podman - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from podman
+app-metrics/pcp:postgresql - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics about the PostgreSQL database
+app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:systemd - Support for systemd services
-app-metrics/pcp:webapi - Enable REST API daemon
+app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
 app-text/ghostscript-gpl:unicode - Add support for unicode passwords via net-dns/libidn
 media-video/davinci-resolve-studio:amdgpu - Enable AMDGPU opencl for speeding up computations.
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
