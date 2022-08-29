@@ -20,6 +20,7 @@ app-metrics/pcp:perfevent - Enable PCP Performance Metrics Domain Agent (PMDA) f
 app-metrics/pcp:pie - Build programs as Position Independent Executables (a security hardening technique)
 app-metrics/pcp:podman - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from podman
 app-metrics/pcp:postgresql - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics about the PostgreSQL database
+app-metrics/pcp:snmp - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from SNMP
 app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:systemd - Support for systemd services
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
