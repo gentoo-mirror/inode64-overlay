@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Tools needed for developing applications in php
+EAPI=8
+KEYWORDS=~amd64
+RDEPEND=|| ( dev-util/phpstorm dev-util/pycharm-community dev-util/pycharm-professional app-editors/vscode ) app-portage/eix app-portage/repoman dev-util/shellcheck-bin dev-vcs/git
+SLOT=0
+_md5_=999e24d5ebef3b75cd053e11fabedff0
