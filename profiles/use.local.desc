@@ -3,7 +3,6 @@
 # * generated automatically using pmaint *
 
 app-admin/cockpit:debug - Enables debug information
-app-admin/cockpit:maintainer-mode - Enables maintaner mode
 app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
 app-emulation/libnbd:go - Build the GO bindings
 app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ

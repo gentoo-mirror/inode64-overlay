@@ -12,41 +12,40 @@ acct-user/librenms 0: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0 0-r1: A user for zigbee2mqtt
-app-admin/cockpit 271 273 274.1 277: Server Administration Web Interface
+app-admin/cockpit 277: Server Administration Web Interface
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 0.59 0.61 0.96 1.0: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-emulation/cockpit-machines 272 275: This is the Cockpit user interface for virtual machines
+app-backup/virtnbdbackup 1.0 1.6: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-emulation/cockpit-machines 275: This is the Cockpit user interface for virtual machines
 app-emulation/libnbd 1.14.1: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 5.3.7 6.0.0: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.0.0: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.6: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/zigbee2mqtt 1.25.2 1.27.0 1.27.2 9999: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.27.2 1.28.0 9999: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 app-text/ghostscript-gpl 9.53.3-r5: Interpreter for the PostScript language and PDF
-dev-libs/amdgpu-pro-opencl 21.30.1290604 21.40.1.40501: Proprietary OpenCL implementation for AMD GPUs
-dev-php/pecl-imagick 3.5.1 3.6.0 3.7.0: PHP wrapper for the ImageMagick library
+dev-php/pecl-imagick 3.7.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
-dev-php/xdebug 3.1.4 3.1.5: A PHP debugging and profiling extension
+dev-php/xdebug 3.1.5: A PHP debugging and profiling extension
 dev-python/command-runner 1.4.0: Platform agnostic command and shell execution tool
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
-dev-ruby/redmine_crm 0.0.55 0.0.56 0.0.57: Common libraries for RedmineCRM plugins for Redmine
+dev-ruby/redmine_crm 0.0.58: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2022.2.1 2022.2.2: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
-media-video/davinci-resolve-studio 17.4 17.4.2 17.4.3 17.4.5: Professional A/V post-production software suite from Blackmagic Design
-net-analyzer/librenms 21.5.0 21.9.1 21.11.0 21.12.0 22.6.0 22.7.0: A fully featured network monitoring system
+media-video/davinci-resolve-studio 17.4.2 17.4.3 17.4.5: Professional A/V post-production software suite from Blackmagic Design
+net-analyzer/librenms 22.7.0 22.9.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/guacamole-server 1.3.0 1.4.0 9999: This is the proxy-daemon used by www-apps/guacamole
 sys-power/nut 9999: Network-UPS Tools
-sys-process/pm2 5.0.3 5.1.2 5.2.0: Process manager for Node.js applications with a built-in load balancer
+sys-process/pm2 5.2.0: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
