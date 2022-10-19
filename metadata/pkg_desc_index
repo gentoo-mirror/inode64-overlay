@@ -16,7 +16,7 @@ app-admin/cockpit 277: Server Administration Web Interface
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
-app-backup/rest-server 0.10.0: High-performance HTTP server that implements restic's REST backend API
+app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.0 1.6 1.7: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 275: This is the Cockpit user interface for virtual machines
 app-emulation/libnbd 1.14.1: NBD client library in userspace
