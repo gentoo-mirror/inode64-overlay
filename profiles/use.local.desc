@@ -3,6 +3,16 @@
 # * generated automatically using pmaint *
 
 app-admin/cockpit:debug - Enables debug information
+app-backup/bareos:ceph - Enable ceph support
+app-backup/bareos:clientonly - Only install file-daemon (client)
+app-backup/bareos:director - Install director
+app-backup/bareos:glusterfs - Enable glusterfs storage backend
+app-backup/bareos:lmdb - enable build of LMDB support for faster accurate backup
+app-backup/bareos:logwatch - Install support files for logwatch
+app-backup/bareos:ndmp - Enable support for NDMP (Network Data Management Protocol)
+app-backup/bareos:scsi-crypto - Enable low level SCSI crypto support
+app-backup/bareos:storage-daemon - Install storage daemon (bareos-sd)
+app-backup/bareos:vmware - Enable bareos-fd VMware plugin
 app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
 app-emulation/libnbd:go - Build the GO bindings
 app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ

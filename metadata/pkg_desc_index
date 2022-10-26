@@ -16,6 +16,7 @@ app-admin/cockpit 277: Server Administration Web Interface
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
+app-backup/bareos 21.1.4: Featureful client/server network backup suite
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.0 1.6 1.7: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 275: This is the Cockpit user interface for virtual machines
@@ -53,6 +54,6 @@ sys-process/run-one 1.17-r72: Run just one instance of a command and its args at
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/bareos-webui 20.0.3: Featureful client/server network backup suite
+www-apps/bareos-webui 20.0.3 21.1.4: Featureful client/server network backup suite
 www-apps/guacamole-client 1.3.0 1.4.0 9999: Guacamole is a clientless remote desktop gateway
 www-misc/awstats 7.8-r1: AWStats is short for Advanced Web Statistics
