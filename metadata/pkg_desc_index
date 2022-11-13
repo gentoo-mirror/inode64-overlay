@@ -39,7 +39,7 @@ dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.58: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2022.2.1 2022.2.2 2022.2.3: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
-media-video/davinci-resolve-studio 17.4.5 18.0.4: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 17.4.5 18.0.4 18.1: Professional A/V post-production software suite from Blackmagic Design
 net-analyzer/librenms 22.7.0 22.9.0 22.10.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
