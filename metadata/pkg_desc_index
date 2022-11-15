@@ -18,7 +18,7 @@ app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-backup/bareos 21.1.4 21.1.5: Featureful client/server network backup suite
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 1.0 1.6 1.7 1.9 1.9.1: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 1.0 1.6 1.7 1.9 1.9.1 1.9.3: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-emulation/cockpit-machines 275 277: This is the Cockpit user interface for virtual machines
 app-emulation/libnbd 1.14.1: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
