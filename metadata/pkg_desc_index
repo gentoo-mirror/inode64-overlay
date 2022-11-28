@@ -12,14 +12,14 @@ acct-user/librenms 0: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0 0-r1: A user for zigbee2mqtt
-app-admin/cockpit 277 279 280: Server Administration Web Interface
+app-admin/cockpit 277 279 280 280.1: Server Administration Web Interface
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-backup/bareos 21.1.4 21.1.5: Featureful client/server network backup suite
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 1.0 1.6 1.7 1.9 1.9.1 1.9.3 1.9.6: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-emulation/cockpit-machines 275 277 278: This is the Cockpit user interface for virtual machines
+app-backup/virtnbdbackup 1.0 1.6 1.7 1.9 1.9.1 1.9.3 1.9.6 1.9.8: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-emulation/cockpit-machines 275 277 278 278.1: This is the Cockpit user interface for virtual machines
 app-emulation/libnbd 1.14.1: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.0.0 6.0.1: Performance Co-Pilot, system performance and analysis framework
@@ -40,7 +40,7 @@ dev-ruby/redmine_crm 0.0.58: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2022.2.1 2022.2.2 2022.2.3: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-video/davinci-resolve-studio 18.1 18.1.1: Professional A/V post-production software suite from Blackmagic Design
-net-analyzer/librenms 22.7.0 22.9.0 22.10.0: A fully featured network monitoring system
+net-analyzer/librenms 22.7.0 22.9.0 22.10.0 22.11.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
