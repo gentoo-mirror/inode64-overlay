@@ -12,7 +12,8 @@ acct-user/librenms 0: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0 0-r1: A user for zigbee2mqtt
-app-admin/cockpit 277 279 280 280.1 281: Server Administration Web Interface
+app-admin/cockpit 277 279 280 280.1 281 282: Server Administration Web Interface
+app-admin/cockpit-machines 275 277 278 278.1 279: This is the Cockpit user interface for virtual machines
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
@@ -20,7 +21,6 @@ app-backup/bareos 21.1.4 21.1.5: Featureful client/server network backup suite
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.0 1.6 1.7 1.9 1.9.1 1.9.3 1.9.6 1.9.8 1.9.9: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.2: Simple Signed Certificate Generator
-app-emulation/cockpit-machines 275 277 278 278.1 279: This is the Cockpit user interface for virtual machines
 app-emulation/libnbd 1.14.1: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.0.0 6.0.1: Performance Co-Pilot, system performance and analysis framework
