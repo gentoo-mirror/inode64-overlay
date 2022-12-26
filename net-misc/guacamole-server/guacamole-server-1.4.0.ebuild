@@ -9,14 +9,15 @@ HOMEPAGE="https://guacamole.apache.org/"
 
 if [[ "${PV}" == *9999 ]]; then
 	inherit git-r3
+	KEYWORDS=""
 	EGIT_REPO_URI="https://github.com/apache/incubator-guacamole-server.git"
 else
+	KEYWORDS="~amd64 ~x86"
 	SRC_URI="https://mirrors.ircam.fr/pub/apache/guacamole/${PV}/source/guacamole-server-${PV}.tar.gz"
 fi
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
 IUSE="encode kubernetes print pulseaudio rdp ssh telnet vnc vorbis webp"
 REQUIRED_USE="pulseaudio? ( vnc )"
 FONTS="
@@ -25,7 +26,7 @@ FONTS="
 	media-fonts/terminus-font
 "
 RDEPEND="
-	print? ( =app-text/ghostscript-gpl-9.53.3-r5[-X] )
+	print? ( app-text/ghostscript-gpl[-X] )
 	net-analyzer/openbsd-netcat
 	ssh? ( ${FONTS} )
 	telnet? ( ${FONTS} )
@@ -61,6 +62,7 @@ DEPEND="${RDEPEND}
 "
 PATCHES=(
 	"${FILESDIR}"/guacamole-1115.patch
+	"${FILESDIR}"/ghostscript-gpl-9.54-compat.patch
 )
 
 src_prepare() {
