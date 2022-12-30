@@ -12,7 +12,7 @@ acct-user/librenms 0: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0 0-r1: A user for zigbee2mqtt
-app-admin/cockpit 277 279 280 280.1 281 282: Server Administration Web Interface
+app-admin/cockpit 277 279 280 280.1 281 282 282.1: Server Administration Web Interface
 app-admin/cockpit-machines 275 277 278 278.1 279: This is the Cockpit user interface for virtual machines
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
