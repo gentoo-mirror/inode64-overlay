@@ -12,35 +12,36 @@ acct-user/librenms 0: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0 0-r1: A user for zigbee2mqtt
-app-admin/cockpit 277 279 280 280.1 281 282 282.1: Server Administration Web Interface
-app-admin/cockpit-machines 275 277 278 278.1 279: This is the Cockpit user interface for virtual machines
+app-admin/cockpit 282.1: Server Administration Web Interface
+app-admin/cockpit-machines 280: This is the Cockpit user interface for virtual machines
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
+app-admin/rabbitmqadmin 3.11.5: Command line administration tool for RabbitMQ
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 1.0 1.6 1.7 1.9 1.9.1 1.9.3 1.9.6 1.9.8 1.9.9 1.9.10: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 1.9.13: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.2: Simple Signed Certificate Generator
 app-emulation/libnbd 1.14.1: NBD client library in userspace
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.0.0 6.0.1: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.0.1: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.6: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/zigbee2mqtt 1.27.2 1.28.0 1.28.1 1.28.2 1.28.4 1.29.0 9999: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.29.0 9999: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 app-text/ghostscript-gpl 9.53.3-r5: Interpreter for the PostScript language and PDF
 dev-php/pecl-imagick 3.7.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
-dev-php/xdebug 3.1.5 3.1.6: A PHP debugging and profiling extension
+dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/command-runner 1.4.0: Platform agnostic command and shell execution tool
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.58: Common libraries for RedmineCRM plugins for Redmine
-dev-util/phpstorm 2022.2.1 2022.2.2 2022.2.3 2022.2.4 2022.3 2022.3.1: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2022.2.4 2022.3.1: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
-media-video/davinci-resolve-studio 18.1 18.1.1 18.1.2: Professional A/V post-production software suite from Blackmagic Design
-net-analyzer/librenms 22.11.0: A fully featured network monitoring system
+media-video/davinci-resolve-studio 18.1.2: Professional A/V post-production software suite from Blackmagic Design
+net-analyzer/librenms 22.12.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
@@ -48,11 +49,11 @@ net-misc/freerdp 2.9.0: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.4.0 9999: This is the proxy-daemon used by www-apps/guacamole
 sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
 sys-power/nut 9999: Network-UPS Tools
-sys-process/pm2 5.2.0 5.2.2: Process manager for Node.js applications with a built-in load balancer
+sys-process/pm2 5.2.2: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/bareos-webui 20.0.3 21.1.4 21.1.5: Featureful client/server network backup suite
+www-apps/bareos-webui 21.1.5: Featureful client/server network backup suite
 www-apps/guacamole-client 1.4.0 9999: Guacamole is a clientless remote desktop gateway
 www-misc/awstats 7.8-r1: AWStats is short for Advanced Web Statistics
