@@ -17,10 +17,6 @@ IUSE="test"
 RDEPEND="
 	net-libs/nodejs:=
 "
-DEPEND="
-	${RDEPEND}
-	test? ( net-libs/nodejs[debug] )
-"
 BDEPEND="
 	net-libs/nodejs[npm]
 "
@@ -29,13 +25,13 @@ BDEPEND="
 RESTRICT="network-sandbox !test? ( test )"
 
 NPM_FLAGS=(
-        --audit false
-        --color false
-        --foreground-scripts
-        --global
-        --progress false
-        --save false
-        --verbose
+	--audit false
+	--color false
+	--foreground-scripts
+	--global
+	--progress false
+	--save false
+	--verbose
 )
 
 src_compile() {
