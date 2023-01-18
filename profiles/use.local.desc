@@ -3,8 +3,6 @@
 # * generated automatically using pmaint *
 
 app-admin/cockpit:debug - Enables debug information
-app-emulation/libnbd:fuse - nbdfuse which lets you turn NBD servers into virtual files.
-app-emulation/libnbd:go - Build the GO bindings
 app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ
 app-metrics/pcp:bind - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from BIND via its REST interface
 app-metrics/pcp:discovery - Support discover PCP services on the network
@@ -42,6 +40,8 @@ sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc
 sys-cluster/glusterfs:libtirpc - Build against net-libs/libtirpc for RPC support
 sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsyslog
 sys-cluster/glusterfs:uring - Control whether or not glusterfs is compiled with uring support or not.
+sys-libs/libnbd:fuse - Install the sys-fs/fuse powered nbdfuse which lets you turn NBD servers into virtual files.
+sys-libs/libnbd:go - Build the Go bindings.
 sys-power/nut:ipmi - Support IPMI-based UPSes.
 sys-power/nut:ups_drivers_al175 - Driver for Eltek UPS models with AL175 alarm module
 sys-power/nut:ups_drivers_apcsmart - Driver for American Power Conversion Smart Protocol UPS equipment
