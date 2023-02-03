@@ -67,7 +67,6 @@ case ${NODEJS_TYPESCRIPT} in
                 ;;
 esac
 
-
 nodejs_version() { node -p "require('./package.json').version" }
 nodejs_package() { node -p "require('./package.json').name" }
 
@@ -75,17 +74,6 @@ RDEPEND+=" net-libs/nodejs"
 BDEPEND+="
 	test? ( app-misc/jq )
 "
-
-NPM_FLAGS=(
-        --audit false
-        --color false
-        --foreground-scripts
-        --global
-        --offline
-        --progress false
-        --save false
-        --verbose
-)
 
 enpm() {
     debug-print-function ${FUNCNAME} "$@"
@@ -122,6 +110,26 @@ enpm() {
     esac
 }
 
+enpm_clean() {
+    debug-print-function ${FUNCNAME} "$@"
+
+	enpm prune --omit=dev || die
+
+    if [[ ${NODEJS_TYPESCRIPT} = true ]]; then
+        find ${pkgdir} -name "*.d.ts" -delete
+        find ${pkgdir} -name "*.d.ts.map" -delete
+        find ${pkgdir} -name "*.js.map" -delete
+    fi
+}
+
+enpm_install() {
+    debug-print-function ${FUNCNAME} "$@"
+
+    enpm --prefix "${ED}"/usr \
+        install \
+        $(echo nodejs_package)-$( echo nodejs_version).tgz || die "install failed"
+}
+
 # @FUNCTION: nodejs_src_prepare
 # @DESCRIPTION:
 # Implementation of src_prepare() phase
@@ -138,14 +146,14 @@ nodejs_src_prepare() {
 nodejs_src_compile() {
     debug-print-function ${FUNCNAME} "$@"
 
-    npm "${NPM_FLAGS[@]}" pack || die "npm pack failed"
+    enpm pack || die "pack failed"
 }
 
 nodejs_src_test() {
     debug-print-function ${FUNCNAME} "$@"
 
 	if jq -e '.scripts | has("test")' <package.json >/dev/null; then
-		npm run test || die
+		npm run test || die "test failed"
 	else
 		die 'No "test" command defined in package.json'
 	fi
@@ -154,17 +162,11 @@ nodejs_src_test() {
 nodejs_src_install() {
     debug-print-function ${FUNCNAME} "$@"
 
-    local NAME=$(node -p "require('./package.json').name")
-    Local DEV=$(node -p "require('./package.json').version")
+    enpm_install
 
-    npm "${NPM_FLAGS[@]}" \
-        --prefix "${ED}"/usr \
-        install \
-        ${NAME}-${DEV}.tgz || die "npm install failed"
-
-    find ${pkgdir} -name "*.d.ts" -delete
-    find ${pkgdir} -name "*.d.ts.map" -delete
-    find ${pkgdir} -name "*.js.map" -delete
+    if [[ ${NODEJS_TYPESCRIPT} = true ]]; then
+        tsc || die "tsc falied"
+    fi
 
     dodoc *.md
 
