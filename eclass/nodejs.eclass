@@ -67,8 +67,12 @@ case ${NODEJS_TYPESCRIPT} in
                 ;;
 esac
 
-nodejs_version() { node -p "require('./package.json').version" }
-nodejs_package() { node -p "require('./package.json').name" }
+nodejs_version() {
+    node -p "require('./package.json').version"
+}
+nodejs_package() {
+    node -p "require('./package.json').name"
+}
 
 RDEPEND+=" net-libs/nodejs"
 BDEPEND+="
@@ -127,7 +131,7 @@ enpm_install() {
 
     enpm --prefix "${ED}"/usr \
         install \
-        $(echo nodejs_package)-$( echo nodejs_version).tgz || die "install failed"
+        $(nodejs_package)-$(nodejs_version).tgz || die "install failed"
 }
 
 # @FUNCTION: nodejs_src_prepare
