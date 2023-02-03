@@ -23,7 +23,7 @@ app-backup/virtnbdbackup 1.9.14: Backup utility for libvirt kvm / qemu with incr
 app-crypt/sscg 3.0.2 3.0.3: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.0.1: Performance Co-Pilot, system performance and analysis framework
-app-misc/itaca 1.0.6: ITACA administrative management of centers
+app-misc/itaca 1.0.6 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/zigbee2mqtt 1.29.2 1.30.0 9999: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
