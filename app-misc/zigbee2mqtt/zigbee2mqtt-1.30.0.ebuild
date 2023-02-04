@@ -36,13 +36,13 @@ BDEPEND="
 RESTRICT="network-sandbox"
 
 src_install() {
-    enpm_install
+	enpm_install
 
-	dodir /usr/lib64/node_modules/${PN}/dist
-	cp -r lib "${D}/usr/lib64/node_modules/${PN}" || die
-	cp tsconfig.json "${D}/usr/lib64/node_modules/${PN}" || die
+	dodir $(_NODEJS_MODULES)/dist
+	cp -r lib "${ED}$(_NODEJS_MODULES)" || die
+	cp tsconfig.json "${ED}$(_NODEJS_MODULES)" || die
 
-	cd "${D}/usr/lib64/node_modules/${PN}"
+	cd "${ED}$(_NODEJS_MODULES)"
 	enpm --prefix . install || die
 	enpm run build || die
 	enpm_clean
@@ -71,6 +71,6 @@ src_install() {
 
 	dodoc *.md
 
-	rm -rf "${ED}"/usr/lib64/node_modules/${PN}/data || die
-	rm "${ED}"/usr/lib64/node_modules/${PN}/{update.sh,LICENSE,*.md} || die
+	rm -rf "${ED}"$(_NODEJS_MODULES)/data || die
+	rm "${ED}"$(_NODEJS_MODULES)/{update.sh} || die
 }
