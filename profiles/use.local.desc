@@ -22,6 +22,7 @@ app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:systemd - Support for systemd services
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
 app-text/ghostscript-gpl:unicode - Add support for unicode passwords via net-dns/libidn
+dev-db/keydb:tcmalloc - Use tcmalloc from dev-util/google-perftools for allocations.
 media-video/davinci-resolve-studio:amdgpu - Enable AMDGPU opencl for speeding up computations.
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
 media-video/davinci-resolve-studio:developer - Include developer examples and documentation.
