@@ -11,5 +11,5 @@ RDEPEND=acct-group/zigbee2mqtt acct-user/zigbee2mqtt app-misc/mosquitto net-libs
 RESTRICT=network-sandbox !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/Koenkk/zigbee2mqtt/archive/1.30.0.tar.gz -> zigbee2mqtt-1.30.0.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/zigbee2mqtt-1.30.0-node_modules.tar.xz
-_eclasses_=nodejs	ca01af3743642be4c71b3f21fdc4ba91	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=666a178fc03e888ae7adcf8d5cca8d5f
+_eclasses_=nodejs	bae30b4f5bcf019c82edb6d91a04cf41	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=ecd5b96847aa2590e2704aec029431a5
