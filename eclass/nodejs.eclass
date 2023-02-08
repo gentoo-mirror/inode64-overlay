@@ -107,28 +107,28 @@ enpm() {
     [[ -z ${mynpmflags} ]] && declare -a mynpmflags=()
     local mynpmflagstype=$(declare -p mynpmflags 2>&-)
     if [[ "${mynpmflagstype}" != "declare -a mynpmflags="* ]]; then
-	die "mynpmflags must be declared as array"
+        die "mynpmflags must be declared as array"
     fi
 
     local mynpmflags_local=("${mynpmflags[@]}")
 
     local npmflags=(
-	--audit false
-	--color false
-	--foreground-scripts
-	--offline
-	--progress false
-	--verbose
-	"${mynpmflags_local[@]}"
+        --audit false
+        --color false
+        --foreground-scripts
+        --offline
+        --progress false
+        --verbose
+        "${mynpmflags_local[@]}"
     )
 
     case ${NODEJS_MANAGEMENT} in
     npm)
-	npm "${npmflags[@]}" "$@"
-	;;
+        npm "${npmflags[@]}" "$@"
+        ;;
     yarn)
-	yarn "${npmflags[@]}" "$@"
-	;;
+        yarn "${npmflags[@]}" "$@"
+        ;;
     esac
 }
 
@@ -139,42 +139,50 @@ enpm_clean() {
 
     enpm prune --omit=dev || die
 
-    pushd node_modules > /dev/null
+    pushd node_modules >/dev/null
 
     # Cleanups
-    find -type f -iregex '.*/license\(\.\(md\|rtf\|txt\|markdown\)\)?' -delete || die
 
-	find -type f -name "*.d.ts" -delete
-	find -type f -name "*.md" -delete
-	find -type f -name "*.d.ts.map" -delete
-	find -type f -name "*.js.map" -delete
-	find -type f -name "*.musl.node" -delete
-	find -type f -name ".travis.yml" -delete
-    find -type f -iregex '.*\.\(tsx?\|jsx\|map\)' -delete || die
+    # Remove license files
+    find -type f -iregex '.*/\(...-\)?license\(-...\)?\(\.\(md\|rtf\|txt\|markdown\)\)?$' -delete || die
+
+    # Remove documentation files
+    find -type f -iregex '.*/*.\.\(md\|txt\)$' -delete || die
+    find -type f -iregex '.*/\(readme\(.*\)?\|changelog\|roadmap\|security\|release\|contributors\|todo\|authors\)$' -delete || die
+
+    # Remove typscript files
+    find -type f -iregex '.*\.\(tsx?\|jsx\|map\)$' -delete || die
+
+    # Remove misc files
+    find -type f -iname "*.musl.node" -delete || die
+    find -type f -iregex '.*\.\(editorconfig\|bak\|npmignore\|exe\|gitattributes\|ps1\|ds_store\|log\|pyc\)$' -delete || die
+    find -type f -iregex '.*\.\(travis.yml\|makefile\|jshintrc\|flake8\|mk\)$' -delete || die
+    find -type f -iname makefile -delete || die
+    find -type f -name *\~ -delete || die
 
     find -type d \
-          \( \
-         -iwholename '*.github' -o \
-         -iwholename '*.tscache' -o \
-         -iwholename '*/man' -o \
-         -iwholename '*/test' -o \
-         -iwholename '*/scripts' -o \
-         -iwholename '*/git-hooks' -o \
-         -iwholename '*/prebuilds' -o \
-         -iwholename '*/android-arm' -o \
-         -iwholename '*/android-arm64' -o \
-         -iwholename '*/linux-arm64' -o \
-         -iwholename '*/linux-armvy' -o \
-         -iwholename '*/linux-armv7' -o \
-         -iwholename '*/linux-arm' -o \
-         -iwholename '*/win32-ia32' -o \
-         -iwholename '*/win32-x64' -o \
-         -iwholename '*/darwin-x64' \
-         -iwholename '*/darwin-x64+arm64' \
-         \) \
-         -exec rm -rvf {} +
+        \( \
+        -iwholename '*.github' -o \
+        -iwholename '*.tscache' -o \
+        -iwholename '*/man' -o \
+        -iwholename '*/test' -o \
+        -iwholename '*/scripts' -o \
+        -iwholename '*/git-hooks' -o \
+        -iwholename '*/prebuilds' -o \
+        -iwholename '*/android-arm' -o \
+        -iwholename '*/android-arm64' -o \
+        -iwholename '*/linux-arm64' -o \
+        -iwholename '*/linux-armvy' -o \
+        -iwholename '*/linux-armv7' -o \
+        -iwholename '*/linux-arm' -o \
+        -iwholename '*/win32-ia32' -o \
+        -iwholename '*/win32-x64' -o \
+        -iwholename '*/darwin-x64' \
+        -iwholename '*/darwin-x64+arm64' \
+        \) \
+        -exec rm -rvf {} +
 
-     popd
+    popd
 }
 
 enpm_install() {
@@ -224,7 +232,7 @@ nodejs_src_compile() {
     if [[ -d node_modules ]]; then
         einfo "Compile native addon modules"
         find node_modules/ -name binding.gyp -exec dirname {} \; | while read -r dir; do
-            pushd "${dir}" > /dev/null
+            pushd "${dir}" >/dev/null
             npm_config_nodedir=/usr/ /usr/$(get_libdir)/node_modules/npm/bin/node-gyp-bin/node-gyp rebuild --verbose
             popd
         done
@@ -235,9 +243,9 @@ nodejs_src_test() {
     debug-print-function ${FUNCNAME} "$@"
 
     if jq -e '.scripts | has("test")' <package.json >/dev/null; then
-    	npm run test || die "test failed"
+        npm run test || die "test failed"
     else
-	    die 'No "test" command defined in package.json'
+        die 'No "test" command defined in package.json'
     fi
 }
 
