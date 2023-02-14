@@ -15,16 +15,16 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 app-admin/cockpit 285: Server Administration Web Interface
-app-admin/cockpit-machines 282: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-machines 283: This is the Cockpit user interface for virtual machines
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/rabbitmqadmin 3.11.5: Command line administration tool for RabbitMQ
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.9.14: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-crypt/sscg 3.0.2 3.0.3: Simple Signed Certificate Generator
+app-crypt/sscg 3.0.3: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.0.1: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.0.1 6.0.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.6 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/zigbee2mqtt 1.29.2 1.30.0 9999: It bridges events and allows you to control your Zigbee devices via MQTT
