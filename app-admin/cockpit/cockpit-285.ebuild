@@ -10,7 +10,6 @@ HOMEPAGE="https://cockpit-project.org/"
 if [[ ${PV} == 9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/cockpit-project/cockpit.git"
-	KEYWORDS=""
 	SRC_URI=""
 else
 	KEYWORDS="~amd64 ~x86"
@@ -111,7 +110,7 @@ src_install() {
 	newpamd "${FILESDIR}/cockpit.pam" cockpit
 	dodoc README.md AUTHORS
 
-    # Required for store self-signed certificates
+	# Required for store self-signed certificates
 	keepdir /etc/cockpit/ws-certs.d/
 }
 
