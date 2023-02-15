@@ -31,7 +31,7 @@ app-misc/zigbee2mqtt 1.30.0: It bridges events and allows you to control your Zi
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 app-text/ghostscript-gpl 9.53.3-r5: Interpreter for the PostScript language and PDF
-dev-db/keydb 6.3.2: A persistent caching system, key-value, and data structures database, a Multithreaded fork of Redis
+dev-db/keydb 6.3.2: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-php/pecl-imagick 3.7.0-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
