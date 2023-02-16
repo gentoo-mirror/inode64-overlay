@@ -76,14 +76,14 @@ src_compile() {
 	if use flash; then
 		myconf+=" ENABLE_FASH=yes"
 	fi
-	if ! use CURL; then
+	if ! use curl; then
 		myconf+=" NO_MOTD=yes"
 	fi
 
 	export USE_SYSTEMD=$(usex systemd)
+	export LDFLAGS="$LDFLAGS -latomic"
 
-	tc-export AR CC RANLIB
-	emake V=1 ${myconf} AR="${AR}" CC="${CC}" RANLIB="${RANLIB}"
+	emake ${myconf} DEBUG=""
 }
 
 src_test() {
