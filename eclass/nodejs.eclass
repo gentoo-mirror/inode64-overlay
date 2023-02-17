@@ -80,44 +80,62 @@ RDEPEND+=" net-libs/nodejs"
 
 # @FUNCTION: nodejs_version
 # @DESCRIPTION:
-# Return the package version
+# Returns the package version
 nodejs_version() {
     node -p "require('./package.json').version"
 }
 
 # @FUNCTION: nodejs_package
 # @DESCRIPTION:
-# Return the package name
+# Returns the package name
 nodejs_package() {
     node -p "require('./package.json').name"
 }
 
 # @FUNCTION: nodejs_has_test
 # @DESCRIPTION:
-# Return true if test script exist
+# Returns true if test script exist
 nodejs_has_test() {
     node -p "if (require('./package.json').scripts.test === undefined) { process.exit(1) }" &>/dev/null
 }
 
 # @FUNCTION: nodejs_has_build
 # @DESCRIPTION:
-# Return true if build script exist
+# Returns true if build script exist
 nodejs_has_build() {
     node -p "if (require('./package.json').scripts.build === undefined) { process.exit(1) }" &>/dev/null
 }
 
 # @FUNCTION: _NODEJS_MODULES
 # @DESCRIPTION:
-# Location where to install nodejs
+# Returns location where to install nodejs
 _NODEJS_MODULES() {
     # shellcheck disable=SC2046
     echo /usr/$(get_libdir)/node_modules/$(nodejs_package)
 }
+
 # @FUNCTION: nodejs_has_package
 # @DESCRIPTION:
-# Return true (0) if is a package
+# Returns true (0) if is a package
 nodejs_has_package() {
     [[ -d "${S}"/package ]] || return 1
+}
+
+# @FUNCTION: nodejs_docs
+# @DESCRIPTION:
+# Install docs usually found in NodeJS/NPM packages
+nodejs_docs() {
+    # If docs variable is not empty when install docs usually found in NodeJS/NPM packages
+    [[ "${DOCS}" ]] || return
+
+    local f
+
+	for f in README* HISTORY* ChangeLog AUTHORS NEWS TODO CHANGES \
+			THANKS BUGS FAQ CREDITS CHANGELOG* *.md; do
+		if [[ -s "${f}" ]]; then
+			dodoc "${f}"
+		fi
+	done
 }
 
 # @FUNCTION: enpm
@@ -319,8 +337,7 @@ nodejs_src_test() {
 nodejs_src_install() {
     debug-print-function "${FUNCNAME}" "${@}"
 
-    # shellcheck disable=SC2035
-    dodoc *.md "${NODEJS_DOCS}" || die "failed to install documentation"
+    nodejs_docs
 
     enpm_clean
     enpm_install
