@@ -162,6 +162,8 @@ nodejs_remove_dev() {
     find -type f -iregex '.*\.\(tsx?\|jsx\|map\)$' -delete || die
     # shellcheck disable=SC2185
     find -type f -name tsconfig.json -delete || die
+    # shellcheck disable=SC2185
+    find -type f -name docker-compose.yml -delete || die
 
     # Remove misc files
     # shellcheck disable=SC2185
@@ -173,7 +175,7 @@ nodejs_remove_dev() {
     # shellcheck disable=SC2185
     find -type f -iregex '.*\.\(jscs.json\|jshintignore\|gitignore\|babelrc.*\|runkit_example.js\|airtap.yml\)$' -delete || die
     # shellcheck disable=SC2185
-    find -type f -iregex '.*\.\(jekyll-metadata\|codeclimate.yml\)$' -delete || die
+    find -type f -iregex '.*\.\(jekyll-metadata\|codeclimate.yml\|prettierrc.yaml\|drone.jsonnet\|mocharc.yml\)$' -delete || die
     # shellcheck disable=SC2185
     find -type f -iname makefile -delete || die
     # shellcheck disable=SC2185
@@ -236,11 +238,16 @@ enpm() {
 
     case ${NODEJS_MANAGEMENT} in
     npm)
-        npmflags+=("--audit false")
-        npm "${npmflags[@]}" "$@"
+        npmflags+=(
+            --audit false
+        )
+        npm "$@" "${npmflags[@]}"
         ;;
     yarn)
-        yarn "${npmflags[@]}" "$@"
+        npmflags+=(
+            --cache-folder "${S}/.cache"
+        )
+        yarn "$@" "${npmflags[@]}"
         ;;
     esac
 }
@@ -259,7 +266,10 @@ enpm_clean() {
         enpm prune --omit=dev || die
         ;;
     yarn)
-        enpm install --production || die
+        enpm install production || die
+        # TODO
+        #enpm autoclean --init || die
+        #enpm autoclean --force || die
         ;;
     esac
 
@@ -327,11 +337,6 @@ nodejs_src_compile() {
         enpm pack || die "pack failed"
     fi
 
-    if nodejs_has_build; then
-        einfo "Run build"
-        enpm run build || die "build failed"
-    fi
-
     if [[ -d node_modules ]]; then
         einfo "Compile native addon modules"
         find node_modules/ -name binding.gyp -exec dirname {} \; | while read -r dir; do
@@ -340,6 +345,11 @@ nodejs_src_compile() {
             npm_config_nodedir=/usr/ /usr/$(get_libdir)/node_modules/npm/bin/node-gyp-bin/node-gyp rebuild --verbose
             popd >/dev/null || die
         done
+    fi
+
+    if nodejs_has_build; then
+        einfo "Run build"
+        enpm run build || die "build failed"
     fi
 }
 
