@@ -19,10 +19,14 @@
 #       https://github.com/Tatsh/tatsh-overlay/blob/master/eclass/yarn.eclass
 
 #
-# Build package for node_modules
+# Build package for node_modules:
+#   npm:
 #   npm install --audit false --color false --foreground-scripts --progress false --verbose --ignore-scripts
-#   or in yarn
+#
+#   yarn:
 #   yarn install --color false --foreground-scripts --progress false --verbose --ignore-scripts
+#
+#   Create archive in tar:
 #   tar --create --auto-compress --file foo-1-node_modules.tar.xz foo-1/node_modules/
 
 case ${EAPI} in
@@ -167,7 +171,7 @@ nodejs_remove_dev() {
     # shellcheck disable=SC2185
     find -type f -iregex '.*\.\(travis.yml\|makefile\|jshintrc\|flake8\|mk\|env\|nycrc\|eslint.*\|coveralls.*\)$' -delete || die
     # shellcheck disable=SC2185
-    find -type f -iregex '.*\.\(jscs.json\|jshintignore\|gitignore\|babelrc\|runkit_example.js\|airtap.yml\)$' -delete || die
+    find -type f -iregex '.*\.\(jscs.json\|jshintignore\|gitignore\|babelrc.*\|runkit_example.js\|airtap.yml\)$' -delete || die
     # shellcheck disable=SC2185
     find -type f -iregex '.*\.\(jekyll-metadata\|codeclimate.yml\)$' -delete || die
     # shellcheck disable=SC2185
@@ -325,7 +329,7 @@ nodejs_src_compile() {
 
     if nodejs_has_build; then
         einfo "Run build"
-        npm run build || die "build failed"
+        enpm run build || die "build failed"
     fi
 
     if [[ -d node_modules ]]; then
@@ -346,7 +350,7 @@ nodejs_src_test() {
     debug-print-function "${FUNCNAME}" "${@}"
 
     if ! nodejs_has_package && nodejs_has_test; then
-        npm run test || die "test failed"
+        enpm run test || die "test failed"
     else
         die 'No "test" command defined in package.json'
     fi
