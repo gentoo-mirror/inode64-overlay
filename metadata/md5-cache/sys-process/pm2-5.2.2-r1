@@ -1,5 +1,5 @@
 BDEPEND=virtual/pkgconfig
-DEFINED_PHASES=install
+DEFINED_PHASES=compile install prepare test
 DESCRIPTION=Process manager for Node.js applications with a built-in load balancer
 EAPI=8
 HOMEPAGE=https://pm2.keymetrics.io/
@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=AGPL-3
 SLOT=0
 SRC_URI=https://github.com/Unitech/pm2/archive/5.2.2.tar.gz -> pm2-5.2.2.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/pm2-5.2.2-node_modules.tar.xz
-_eclasses_=nodejs-mod	6057ac5628a13d9c6e17081c6d038648	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=nodejs-mod	d699c6b4e66149925c33047826505150	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=4e9fdbe51dcfcd3af3bfb9c653e785a3
