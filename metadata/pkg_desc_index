@@ -16,18 +16,18 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 285: Server Administration Web Interface
-app-admin/cockpit-machines 283: This is the Cockpit user interface for virtual machines
+app-admin/cockpit 286.1: Server Administration Web Interface
+app-admin/cockpit-machines 284.1: This is the Cockpit user interface for virtual machines
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/rabbitmqadmin 3.11.5: Command line administration tool for RabbitMQ
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 1.9.14 1.9.15: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 1.9.14 1.9.17: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.3: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.0.1 6.0.2: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.0.1 6.0.3: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.6 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
@@ -65,6 +65,6 @@ sys-process/run-one 1.17-r72: Run just one instance of a command and its args at
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/bareos-webui 21.1.5 22.0.1: Featureful client/server network backup suite
+www-apps/bareos-webui 21.1.5 22.0.2: Featureful client/server network backup suite
 www-apps/guacamole-client 1.4.0 1.5.0 9999: Guacamole is a clientless remote desktop gateway
 www-misc/awstats 7.8-r1 7.9: AWStats is short for Advanced Web Statistics
