@@ -38,6 +38,15 @@ net-misc/guacamole-server:kubernetes - Support connecting to Kubernetes server
 net-misc/guacamole-server:print - Support for printing in RDP
 net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
+net-proxy/squid:ecap - Adds support for loadable content adaptation modules (http://www.e-cap.org)
+net-proxy/squid:esi - Enable ESI for accelerators, will cause squid reverse proxies to be capable of the Edge Acceleration Specification (www.esi.org)
+net-proxy/squid:htcp - Enable HTCP protocol
+net-proxy/squid:logrotate - Use app-admin/logrotate for rotating logs
+net-proxy/squid:qos - Adds support for Quality of Service using netfilter conntrack - see qos_flow directive for more info
+net-proxy/squid:ssl-crtd - Adds support for dynamic SSL certificate generation in SslBump environments
+net-proxy/squid:tproxy - Enables real Transparent Proxy support for Linux Netfilter TPROXY
+net-proxy/squid:wccp - Enable Web Cache Coordination Protocol
+net-proxy/squid:wccpv2 - Enable Web Cache Coordination V2 Protocol
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
 sys-cluster/glusterfs:fuse - Add FUSE mount helper
