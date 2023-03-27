@@ -54,7 +54,6 @@ net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 2.9.0 2.10.0: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.4.0 1.5.0 9999: This is the proxy-daemon used by www-apps/guacamole
-net-proxy/squid 5.8: A full-featured web proxy cache
 sys-auth/consolekit 1.2.4: Framework for defining and tracking users, login sessions and seats
 sys-cluster/glusterfs 10.3: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
