@@ -50,7 +50,6 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 1.1.1: Image annotation for Elementary OS
 media-video/davinci-resolve-studio 18.1.4: Professional A/V post-production software suite from Blackmagic Design
 net-analyzer/librenms 23.4.0: A fully featured network monitoring system
-net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 2.9.0 2.10.0: Free implementation of the Remote Desktop Protocol
