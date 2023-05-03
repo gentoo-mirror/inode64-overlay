@@ -45,7 +45,7 @@ dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
-dev-util/phpstorm 2022.2.4 2022.3.1 2022.3.2 2022.3.3 2023.1: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2022.2.4 2022.3.1 2022.3.2 2022.3.3 2023.1 2023.1.1: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.1.1: Image annotation for Elementary OS
 media-video/davinci-resolve-studio 18.1.4: Professional A/V post-production software suite from Blackmagic Design
