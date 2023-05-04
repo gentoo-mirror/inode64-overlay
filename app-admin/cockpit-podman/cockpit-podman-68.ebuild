@@ -19,13 +19,13 @@ SLOT="0"
 IUSE=""
 
 BDEPEND="
-	dev-libs/appstream-glib
 "
 DEPEND="
 "
 
 RDEPEND="${DEPEND}
 	app-admin/cockpit
+	app-containers/podman
 "
 
 S="${WORKDIR}/${PN}"
