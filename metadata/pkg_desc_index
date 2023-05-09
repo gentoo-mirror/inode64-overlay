@@ -24,6 +24,7 @@ app-admin/metricbeat 8.0.1: Lightweight shipper for metrics
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/rabbitmqadmin 3.11.5: Command line administration tool for RabbitMQ
+app-admin/salt 3005.1-r1: Salt is a remote execution and configuration manager
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.9.23: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.3: Simple Signed Certificate Generator
