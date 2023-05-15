@@ -40,7 +40,6 @@ app-metrics/pcp:snmp - Enable PCP Performance Metrics Domain Agent (PMDA) for co
 app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:systemd - Support for systemd services
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
-app-text/ghostscript-gpl:unicode - Add support for unicode passwords via net-dns/libidn
 dev-db/keydb:flash - KeyDB FLASH is built on RocksDB and is persistent to the storage medium it is written to. It is still considered to be a Beta feature (experimental) and should be treated as such.
 media-video/davinci-resolve-studio:amdgpu - Enable AMDGPU opencl for speeding up computations.
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
@@ -56,14 +55,6 @@ net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
-sys-cluster/glusterfs:fuse - Add FUSE mount helper
-sys-cluster/glusterfs:georeplication - Enable support for georeplication (requires dev-lang/python)
-sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc
-sys-cluster/glusterfs:libtirpc - Build against net-libs/libtirpc for RPC support
-sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsyslog
-sys-cluster/glusterfs:uring - Control whether or not glusterfs is compiled with uring support or not.
-sys-libs/libnbd:fuse - Install the sys-fs/fuse powered nbdfuse which lets you turn NBD servers into virtual files.
-sys-libs/libnbd:go - Build the Go bindings.
 sys-power/nut:ipmi - Support IPMI-based UPSes.
 sys-power/nut:ups_drivers_al175 - Driver for Eltek UPS models with AL175 alarm module
 sys-power/nut:ups_drivers_apcsmart - Driver for American Power Conversion Smart Protocol UPS equipment
