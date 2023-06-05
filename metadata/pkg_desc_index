@@ -16,16 +16,16 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 292: Server Administration Web Interface
-app-admin/cockpit-machines 290: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 69: This is the Cockpit user interface for podman containers
+app-admin/cockpit 293: Server Administration Web Interface
+app-admin/cockpit-machines 291: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 70: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/rabbitmqadmin 3.11.5: Command line administration tool for RabbitMQ
 app-admin/salt 3005.1-r1: Salt is a remote execution and configuration manager
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 1.9.24: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 1.9.25: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.3 3.0.4: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.0.1 6.0.4: Performance Co-Pilot, system performance and analysis framework
