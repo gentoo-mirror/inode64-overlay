@@ -10,5 +10,5 @@ RDEPEND=ldap? ( net-nds/openldap ) virtual/jre:1.8 www-servers/tomcat:8.5
 REQUIRED_USE=|| ( mysql postgres )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://mirrors.ircam.fr/pub/apache/guacamole/1.5.2/source/guacamole-client-1.5.2.tar.gz https://inode64.com/dist/guacamole-client-1.5.2-node_modules.tar.xz https://inode64.com/dist/guacamole-client-1.5.2-mvn.tar.xz https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-8.0.33.tar.gz https://jdbc.postgresql.org/download/postgresql-42.6.0.jar
-_md5_=b4d945a6dbd59f614508f90ca6398bc7
+SRC_URI=https://mirrors.ircam.fr/pub/apache/guacamole/1.5.2/source/guacamole-client-1.5.2.tar.gz https://inode64.com/dist/guacamole-client-1.5.2-node_modules.tar.xz https://inode64.com/dist/guacamole-client-1.5.2-mvn.tar.xz mysql? ( https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-8.0.33.tar.gz ) postgres? ( https://jdbc.postgresql.org/download/postgresql-42.6.0.jar )
+_md5_=f903d243bb6d12182bcf2b0605d073ea
