@@ -64,57 +64,13 @@ net-proxy/squid:wccp - Enable Web Cache Coordination Protocol
 net-proxy/squid:wccpv2 - Enable Web Cache Coordination V2 Protocol
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
-sys-power/nut:ipmi - Support IPMI-based UPSes.
-sys-power/nut:modbus - Support MODBUS-based UPSes.
-sys-power/nut:ups-drivers-al175 - Driver for Eltek UPS models with AL175 alarm module
-sys-power/nut:ups-drivers-apcsmart - Driver for American Power Conversion Smart Protocol UPS equipment
-sys-power/nut:ups-drivers-apcsmart-old - Driver for American Power Conversion Smart Protocol UPS equipment
-sys-power/nut:ups-drivers-apcupsd-ups - Driver for apcupsd client access
-sys-power/nut:ups-drivers-bcmxcp - Driver for UPSes supporting the serial BCM/XCP protocol
-sys-power/nut:ups-drivers-bcmxcp_usb - Experimental driver for UPSes supporting the BCM/XCP protocol over USB
-sys-power/nut:ups-drivers-belkin - Driver for Belkin serial UPS equipment
-sys-power/nut:ups-drivers-belkinunv - Driver for Belkin "Universal UPS" and compatible
-sys-power/nut:ups-drivers-bestfcom - Driver for Best Power Fortress/Ferrups
-sys-power/nut:ups-drivers-bestfortress - Driver for old Best Fortress UPS equipment
-sys-power/nut:ups-drivers-bestuferrups - Driver for Best Power Micro-Ferrups
-sys-power/nut:ups-drivers-bestups - Driver for Best Power / SOLA (Phoenixtec protocol) UPS equipment
-sys-power/nut:ups-drivers-blazer_ser - Driver for Megatec/Q1 protocol serial based UPS equipment
-sys-power/nut:ups-drivers-blazer_usb - Driver for Megatec/Q1 protocol USB based UPS equipment
-sys-power/nut:ups-drivers-clone - Fake driver to clone outlets for device grouping
-sys-power/nut:ups-drivers-clone-outlet - Fake driver to clone outlets for device grouping
-sys-power/nut:ups-drivers-dummy-ups - Driver for multi-purpose UPS emulation
-sys-power/nut:ups-drivers-etapro - Driver for ETA UPS equipment
-sys-power/nut:ups-drivers-everups - Driver for Ever UPS models
-sys-power/nut:ups-drivers-gamatronic - Driver for Gamatronic UPS equipment
-sys-power/nut:ups-drivers-genericups - Driver for contact-closure UPS equipment
-sys-power/nut:ups-drivers-isbmex - Driver for ISBMEX UPS equipment
-sys-power/nut:ups-drivers-ivtscd - driver for the IVT Solar Controller Device
-sys-power/nut:ups-drivers-liebert - Driver for Liebert contact-closure UPS equipment
-sys-power/nut:ups-drivers-liebert-esp2 - Driver for Liebert UPS, using the ESP-II serial protocol
-sys-power/nut:ups-drivers-masterguard - Driver for Masterguard UPS equipment
-sys-power/nut:ups-drivers-metasys - Driver for Meta System UPS equipment
-sys-power/nut:ups-drivers-mge-shut - Driver for SHUT Protocol UPS equipment
-sys-power/nut:ups-drivers-mge-utalk - Driver for MGE UPS SYSTEMS UTalk protocol equipment
-sys-power/nut:ups-drivers-microdowell - Driver for Microdowell Enterprise UPS series
-sys-power/nut:ups-drivers-netxml-ups - Driver for Eaton / MGE Network Management Card / Proxy (XML/HTTP Protocol) equipment
-sys-power/nut:ups-drivers-nut-ipmipsu - Driver for IPMI Power Supply Units (PSU)
-sys-power/nut:ups-drivers-nutdrv_qx - Driver for Q* protocol serial and USB based UPS equipment
-sys-power/nut:ups-drivers-oldmge-shut - Driver for SHUT Protocol UPS equipment (older implementation)
-sys-power/nut:ups-drivers-oneac - Driver for Oneac UPS equipment
-sys-power/nut:ups-drivers-optiups - Driver for Opti-UPS (Viewsonic) UPS and Zinto D (ONLINE-USV) equipment
-sys-power/nut:ups-drivers-powercom - UPS driver for serial Powercom/Trust/Advice UPS equipment
-sys-power/nut:ups-drivers-powerpanel - Driver for PowerPanel Plus compatible UPS equipment
-sys-power/nut:ups-drivers-rhino - Driver for Brazilian Microsol RHINO UPS equipment
-sys-power/nut:ups-drivers-richcomm_usb - Driver UPS equipment using Richcomm dry-contact to USB solution
-sys-power/nut:ups-drivers-riello_ser - Driver for Riello UPS Protocol UPS equipment
-sys-power/nut:ups-drivers-riello_usb - Driver for Riello UPS Protocol UPS equipment via USB
-sys-power/nut:ups-drivers-safenet - Driver for SafeNet compatible UPS equipment
-sys-power/nut:ups-drivers-snmp-ups - Multi-MIB Driver for SNMP UPS equipment
-sys-power/nut:ups-drivers-solis - Driver for Brazilian Microsol SOLIS UPS equipment
-sys-power/nut:ups-drivers-tripplite - Driver for Tripp-Lite SmartPro UPS equipment
-sys-power/nut:ups-drivers-tripplite_usb - Driver for older Tripp Lite USB UPSes (not PDC HID)
-sys-power/nut:ups-drivers-tripplitesu - Driver for Tripp-Lite SmartOnline (SU) UPS equipment
-sys-power/nut:ups-drivers-upscode2 - Driver for UPScode II compatible UPS equipment
-sys-power/nut:ups-drivers-usbhid-ups - Driver for USB/HID UPS equipment
-sys-power/nut:ups-drivers-victronups - Driver for IMV/Victron UPS unit Match, Match Lite, NetUps
+sys-power/nut:gpio - Includes all UPS drivers that use GPIO.
+sys-power/nut:i2c - Includes all UPS drivers that use I2C.
+sys-power/nut:ipmi - Includes all UPS drivers that use ipmi.
+sys-power/nut:modbus - Includes all UPS drivers that use MODBUS.
+sys-power/nut:monitor - Add a QT5 gui monitor.
+sys-power/nut:serial - Includes all UPS drivers that use SERIAL.
+sys-power/nut:snmp - Includes all UPS drivers that use SNMP.
+sys-power/nut:usb - Includes all UPS drivers that use USB.
+sys-power/nut:xml - Includes all UPS drivers that use XML.
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
