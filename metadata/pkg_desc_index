@@ -16,9 +16,9 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 293: Server Administration Web Interface
-app-admin/cockpit-machines 291: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 70: This is the Cockpit user interface for podman containers
+app-admin/cockpit 294.1: Server Administration Web Interface
+app-admin/cockpit-machines 292: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 71: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
@@ -28,7 +28,7 @@ app-backup/rest-server 0.11.0: High-performance HTTP server that implements rest
 app-backup/virtnbdbackup 1.9.26: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.3 3.0.4: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.0.1 6.0.4: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.0.4: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.6 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
@@ -49,7 +49,7 @@ dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
 dev-util/goland 2023.1.1: Golang IDE by JetBrains
 dev-util/phpstorm 2022.2.4 2022.3.1 2022.3.2 2022.3.3 2023.1 2023.1.1 2023.1.2: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
-media-gfx/annotator 1.1.1 1.2.0: Image annotation for Elementary OS
+media-gfx/annotator 1.1.1 1.2.1: Image annotation for Elementary OS
 media-video/davinci-resolve-studio 18.1.4: Professional A/V post-production software suite from Blackmagic Design
 net-analyzer/librenms 23.5.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
