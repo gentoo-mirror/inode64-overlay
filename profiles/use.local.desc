@@ -64,13 +64,4 @@ net-proxy/squid:wccp - Enable Web Cache Coordination Protocol
 net-proxy/squid:wccpv2 - Enable Web Cache Coordination V2 Protocol
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
-sys-power/nut:gpio - Includes all UPS drivers that use GPIO.
-sys-power/nut:i2c - Includes all UPS drivers that use I2C.
-sys-power/nut:ipmi - Includes all UPS drivers that use ipmi.
-sys-power/nut:modbus - Includes all UPS drivers that use MODBUS.
-sys-power/nut:monitor - Add a QT5 gui monitor.
-sys-power/nut:serial - Includes all UPS drivers that use SERIAL.
-sys-power/nut:snmp - Includes all UPS drivers that use SNMP.
-sys-power/nut:usb - Includes all UPS drivers that use USB.
-sys-power/nut:xml - Includes all UPS drivers that use XML.
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
