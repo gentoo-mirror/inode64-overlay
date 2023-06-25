@@ -1,5 +1,6 @@
 acct-group/cockpit-ws 0: System group: cockpit-ws
 acct-group/cockpit-wsinstance 0: System group: cockpit-wsinstance
+acct-group/ds 0: System group: ds
 acct-group/guacamole 0: System group: guacamole
 acct-group/keydb 0: Keydb program group
 acct-group/librenms 0: System group: librenms
@@ -9,6 +10,7 @@ acct-group/pcp 0: System group: pcp
 acct-group/zigbee2mqtt 0: System group: zigbee2mqtt
 acct-user/cockpit-ws 0: System user: cockpit-ws
 acct-user/cockpit-wsinstance 0: System user: cockpit-wsinstance
+acct-user/ds 0: A user for OnlyOffice document server
 acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/keydb 0: Keydb program user
 acct-user/librenms 0: A user for Librenms
@@ -68,4 +70,5 @@ virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/bareos-webui 22.0.3: Featureful client/server network backup suite
 www-apps/guacamole-client 1.4.0 1.5.0 1.5.1 1.5.1.9999 1.5.2 1.5.2-r1: Guacamole is a clientless remote desktop gateway
+www-apps/onlyoffice-documentserver-bin 7.4.0: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-misc/awstats 7.8-r1 7.9: AWStats is short for Advanced Web Statistics
