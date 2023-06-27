@@ -28,9 +28,9 @@ app-admin/rabbitmqadmin 3.11.5: Command line administration tool for RabbitMQ
 app-admin/salt 3005.1-r1: Salt is a remote execution and configuration manager
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.9.26: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-crypt/sscg 3.0.3 3.0.4: Simple Signed Certificate Generator
+app-crypt/sscg 3.0.3 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.0.4: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.0.5: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.6 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
@@ -53,7 +53,7 @@ dev-util/phpstorm 2022.2.4 2022.3.1 2022.3.2 2022.3.3 2023.1 2023.1.1 2023.1.2: 
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.1.1 1.2.1: Image annotation for Elementary OS
 media-video/davinci-resolve-studio 18.1.4: Professional A/V post-production software suite from Blackmagic Design
-net-analyzer/librenms 23.5.0: A fully featured network monitoring system
+net-analyzer/librenms 23.6.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
