@@ -18,8 +18,8 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 294.1: Server Administration Web Interface
-app-admin/cockpit-machines 292: This is the Cockpit user interface for virtual machines
+app-admin/cockpit 295: Server Administration Web Interface
+app-admin/cockpit-machines 293: This is the Cockpit user interface for virtual machines
 app-admin/cockpit-podman 71: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
@@ -34,7 +34,7 @@ app-metrics/pcp 6.0.5: Performance Co-Pilot, system performance and analysis fra
 app-misc/itaca 1.0.6 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 1.30.0 1.30.1 1.30.2 1.30.3 1.30.4 1.31.0: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.30.0 1.30.1 1.30.2 1.30.3 1.30.4 1.31.0 1.32.1: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.2 6.3.3: KeyDB is a high performance fork of Redis with a focus on multithreading
@@ -59,7 +59,6 @@ net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 2.9.0 2.10.0: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.4.0 1.5.0 1.5.1 1.5.1.9999 1.5.2: This is the proxy-daemon used by www-apps/guacamole
-net-proxy/squid 5.9: A full-featured web proxy cache
 sys-auth/consolekit 1.2.5: Framework for defining and tracking users, login sessions and seats
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
@@ -68,7 +67,7 @@ sys-process/run-one 1.17-r72: Run just one instance of a command and its args at
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/bareos-webui 22.0.3: Featureful client/server network backup suite
+www-apps/bareos-webui 22.0.3 22.1.0: Featureful client/server network backup suite
 www-apps/guacamole-client 1.4.0 1.5.0 1.5.1 1.5.1.9999 1.5.2 1.5.2-r1: Guacamole is a clientless remote desktop gateway
 www-apps/onlyoffice-documentserver-bin 7.4.0: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-misc/awstats 7.8-r1 7.9: AWStats is short for Advanced Web Statistics
