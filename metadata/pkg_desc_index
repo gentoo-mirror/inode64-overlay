@@ -53,6 +53,7 @@ dev-util/phpstorm 2022.2.4 2022.3.1 2022.3.2 2022.3.3 2023.1 2023.1.1 2023.1.2 2
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.1.1 1.2.1: Image annotation for Elementary OS
 media-video/davinci-resolve-studio 18.1.4: Professional A/V post-production software suite from Blackmagic Design
+media-video/go2rtc 1.6.0: Ultimate camera streaming application
 net-analyzer/librenms 23.6.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
