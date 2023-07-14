@@ -18,9 +18,9 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 295: Server Administration Web Interface
-app-admin/cockpit-machines 293: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 71: This is the Cockpit user interface for podman containers
+app-admin/cockpit 296: Server Administration Web Interface
+app-admin/cockpit-machines 294: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 72: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
@@ -46,10 +46,9 @@ dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/command-runner 1.5.0: Platform agnostic command and shell execution tool
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/osmapi 3.1.0: Python wrapper for the OSM API
-dev-python/pylspci 0.4.0: A Python parser for the lspci command from the pciutils package
+dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
-dev-util/goland 2023.1.1: Golang IDE by JetBrains
 dev-util/phpstorm 2022.2.4 2022.3.1 2022.3.2 2022.3.3 2023.1 2023.1.1 2023.1.2 2023.1.3: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.1.1 1.2.1: Image annotation for Elementary OS
