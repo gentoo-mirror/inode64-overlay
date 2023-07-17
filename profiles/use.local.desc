@@ -55,4 +55,7 @@ net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
+sys-libs/libnbd:fuse - Install the sys-fs/fuse powered nbdfuse.
+sys-libs/libnbd:go - Build bindings for dev-lang/go
+sys-libs/libnbd:uri-support - Enable nbd:// URI support via dev-libs/libxml2.
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
