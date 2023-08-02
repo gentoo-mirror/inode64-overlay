@@ -12,7 +12,7 @@ acct-group/zigbee2mqtt 0: System group: zigbee2mqtt
 acct-user/cockpit-ws 0: System user: cockpit-ws
 acct-user/cockpit-wsinstance 0: System user: cockpit-wsinstance
 acct-user/ds 0: A user for OnlyOffice document server
-acct-user/go2rtc 0: A user for go2rtc
+acct-user/go2rtc 0-r2: A user for go2rtc
 acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/keydb 0: Keydb program user
 acct-user/librenms 0: A user for Librenms
