@@ -72,6 +72,6 @@ virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/bareos-webui 22.1.0: Featureful client/server network backup suite
-www-apps/guacamole-client 1.5.2-r1: Guacamole is a clientless remote desktop gateway
+www-apps/guacamole-client 1.5.2-r1 1.5.3: Guacamole is a clientless remote desktop gateway
 www-apps/onlyoffice-documentserver-bin 7.4.0: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-misc/awstats 7.9: AWStats is short for Advanced Web Statistics
