@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://download.jetbrains.com/webide/PhpStorm-2023.2.tar.gz
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	wrapper	4a1902f969e5718126434fc35f3a0d9c
-_md5_=9b6cb7375e474f6791f34003c7b7cdf5
+_md5_=cdb3577a3235003d47f39a89c1831e3d
