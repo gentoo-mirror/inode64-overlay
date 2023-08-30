@@ -41,6 +41,7 @@ app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:systemd - Support for systemd services
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
 dev-db/keydb:flash - KeyDB FLASH is built on RocksDB and is persistent to the storage medium it is written to. It is still considered to be a Beta feature (experimental) and should be treated as such.
+dev-util/phpstorm:30bit - Support on 30 bit color display. (https://youtrack.jetbrains.com/issue/IDEA-241795/Not-working-on-30-bit-color-displays)
 media-video/davinci-resolve-studio:amdgpu - Enable AMDGPU opencl for speeding up computations.
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
 media-video/davinci-resolve-studio:developer - Include developer examples and documentation.
