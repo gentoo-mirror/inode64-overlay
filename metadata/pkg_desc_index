@@ -56,7 +56,7 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 18.1.4 18.5-r1 18.5.1: Professional A/V post-production software suite from Blackmagic Design
-media-video/go2rtc 1.6.2: Ultimate camera streaming application
+media-video/go2rtc 1.6.2 1.7.0: Ultimate camera streaming application
 net-analyzer/librenms 23.8.2: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
