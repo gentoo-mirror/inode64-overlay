@@ -28,7 +28,7 @@ RDEPEND="
 	dev-libs/json-c
 	dev-libs/nspr
 	dev-libs/nss
-	<dev-libs/openssl-3.0:=
+	<dev-libs/openssl-3.0
 	dev-libs/wayland
 	media-fonts/dejavu
 	media-libs/alsa-lib
@@ -38,6 +38,7 @@ RDEPEND="
 	net-print/cups
 	x11-libs/libXrandr
 	x11-libs/libXtst
+	x11-libs/libnotify
 	x11-libs/pango
 "
 
