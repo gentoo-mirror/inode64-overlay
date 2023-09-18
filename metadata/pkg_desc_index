@@ -41,6 +41,7 @@ app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 app-text/xmldiff 2.6.3: A tool that figures out the differences between two similar XML files
 dev-db/keydb 6.3.3: KeyDB is a high performance fork of Redis with a focus on multithreading
+dev-db/phppgadmin 7.14.5: Web-based administration for Postgres database in php
 dev-lang/typescript 4.9.5: Superset of JavaScript with optional static typing, classes and interfaces
 dev-php/pecl-imagick 3.7.0-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.0.6: Provides support for CIFS/SMB via samba's libsmbclient library
