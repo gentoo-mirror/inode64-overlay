@@ -54,6 +54,14 @@ net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
+sys-cluster/glusterfs:firewalld - Enables support for manage firewall
+sys-cluster/glusterfs:fuse - Add FUSE mount helper
+sys-cluster/glusterfs:georeplication - Enable support for georeplication (requires dev-lang/python)
+sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc
+sys-cluster/glusterfs:libtirpc - Build against net-libs/libtirpc for RPC support
+sys-cluster/glusterfs:lto - Build using Link Time Optimizations (LTO)
+sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsyslog
+sys-cluster/glusterfs:uring - Control whether or not glusterfs is compiled with uring support or not.
 sys-libs/libnbd:fuse - Install the sys-fs/fuse powered nbdfuse.
 sys-libs/libnbd:go - Build bindings for dev-lang/go
 sys-libs/libnbd:uri-support - Enable nbd:// URI support via dev-libs/libxml2.
