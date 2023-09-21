@@ -20,9 +20,9 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 300.1: Server Administration Web Interface
-app-admin/cockpit-machines 298: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 76: This is the Cockpit user interface for podman containers
+app-admin/cockpit 301: Server Administration Web Interface
+app-admin/cockpit-machines 299: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 77: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
@@ -32,7 +32,7 @@ app-backup/rest-server 0.11.0: High-performance HTTP server that implements rest
 app-backup/virtnbdbackup 1.9.42: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.0.5 6.1.0: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.1.0: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
@@ -49,7 +49,7 @@ dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/command-runner 1.5.0: Platform agnostic command and shell execution tool
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
-dev-python/osmapi 3.1.0 4.0.0: Python wrapper for the OSM API
+dev-python/osmapi 4.0.0: Python wrapper for the OSM API
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
@@ -57,9 +57,9 @@ dev-util/phpstorm 2023.2.2: A complete toolset for web, mobile and enterprise de
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
-media-video/davinci-resolve-studio 18.5.1-r2: Professional A/V post-production software suite from Blackmagic Design
-media-video/go2rtc 1.6.2 1.7.0 1.7.1: Ultimate camera streaming application
-net-analyzer/librenms 23.8.2: A fully featured network monitoring system
+media-video/davinci-resolve-studio 18.5.1-r2 18.6: Professional A/V post-production software suite from Blackmagic Design
+media-video/go2rtc 1.7.1: Ultimate camera streaming application
+net-analyzer/librenms 23.9.1: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
