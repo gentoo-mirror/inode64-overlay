@@ -52,6 +52,10 @@ net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
+sys-cluster/drbd-utils:83support - Enable support for drbd driver/module 8.3
+sys-cluster/drbd-utils:84support - Enable support for drbd driver/module 8.4
+sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
+sys-cluster/drbd-utils:xen - Enable Xen integration
 sys-cluster/glusterfs:firewalld - Enables support for manage firewall
 sys-cluster/glusterfs:fuse - Add FUSE mount helper
 sys-cluster/glusterfs:georeplication - Enable support for georeplication (requires dev-lang/python)
