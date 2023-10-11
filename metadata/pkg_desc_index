@@ -20,7 +20,7 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 301: Server Administration Web Interface
+app-admin/cockpit 302: Server Administration Web Interface
 app-admin/cockpit-machines 299: This is the Cockpit user interface for virtual machines
 app-admin/cockpit-podman 77: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
@@ -42,7 +42,7 @@ app-portage/portage-lostfiles 0.2.3: A simple script to identify files not track
 app-text/xmldiff 2.6.3: A tool that figures out the differences between two similar XML files
 dev-db/keydb 6.3.3: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-lang/typescript 4.9.5: Superset of JavaScript with optional static typing, classes and interfaces
-dev-php/pecl-imagick 3.7.0-r1 3.7.0-r2: PHP wrapper for the ImageMagick library
+dev-php/pecl-imagick 3.7.0-r2: PHP wrapper for the ImageMagick library
 dev-php/pecl-smbclient 1.1.1: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
