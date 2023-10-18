@@ -52,7 +52,7 @@ dev-python/osmapi 4.0.0: Python wrapper for the OSM API
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
-dev-util/phpstorm 2023.2.2: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2023.2.2 2023.2.3: A complete toolset for web, mobile and enterprise development
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
