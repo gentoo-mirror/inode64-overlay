@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=app-admin/cockpit app-containers/podman
 SLOT=0
-SRC_URI=https://github.com/cockpit-project/cockpit-podman/releases/download/79/cockpit-podman-79.tar.xz
+SRC_URI=https://github.com/cockpit-project/cockpit-podman/releases/download/80/cockpit-podman-80.tar.xz
 _md5_=f3673beb200101453014a81252df999e

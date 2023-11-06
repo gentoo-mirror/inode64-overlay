@@ -20,9 +20,9 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 303: Server Administration Web Interface
-app-admin/cockpit-machines 300: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 79: This is the Cockpit user interface for podman containers
+app-admin/cockpit 304: Server Administration Web Interface
+app-admin/cockpit-machines 301.1: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 80: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
@@ -53,23 +53,24 @@ dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutil
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2023.2.2 2023.2.3: A complete toolset for web, mobile and enterprise development
+mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
 mail-filter/rspamd 3.7.3 9999: Rapid spam filtering system
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 18.5.1-r2 18.6: Professional A/V post-production software suite from Blackmagic Design
-media-video/go2rtc 1.7.1 1.8.1: Ultimate camera streaming application
-net-analyzer/librenms 23.9.1: A fully featured network monitoring system
+media-video/go2rtc 1.7.1 1.8.1 1.8.2: Ultimate camera streaming application
+net-analyzer/librenms 23.10.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 2.11.2: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.2 1.5.3: This is the proxy-daemon used by www-apps/guacamole
-net-misc/openvswitch 2.17.7: Production quality, multilayer virtual switch
+net-misc/openvswitch 2.17.8: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
-sys-cluster/drbd-utils 9.25.0: mirror/replicate block-devices across a network-connection
+sys-cluster/drbd-utils 9.26.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.0-r2: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
