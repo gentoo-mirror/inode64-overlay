@@ -37,7 +37,7 @@ app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
 app-misc/solaar 1.1.10: Linux Device Manager for Logitech Unifying Receivers and Paired Devices
-app-misc/zigbee2mqtt 1.32.1 1.32.2: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.32.1 1.32.2 1.33.2: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 app-text/xmldiff 2.6.3: A tool that figures out the differences between two similar XML files
