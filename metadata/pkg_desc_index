@@ -56,6 +56,7 @@ dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2023.2.2 2023.2.3: A complete toolset for web, mobile and enterprise development
 mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
 mail-filter/rspamd 3.7.3 9999: Rapid spam filtering system
+mail-mta/exim 4.94.2-r12: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro

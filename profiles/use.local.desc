@@ -82,6 +82,28 @@ dev-lang/php:xmlwriter - Enable XMLWriter support
 dev-lang/php:xslt - Enable the XSL extension
 dev-util/phpstorm:30bits - Support on 30 bits color display. (https://youtrack.jetbrains.com/issue/IDEA-241795/Not-working-on-30-bit-color-displays)
 mail-filter/rspamd:jit - Enable PCRE JIT support
+mail-mta/exim:arc - Adds support for Authenticated Receive Chain (ARC)
+mail-mta/exim:dane - Adds support for DNS-based Authentication of Named Entities
+mail-mta/exim:dcc - Adds support for Distributed Checksum Clearinghouse (DCC)
+mail-mta/exim:dkim - Adds support for DomainKeys Identified Mail (DKIM)
+mail-mta/exim:dlfunc - Install local_scan.h header to compile separate dlfunc libraries
+mail-mta/exim:dmarc - Adds support for DMARC
+mail-mta/exim:dnsdb - Adds support for a DNS search for a record whose domain name is the supplied query
+mail-mta/exim:dovecot-sasl - Adds support for Dovecot's authentication
+mail-mta/exim:dsn - Adds support for Delivery Status Notifications (DSN)
+mail-mta/exim:exiscan-acl - Patch providing support for content scanning
+mail-mta/exim:lmtp - Adds support for lmtp
+mail-mta/exim:mbx - Adds support for UW's mbx format
+mail-mta/exim:pkcs11 - Require pkcs11 support in net-libs/gnutls with USE=gnutls
+mail-mta/exim:prdr - Adds support for Per-Recipient Data Response
+mail-mta/exim:proxy - Add support for being behind a proxy, such as HAProxy
+mail-mta/exim:redis - Adds support for querying dev-db/redis
+mail-mta/exim:spf - Adds support for Sender Policy Framework
+mail-mta/exim:srs - Adds support for Sender Rewriting Scheme
+mail-mta/exim:srs-alt - Use mail-filter/libsrs_alt to implement SRS support
+mail-mta/exim:srs-native - Use Exim's built-in SRS support to implement SRS support
+mail-mta/exim:tdb - Use sys-libs/tdb for internal database storage (such as hints database)
+mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
 media-video/davinci-resolve-studio:developer - Include developer examples and documentation.
 net-ftp/tftp-hpa:client - Compile and install the tftp client
