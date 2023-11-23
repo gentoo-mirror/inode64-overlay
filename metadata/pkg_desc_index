@@ -20,9 +20,9 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 304: Server Administration Web Interface
-app-admin/cockpit-machines 301.1: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 80: This is the Cockpit user interface for podman containers
+app-admin/cockpit 305: Server Administration Web Interface
+app-admin/cockpit-machines 302: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 81: This is the Cockpit user interface for podman containers
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
@@ -31,7 +31,7 @@ app-backup/rest-server 0.11.0: High-performance HTTP server that implements rest
 app-backup/virtnbdbackup 1.9.45: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.1.0-r2: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.1.1: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
@@ -62,7 +62,7 @@ media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 18.5.1-r2 18.6 18.6.3: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.8.3: Ultimate camera streaming application
-net-analyzer/librenms 23.10.0: A fully featured network monitoring system
+net-analyzer/librenms 23.11.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
