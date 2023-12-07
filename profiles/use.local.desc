@@ -81,7 +81,6 @@ dev-lang/php:xmlreader - Enable XMLReader support
 dev-lang/php:xmlwriter - Enable XMLWriter support
 dev-lang/php:xslt - Enable the XSL extension
 dev-util/phpstorm:30bits - Support on 30 bits color display. (https://youtrack.jetbrains.com/issue/IDEA-241795/Not-working-on-30-bit-color-displays)
-mail-filter/rspamd:jit - Enable PCRE JIT support
 mail-mta/exim:arc - Adds support for Authenticated Receive Chain (ARC)
 mail-mta/exim:dane - Adds support for DNS-based Authentication of Named Entities
 mail-mta/exim:dcc - Adds support for Distributed Checksum Clearinghouse (DCC)

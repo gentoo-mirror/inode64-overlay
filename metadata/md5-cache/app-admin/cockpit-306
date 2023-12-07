@@ -12,4 +12,4 @@ RDEPEND=dev-libs/libpwquality dev-python/dbus-python net-libs/nodejs[npm] networ
 SLOT=0
 SRC_URI=https://github.com/cockpit-project/cockpit/releases/download/306/cockpit-306.tar.xz https://www.gentoo.org/assets/img/logo/gentoo-logo.png
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	6b3c606c5de2531072ffd36eca06a5a9	pam	b56d0c9c20fc5b553f13c8ae165a10a5
-_md5_=628e3341df55eca227ac5447c97f585b
+_md5_=e9eb38ef1346a92d9d2cfe5f67950c60

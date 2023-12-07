@@ -27,6 +27,7 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/salt 3005.1-r1: Salt is a remote execution and configuration manager
+app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.9.48: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
@@ -54,7 +55,6 @@ dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2023.2.3 2023.2.4: A complete toolset for web, mobile and enterprise development
 mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
-mail-filter/rspamd 3.7.3 9999: Rapid spam filtering system
 mail-mta/exim 4.94.2-r12: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
