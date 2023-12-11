@@ -65,7 +65,7 @@ net-analyzer/librenms 23.11.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/guacamole-server 1.5.2 1.5.3: This is the proxy-daemon used by www-apps/guacamole
+net-misc/guacamole-server 1.5.2 1.5.3 1.5.4: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 2.17.8: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/openvpn 2.6.8: Robust and highly flexible tunneling application compatible with many OSes
@@ -82,7 +82,7 @@ virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/bareos-webui 22.1.0 22.1.1: Featureful client/server network backup suite
-www-apps/guacamole-client 1.5.2-r1 1.5.3: Guacamole is a clientless remote desktop gateway
+www-apps/guacamole-client 1.5.2-r1 1.5.3 1.5.4: Guacamole is a clientless remote desktop gateway
 www-apps/onlyoffice-documentserver-bin 7.4.0: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-client/google-chrome 117.0.5938.149: The web browser from Google
 www-misc/awstats 7.9: AWStats is short for Advanced Web Statistics
