@@ -29,7 +29,7 @@ app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs runn
 app-admin/salt 3005.1-r1: Salt is a remote execution and configuration manager
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 1.9.50: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 1.9.51: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.1.1: Performance Co-Pilot, system performance and analysis framework
