@@ -53,6 +53,7 @@ dev-python/osmapi 4.0.0: Python wrapper for the OSM API
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.59: Common libraries for RedmineCRM plugins for Redmine
+dev-util/grunt-cli 1.4.3: The Grunt command line interface.
 dev-util/phpstorm 2023.2.3 2023.2.4 2023.3.1: A complete toolset for web, mobile and enterprise development
 mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
 mail-mta/exim 4.94.2-r12: A highly configurable, drop-in replacement for sendmail
