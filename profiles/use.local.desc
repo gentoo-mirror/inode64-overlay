@@ -138,4 +138,6 @@ sys-cluster/glusterfs:libtirpc - Build against net-libs/libtirpc for RPC support
 sys-cluster/glusterfs:lto - Build using Link Time Optimizations (LTO)
 sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsyslog
 sys-cluster/glusterfs:uring - Control whether or not glusterfs is compiled with uring support or not.
+www-apps/guacamole-client:sso - Single-Sign-On authentication
+www-apps/guacamole-client:totp - TOTP two-factor authentication
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
