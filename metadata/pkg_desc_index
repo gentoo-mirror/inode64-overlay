@@ -27,7 +27,7 @@ app-admin/cockpit-sensors 1.4.3: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
-app-admin/salt 3005.1-r1: Salt is a remote execution and configuration manager
+app-admin/salt 3005.1-r1 3005.4: Salt is a remote execution and configuration manager
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/virtnbdbackup 1.9.54: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
