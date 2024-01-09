@@ -77,7 +77,7 @@ net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-complian
 net-vpn/openvpn 2.6.8: Robust and highly flexible tunneling application compatible with many OSes
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
-sys-cluster/drbd-utils 9.26.0: mirror/replicate block-devices across a network-connection
+sys-cluster/drbd-utils 9.27.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.0-r2 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
