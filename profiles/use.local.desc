@@ -109,6 +109,7 @@ mail-mta/exim:tdb - Use sys-libs/tdb for internal database storage (such as hint
 mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
 media-video/davinci-resolve-studio:developer - Include developer examples and documentation.
+net-firewall/firehol:ipset - Use net-firewall/ipset.
 net-ftp/tftp-hpa:client - Compile and install the tftp client
 net-ftp/tftp-hpa:server - Compile and install the tftp server
 net-misc/freerdp:aad - Enable login via Azure AD
@@ -121,13 +122,6 @@ net-misc/guacamole-server:ssh - enable support for SSH protocol
 net-misc/guacamole-server:telnet - enable support for telnet protocol
 net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
 net-misc/openvswitch:xdp - Enable support eXpress Data Path (Experimental)
-net-vpn/openvpn:dco - Enable support for kernel data channel offload
-net-vpn/openvpn:down-root - Enable the down-root plugin
-net-vpn/openvpn:iproute2 - Enabled iproute2 support instead of net-tools
-net-vpn/openvpn:mbedtls - Use mbed TLS as the backend crypto library
-net-vpn/openvpn:openssl - Use OpenSSL as the backend crypto library
-net-vpn/openvpn:pkcs11 - Enable PKCS#11 smartcard support
-net-vpn/openvpn:plugins - Enable the OpenVPN plugin system
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
 sys-cluster/drbd-utils:83support - Enable support for drbd driver/module 8.3
