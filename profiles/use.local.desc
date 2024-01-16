@@ -85,6 +85,7 @@ dev-php/pecl-apcu:lock-pthreadrw - Enable pthread read/write locking
 dev-php/pecl-apcu:lock-semaphore - Enable semaphore locks instead of fcntl
 dev-php/pecl-apcu:lock-spinlock - Enable spin locks (EXPERIMENTAL)
 dev-util/phpstorm:30bits - Support on 30 bits color display. (https://youtrack.jetbrains.com/issue/IDEA-241795/Not-working-on-30-bit-color-displays)
+dev-util/phpstorm:server - Support for server selfcontained.
 mail-mta/exim:arc - Adds support for Authenticated Receive Chain (ARC)
 mail-mta/exim:dane - Adds support for DNS-based Authentication of Named Entities
 mail-mta/exim:dcc - Adds support for Distributed Checksum Clearinghouse (DCC)
