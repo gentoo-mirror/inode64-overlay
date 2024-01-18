@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit autotools pam
+inherit autotools pam tmpfiles
 
 DESCRIPTION="Server Administration Web Interface "
 HOMEPAGE="https://cockpit-project.org/"
@@ -30,6 +30,7 @@ BDEPEND="
 	>=sys-auth/polkit-0.105[systemd]
 	doc? (
 		app-text/xmlto
+		dev-util/gtk-doc
 	)
 "
 DEPEND="
@@ -118,6 +119,8 @@ src_install() {
 }
 
 pkg_postinst() {
+	tmpfiles_process cockpit-tempfiles.conf
+
 	elog ""
 	elog "To enable Cockpit run:"
 	elog " - systemctl enable --now cockpit.socket"
