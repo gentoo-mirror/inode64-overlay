@@ -4,6 +4,7 @@
 
 app-admin/cockpit:debug - Enables debug information
 app-admin/cockpit:firewalld - Enables support for manage firewall
+app-admin/cockpit:old-bridge - use the old bridge written in C instead of the new one with Python
 app-admin/cockpit:pcp - Enables support for system performance and analysis
 app-admin/cockpit:tuned - Enables support for change performance profiles
 app-admin/salt:cheetah - Enable support for dev-python/cheetah3
