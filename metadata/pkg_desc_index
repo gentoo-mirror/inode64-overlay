@@ -67,6 +67,7 @@ mail-mta/exim 4.94.2-r12: A highly configurable, drop-in replacement for sendmai
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
+media-libs/exiftool 12.76: Read and write meta information in image, audio and video files
 media-video/davinci-resolve-studio 18.5.1-r2 18.6 18.6.3 18.6.4 18.6.5: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.8.5: Ultimate camera streaming application
 net-analyzer/librenms 24.1.0: A fully featured network monitoring system
