@@ -33,7 +33,7 @@ app-backup/rest-server 0.11.0: High-performance HTTP server that implements rest
 app-backup/virtnbdbackup 1.9.55: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.2.0: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.2.0-r1: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.3: A visual tool for wiring the Internet of Things.
