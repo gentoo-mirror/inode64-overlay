@@ -27,10 +27,10 @@ app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
-app-admin/salt 3005.4 3005.5: Salt is a remote execution and configuration manager
+app-admin/salt 3005.5-r1: Salt is a remote execution and configuration manager
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 1.9.55: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.0: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.2.0-r1: Performance Co-Pilot, system performance and analysis framework
@@ -67,10 +67,9 @@ mail-mta/exim 4.94.2-r12: A highly configurable, drop-in replacement for sendmai
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
-media-libs/exiftool 12.76: Read and write meta information in image, audio and video files
 media-video/davinci-resolve-studio 18.5.1-r2 18.6 18.6.3 18.6.4 18.6.5: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.8.5: Ultimate camera streaming application
-net-analyzer/librenms 24.1.0: A fully featured network monitoring system
+net-analyzer/librenms 24.2.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
