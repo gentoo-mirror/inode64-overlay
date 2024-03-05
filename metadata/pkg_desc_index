@@ -61,13 +61,13 @@ dev-python/sqlite3-to-mysql 2.1.7: A simple Python tool to transfer data from SQ
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
 dev-util/grunt-cli 1.4.3: The Grunt command line interface.
-dev-util/phpstorm 2023.2.3 2023.2.4 2023.3.2 2023.3.4: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2023.3.4: A complete toolset for web, mobile and enterprise development
 mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
 mail-mta/exim 4.94.2-r12: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
-media-video/davinci-resolve-studio 18.5.1-r2 18.6 18.6.3 18.6.4 18.6.5: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 18.6.5: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.8.5: Ultimate camera streaming application
 net-analyzer/librenms 24.2.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
