@@ -30,7 +30,7 @@ app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs runn
 app-admin/salt 3005.5-r1: Salt is a remote execution and configuration manager
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 2.0: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.3: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.9.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
@@ -56,7 +56,7 @@ dev-python/command-runner 1.5.2: Platform agnostic command and shell execution t
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 8.3.0: Python client library for MariaDB/MySQL
-dev-python/osmapi 4.0.0: Python wrapper for the OSM API
+dev-python/osmapi 4.1.0: Python wrapper for the OSM API
 dev-python/ovs 2.17.7: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
