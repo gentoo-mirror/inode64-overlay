@@ -59,6 +59,7 @@ dev-python/mysql-connector-python 8.3.0: Python client library for MariaDB/MySQL
 dev-python/osmapi 4.1.0: Python wrapper for the OSM API
 dev-python/ovs 2.17.7: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
+dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/sqlite3-to-mysql 2.1.8: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-ruby/liquid 2.6.3: Template engine for Ruby
