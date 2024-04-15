@@ -10,4 +10,4 @@ RDEPEND=!sys-firmware/edk2-ovmf
 SLOT=0
 SRC_URI=https://kojipkgs.fedoraproject.org/packages/edk2/20240214/7.fc41/noarch/edk2-ovmf-20240214-7.fc41.noarch.rpm
 _eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4
-_md5_=8e092dd3d483c6fb5c9d5e28fa13e55e
+_md5_=501d6f7d03a6e8941a83d7a9d4d99972

@@ -1,5 +1,5 @@
 BDEPEND=dev-php/composer
-DEFINED_PHASES=compile config install postinst setup
+DEFINED_PHASES=compile config install postinst
 DEPEND=acct-group/librenms acct-user/librenms
 DESCRIPTION=A fully featured network monitoring system
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-php/composer amqp? ( dev-php/pecl-amqp ) app-admin/sudo >=dev-lang/p
 REQUIRED_USE=^^ ( apache2 nginx )
 SLOT=0
 SRC_URI=https://github.com/librenms/librenms/archive/24.3.0.tar.gz -> librenms-24.3.0.tar.gz
-_md5_=3abf5133ecdf7dfc5ce0ed707909830b
+_md5_=14d5a0c0ca641808278817d2dc65d01a

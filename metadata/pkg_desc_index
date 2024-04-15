@@ -15,7 +15,7 @@ acct-user/ds 0: A user for OnlyOffice document server
 acct-user/go2rtc 0-r2: A user for go2rtc
 acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/keydb 0: Keydb program user
-acct-user/librenms 0: A user for Librenms
+acct-user/librenms 0-r1: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
