@@ -20,8 +20,8 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 309 310.3 314: Server Administration Web Interface
-app-admin/cockpit-machines 310: This is the Cockpit user interface for virtual machines
+app-admin/cockpit 309 310.3 315: Server Administration Web Interface
+app-admin/cockpit-machines 311: This is the Cockpit user interface for virtual machines
 app-admin/cockpit-podman 86: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
@@ -30,14 +30,14 @@ app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs runn
 app-admin/salt 3005.5-r1: Salt is a remote execution and configuration manager
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 2.6: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-crypt/certbot-dns-cloudflare 2.9.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-backup/virtnbdbackup 2.7: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-crypt/certbot-dns-cloudflare 2.9.0 2.10.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.2.0-r1: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.2.1: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/node-red 3.0.2 3.1.3: A visual tool for wiring the Internet of Things.
+app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
 app-misc/solaar 1.1.11: Linux Device Manager for Logitech Unifying Receivers and Paired Devices
 app-misc/zigbee2mqtt 1.36.1: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
@@ -47,7 +47,7 @@ dev-lang/php 5.6.40-r8 7.3.33-r1 7.4.33-r7: The PHP language runtime engine
 dev-lang/typescript 4.9.5: Superset of JavaScript with optional static typing, classes and interfaces
 dev-php/pecl-apcu 4.0.11 5.1.23-r1: Stripped down version of APC supporting only user cache
 dev-php/pecl-imagick 3.7.0-r3: PHP wrapper for the ImageMagick library
-dev-php/pecl-memcache 8.0-r1: PHP extension for using memcached
+dev-php/pecl-memcache 8.0-r1 8.2: PHP extension for using memcached
 dev-php/pecl-smbclient 1.1.1: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
@@ -60,7 +60,7 @@ dev-python/osmapi 4.1.0: Python wrapper for the OSM API
 dev-python/ovs 2.17.7: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
-dev-python/sqlite3-to-mysql 2.1.7: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/sqlite3-to-mysql 2.1.8: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
 dev-util/grunt-cli 1.4.3: The Grunt command line interface.
@@ -77,20 +77,21 @@ net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2: This is the proxy-daemon used by www-apps/guacamole
+net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2 1.5.5: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 2.17.9: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
+net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
 sys-cluster/drbd-utils 9.27.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
-sys-process/pm2 5.3.0: Process manager for Node.js applications with a built-in load balancer
+sys-process/pm2 5.3.1: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/guacamole-client 1.5.2-r1 1.5.3 1.5.4-r1: Apache Guacamole is a clientless remote desktop gateway
+www-apps/guacamole-client 1.5.2-r1 1.5.3 1.5.4-r1 1.5.5: Apache Guacamole is a clientless remote desktop gateway
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-client/google-chrome 117.0.5938.149: The web browser from Google
 www-misc/awstats 7.9: AWStats is short for Advanced Web Statistics
