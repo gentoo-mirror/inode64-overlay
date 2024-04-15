@@ -1,0 +1,13 @@
+BDEPEND=app-arch/rpm2targz
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=UEFI firmware for 64-bit x86 virtual machines
+EAPI=8
+HOMEPAGE=https://github.com/tianocore/edk2
+INHERIT=readme.gentoo-r1 rpm
+KEYWORDS=~amd64 ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86
+LICENSE=BSD-2 MIT
+RDEPEND=!sys-firmware/edk2-ovmf
+SLOT=0
+SRC_URI=https://kojipkgs.fedoraproject.org/packages/edk2/20240214/7.fc41/noarch/edk2-ovmf-20240214-7.fc41.noarch.rpm
+_eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4
+_md5_=8e092dd3d483c6fb5c9d5e28fa13e55e
