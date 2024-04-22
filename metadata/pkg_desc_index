@@ -73,12 +73,12 @@ media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 18.6.6 19.0_beta1: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.8.5: Ultimate camera streaming application
-net-analyzer/librenms 24.3.0: A fully featured network monitoring system
+net-analyzer/librenms 24.4.1: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: a fully featured network monitoring system
 net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2 1.5.5: This is the proxy-daemon used by www-apps/guacamole
+net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2 1.5.5-r1: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 2.17.9: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
