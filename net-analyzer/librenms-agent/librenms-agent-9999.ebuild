@@ -12,14 +12,15 @@ EGIT_REPO_URI="https://github.com/librenms/${PN}"
 
 LICENSE="GPL-3+"
 SLOT="0"
-IUSE="+apache fail2ban mdadm bind ipmi"
+KEYWORDS="~amd64"
+IUSE="apache fail2ban mdadm bind ipmi hddtemp"
 
 REQUIRED_USE="
 	${PYTHON_REQUIRED_USE}
 "
 RDEPEND="
 	${PYTHON_DEPS}
-	app-admin/hddtemp
+	hddtemp? ( app-admin/hddtemp )
 	sys-apps/ethtool
 	app-admin/sudo
 	dev-python/distro
