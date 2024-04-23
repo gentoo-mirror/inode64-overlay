@@ -36,16 +36,9 @@ RDEPEND="
 LIBRENMS_AGENT="/usr/lib/check_mk_agent"
 
 src_compile() {
-	rm snmp/distro
-	#rm snmp/snmpd.conf.example
-	rm agent-local/README
-	rm -rf snmp/Openwrt
-
-	sed -i -e 's:/usr/bin/grep:/bin/grep:g' snmp/* agent-local/*
-	sed -i -e 's:/usr/bin/cat:/bin/cat:g' snmp/* agent-local/*
-	sed -i -e 's:/usr/bin/sed:/bin/sed:g' snmp/* agent-local/*
-	sed -i -e 's:/usr/bin/rm:/bin/rm:g' snmp/* agent-local/*
-	sed -i -e 's:/usr/bin/mv:/bin/mv:g' snmp/* agent-local/*
+	rm snmp/distro || die
+	rm agent-local/README || die
+	rm -rf snmp/{Openwrt,Routeros} || die
 }
 
 src_install() {
@@ -78,6 +71,6 @@ src_install() {
 
 	doins "${FILESDIR}"/snmp/*
 
-	fperms +x ${LIBRENMS_AGENT}/snmp/*
-	fperms +x ${LIBRENMS_AGENT}/repo/*
+	fperms +x -R ${LIBRENMS_AGENT}/snmp
+	fperms +x -R ${LIBRENMS_AGENT}/repo
 }
