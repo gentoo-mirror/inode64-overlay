@@ -76,6 +76,7 @@ net-analyzer/librenms 24.4.1: A fully featured network monitoring system
 net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
+net-misc/freerdp 2.11.7: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2 1.5.5-r1: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 2.17.9: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
