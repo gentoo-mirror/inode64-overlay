@@ -29,11 +29,11 @@ app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/rest-server 0.11.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/virtnbdbackup 2.9: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.10: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.9.0 2.10.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.2.1: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.2.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
@@ -71,8 +71,8 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 18.6.6 19.0_beta2: Professional A/V post-production software suite from Blackmagic Design
-media-video/go2rtc 1.9.1: Ultimate camera streaming application
-net-analyzer/librenms 24.4.1: A fully featured network monitoring system
+media-video/go2rtc 1.9.2: Ultimate camera streaming application
+net-analyzer/librenms 24.5.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
