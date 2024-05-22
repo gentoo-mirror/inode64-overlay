@@ -23,6 +23,7 @@ app-metrics/pcp:postgres - Enable PCP Performance Metrics Domain Agent (PMDA) fo
 app-metrics/pcp:snmp - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from SNMP
 app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
+app-misc/zigbee2mqtt:homeassistant - Use homeassistant
 dev-db/keydb:flash - KeyDB FLASH is built on RocksDB and is persistent to the storage medium it is written to. It is still considered to be a Beta feature (experimental) and should be treated as such.
 dev-lang/php:argon2 - Enable password hashing algorithm from app-crypt/argon2
 dev-lang/php:bcmath - Add support for libbcmath
