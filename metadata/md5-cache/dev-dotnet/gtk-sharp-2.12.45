@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=2
 SRC_URI=https://download.mono-project.com/sources/gtk-sharp212/gtk-sharp-2.12.45.tar.gz
 _eclasses_=mono-env	cef880fd27385e7e80934656e8789627	dotnet	ef209a6e0d509373d570f41c2120c9fa
-_md5_=b0ef4ca5638280e9db74854a4c58c609
+_md5_=58f935a071d870cd6392b40011407b47
