@@ -25,6 +25,10 @@ app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
 app-misc/zigbee2mqtt:homeassistant - Use homeassistant
 dev-db/keydb:flash - KeyDB FLASH is built on RocksDB and is persistent to the storage medium it is written to. It is still considered to be a Beta feature (experimental) and should be treated as such.
+dev-dotnet/gtk-sharp:atk - Build the ATK bindings.
+dev-dotnet/gtk-sharp:gdk - Build the GDK bindings.
+dev-dotnet/gtk-sharp:glade - Build support for Glade's GtkBuilder implementation
+dev-dotnet/gtk-sharp:pango - Build the Pango bindings.
 dev-lang/php:argon2 - Enable password hashing algorithm from app-crypt/argon2
 dev-lang/php:bcmath - Add support for libbcmath
 dev-lang/php:cli - Enable CLI SAPI

@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/mono
+DEFINED_PHASES=configure install setup
+DEPEND=x11-libs/gtk+:2 glade? ( dev-util/glade )
+DESCRIPTION=gtk2 bindings for C#
+EAPI=7
+HOMEPAGE=https://www.mono-project.com/docs/gui/gtksharp/
+INHERIT=dotnet
+IUSE=debug glade
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=x11-libs/gtk+:2 glade? ( dev-util/glade )
+RESTRICT=test
+SLOT=2
+SRC_URI=https://download.mono-project.com/sources/gtk-sharp212/gtk-sharp-2.12.45.tar.gz
+_eclasses_=mono-env	cef880fd27385e7e80934656e8789627	dotnet	ef209a6e0d509373d570f41c2120c9fa
+_md5_=b0ef4ca5638280e9db74854a4c58c609

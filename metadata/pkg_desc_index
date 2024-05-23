@@ -42,6 +42,7 @@ app-misc/zigbee2mqtt 1.36.1 1.37.1: It bridges events and allows you to control 
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
+dev-dotnet/gtk-sharp 2.12.45 3.22.2-r2: gtk bindings for mono
 dev-lang/php 5.6.40-r8 7.3.33-r1 7.4.33-r7: The PHP language runtime engine
 dev-lang/typescript 4.9.5: Superset of JavaScript with optional static typing, classes and interfaces
 dev-php/pecl-apcu 4.0.11 5.1.23-r1: Stripped down version of APC supporting only user cache
