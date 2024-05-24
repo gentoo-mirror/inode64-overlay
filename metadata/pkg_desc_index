@@ -38,7 +38,6 @@ app-metrics/pcp 6.2.2: Performance Co-Pilot, system performance and analysis fra
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
-app-misc/solaar 1.1.11: Linux Device Manager for Logitech Unifying Receivers and Paired Devices
 app-misc/zigbee2mqtt 1.36.1 1.37.1: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
@@ -79,7 +78,6 @@ net-analyzer/librenms-agent 9999: Agent for librenms
 net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/freerdp 2.11.7: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2 1.5.5-r1: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 2.17.9: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
