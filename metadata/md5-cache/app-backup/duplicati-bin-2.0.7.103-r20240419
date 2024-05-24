@@ -12,4 +12,4 @@ RDEPEND=>=dev-lang/mono-5.10 virtual/tmpfiles
 SLOT=0
 SRC_URI=https://github.com/duplicati/duplicati/releases/download/v2.0.7.103-2.0.7.103_canary_2024-04-19/duplicati-2.0.7.103_canary_2024-04-19.zip
 _eclasses_=tmpfiles	216aa76c3a6fcb5d893c23a0de86048f	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
-_md5_=5e359860f244f9dea5c7627b54edfd99
+_md5_=80485920f4026cd50572b4074702ed30
