@@ -6,6 +6,10 @@ app-admin/cockpit:debug - Enables debug information
 app-admin/cockpit:firewalld - Enables support for manage firewall
 app-admin/cockpit:pcp - Enables support for system performance and analysis
 app-admin/cockpit:tuned - Enables support for change performance profiles
+app-emulation/virt-viewer:libvirt - Support connecting to virtual machines managed by libvirt.
+app-emulation/virt-viewer:spice - Support connecting to SPICE-enabled virtual machines.
+app-emulation/virt-viewer:vnc - Support connecting to VNC-enabled virtual machines.
+app-emulation/virt-viewer:vte - Enable terminal support (x11-libs/vte) in the GTK+ interface
 app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ
 app-metrics/pcp:bind - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from BIND via its REST interface
 app-metrics/pcp:discovery - Support discover PCP services on the network
@@ -23,6 +27,8 @@ app-metrics/pcp:postgres - Enable PCP Performance Metrics Domain Agent (PMDA) fo
 app-metrics/pcp:snmp - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from SNMP
 app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
+app-misc/geoclue:modemmanager - Enable geolocation through 3G or GPS enabled hardware through net-misc/modemmanager.
+app-misc/geoclue:zeroconf - Enable retrieval of GPS location from Android devices with https://wiki.gnome.org/Apps/GeoclueShare
 app-misc/zigbee2mqtt:homeassistant - Use homeassistant
 dev-db/keydb:flash - KeyDB FLASH is built on RocksDB and is persistent to the storage medium it is written to. It is still considered to be a Beta feature (experimental) and should be treated as such.
 dev-dotnet/gtk-sharp:atk - Build the ATK bindings.
@@ -96,6 +102,7 @@ mail-mta/exim:srs-alt - Use mail-filter/libsrs_alt to implement SRS support
 mail-mta/exim:srs-native - Use Exim's built-in SRS support to implement SRS support
 mail-mta/exim:tdb - Use sys-libs/tdb for internal database storage (such as hints database)
 mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
+media-libs/grilo:playlist - Enable support for playlists through dev-libs/totem-pl-parser
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
 media-video/davinci-resolve-studio:developer - Include developer examples and documentation.
 net-analyzer/librenms:amqp - Enable support for AMQP alert transport
