@@ -36,7 +36,6 @@ app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-emulation/virt-viewer 11.0: Graphical console client for connecting to virtual machines
 app-metrics/pcp 6.2.2: Performance Co-Pilot, system performance and analysis framework
-app-misc/geoclue 2.7.1: A location information D-Bus service
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
@@ -60,7 +59,7 @@ dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 8.3.0: Python client library for MariaDB/MySQL
 dev-python/osmapi 4.1.0: Python wrapper for the OSM API
-dev-python/ovs 2.17.7: OVS bindings for python
+dev-python/ovs 2.17.10: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
@@ -68,7 +67,7 @@ dev-python/sqlite3-to-mysql 2.1.8: A simple Python tool to transfer data from SQ
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
 dev-util/grunt-cli 1.4.3: The Grunt command line interface.
-dev-util/phpstorm 2023.3.6 2024.1 2024.1.1 2024.1.2: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2023.3.6 2024.1 2024.1.1 2024.1.2 2024.1.3: A complete toolset for web, mobile and enterprise development
 mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
 mail-mta/exim 4.94.2-r12: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
@@ -84,7 +83,7 @@ net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2 1.5.5-r1: This is the proxy-daemon used by www-apps/guacamole
-net-misc/openvswitch 2.17.9 2.17.9-r1: Production quality, multilayer virtual switch
+net-misc/openvswitch 2.17.10: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-proxy/squid 6.9 6.10: Full-featured web proxy cache
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks

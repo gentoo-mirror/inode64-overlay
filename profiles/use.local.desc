@@ -27,8 +27,6 @@ app-metrics/pcp:postgres - Enable PCP Performance Metrics Domain Agent (PMDA) fo
 app-metrics/pcp:snmp - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from SNMP
 app-metrics/pcp:ssp - Build programs with stack smashing protector
 app-metrics/pcp:xls - Customizable performance metrics exporter tool from PCP to XLSX
-app-misc/geoclue:modemmanager - Enable geolocation through 3G or GPS enabled hardware through net-misc/modemmanager.
-app-misc/geoclue:zeroconf - Enable retrieval of GPS location from Android devices with https://wiki.gnome.org/Apps/GeoclueShare
 app-misc/zigbee2mqtt:homeassistant - Use homeassistant
 dev-db/keydb:flash - KeyDB FLASH is built on RocksDB and is persistent to the storage medium it is written to. It is still considered to be a Beta feature (experimental) and should be treated as such.
 dev-dotnet/gtk-sharp:atk - Build the ATK bindings.
