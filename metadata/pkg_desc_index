@@ -34,7 +34,6 @@ app-backup/virtnbdbackup 2.10: Backup utility for libvirt kvm / qemu with increm
 app-crypt/certbot-dns-cloudflare 2.9.0 2.10.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-emulation/virt-viewer 11.0: Graphical console client for connecting to virtual machines
 app-metrics/pcp 6.2.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT

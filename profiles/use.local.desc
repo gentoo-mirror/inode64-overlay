@@ -6,10 +6,6 @@ app-admin/cockpit:debug - Enables debug information
 app-admin/cockpit:firewalld - Enables support for manage firewall
 app-admin/cockpit:pcp - Enables support for system performance and analysis
 app-admin/cockpit:tuned - Enables support for change performance profiles
-app-emulation/virt-viewer:libvirt - Support connecting to virtual machines managed by libvirt.
-app-emulation/virt-viewer:spice - Support connecting to SPICE-enabled virtual machines.
-app-emulation/virt-viewer:vnc - Support connecting to VNC-enabled virtual machines.
-app-emulation/virt-viewer:vte - Enable terminal support (x11-libs/vte) in the GTK+ interface
 app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ
 app-metrics/pcp:bind - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from BIND via its REST interface
 app-metrics/pcp:discovery - Support discover PCP services on the network
