@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.20:= app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=High-performance HTTP server that implements restic's REST backend API
+EAPI=8
+HOMEPAGE=https://github.com/restic/rest-server
+INHERIT=go-module systemd
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=app-admin/apache-tools
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/restic/rest-server/archive/v0.12.1.tar.gz -> rest-server-0.12.1.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/rest-server-0.12.1-vendor.tar.xz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	d309b9713dfc18e754cba88d3ba69653	go-env	dbefaac6fd7019213514bccd65949d9a	go-module	83fd3ed1657cfc316c93d6a37018290d	systemd	c8b03e8df84486aa991d4396686e8942
+_md5_=21b056426027abc430fbd79a67ef6851
