@@ -20,7 +20,7 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 309 310.3 316 319: Server Administration Web Interface
+app-admin/cockpit 309 310.3 316 320: Server Administration Web Interface
 app-admin/cockpit-machines 315: This is the Cockpit user interface for virtual machines
 app-admin/cockpit-podman 90: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
@@ -28,7 +28,7 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.2: High level CLI utility for restic
-app-backup/backrest 1.1.0 1.2.0: A web UI and orchestrator for restic backup
+app-backup/backrest 1.1.0 1.2.1: A web UI and orchestrator for restic backup
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/duplicati-bin 2.0.7.103-r20240419 2.0.9.100-r20240530: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.12.1: High-performance HTTP server that implements restic's REST backend API
