@@ -26,7 +26,7 @@ app-admin/cockpit-podman 90: This is the Cockpit user interface for podman conta
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
-app-admin/monit 5.33.0: Monitoring and managing daemons or similar programs running on a Unix system
+app-admin/monit 5.34.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.2: High level CLI utility for restic
 app-backup/backrest 1.1.0 1.2.1: A web UI and orchestrator for restic backup
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
