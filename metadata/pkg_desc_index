@@ -20,9 +20,9 @@ acct-user/libvirtdbus 0: Libvirt D-Bus bridge
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 309 310.3 316 320: Server Administration Web Interface
-app-admin/cockpit-machines 315: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 90: This is the Cockpit user interface for podman containers
+app-admin/cockpit 309 310.3 316 321: Server Administration Web Interface
+app-admin/cockpit-machines 316: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 91: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
