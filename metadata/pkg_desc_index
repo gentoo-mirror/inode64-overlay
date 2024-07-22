@@ -75,7 +75,6 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-libs/grilo 0.3.16: A framework for easy media discovery and browsing
-media-libs/libiptcdata 1.0.5-r1: Library for International Press Telecommunications Council (IPTC) metadata
 media-video/davinci-resolve-studio 18.6.6 19.0_beta2 19.0_beta3 19.0_beta4: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.4: Ultimate camera streaming application
 net-analyzer/librenms 24.7.0: A fully featured network monitoring system
@@ -88,7 +87,6 @@ net-misc/openvswitch 2.17.10: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.11.2-r2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-proxy/squid 6.9 6.10: Full-featured web proxy cache
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
-sys-apps/tuned 2.22.0 2.22.1: Daemon for monitoring and adaptive tuning of system devices
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
 sys-cluster/drbd-utils 9.27.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
