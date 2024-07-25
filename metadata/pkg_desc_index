@@ -103,3 +103,4 @@ www-apps/guacamole-client 1.5.2-r1 1.5.3 1.5.4-r1 1.5.5: Apache Guacamole is a c
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-client/google-chrome 117.0.5938.149: The web browser from Google
 www-misc/awstats 7.9: AWStats is short for Advanced Web Statistics
+www-servers/tomcat 8.5.100: Tomcat Servlet-3.1/JSP-2.3/EL-3.0/WebSocket-1.1/JASPIC-1.1 Container

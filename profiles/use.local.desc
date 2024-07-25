@@ -199,3 +199,4 @@ sys-power/nut:xml - Includes all UPS drivers that use XML.
 www-apps/guacamole-client:sso - Single-Sign-On authentication
 www-apps/guacamole-client:totp - TOTP two-factor authentication
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
+www-servers/tomcat:extra-webapps - Build also the docs and examples webapp
