@@ -41,7 +41,7 @@ app-metrics/pcp 6.2.2 6.3.0: Performance Co-Pilot, system performance and analys
 app-misc/itaca 1.0.8: ITACA administrative management of centers
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 1.36.1 1.37.1 1.38.0 1.39.0: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.36.1 1.37.1 1.38.0 1.39.0 1.39.1: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
@@ -76,7 +76,7 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-libs/grilo 0.3.16: A framework for easy media discovery and browsing
-media-video/davinci-resolve-studio 18.6.6 19.0_beta2 19.0_beta3 19.0_beta4 19.0_beta5: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 18.6.6 19.0_beta2 19.0_beta3 19.0_beta4 19.0_beta5 19.0_beta6: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.4: Ultimate camera streaming application
 net-analyzer/librenms 24.7.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
