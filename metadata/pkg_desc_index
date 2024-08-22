@@ -57,17 +57,26 @@ dev-php/pecl-memcache 8.0-r1 8.2: PHP extension for using memcached
 dev-php/pecl-smbclient 1.1.1: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
+dev-python/cached-property 1.5.2 9999: A cached-property for decorating methods in classes
 dev-python/cloudflare 2.19.2: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.5.2: Platform agnostic command and shell execution tool
+dev-python/cronsim 2.5: Cron expression parser and evaluator
+dev-python/django-appconf 1.0.6: A helper class for handling configuration defaults of packaged apps gracefully
+dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
+dev-python/django-stubs-ext 5.0.4: Monkey-patching and extensions for django-stubs.
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 8.3.0: Python client library for MariaDB/MySQL
+dev-python/oncalendar 1.1: Systemd OnCalendar expression parser and evaluator
 dev-python/osmapi 4.1.0: Python wrapper for the OSM API
 dev-python/ovs 2.17.10: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
+dev-python/rcssmin 1.1.2: CSS minifier written in python
+dev-python/rjsmin 1.2.2: Javascript minifier written in python
 dev-python/sqlite3-to-mysql 2.1.8: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/whitenoise 6.7.0: Radically simplified static file serving for Python web apps
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
 dev-ruby/with_advisory_lock 5.1.0: Advisory locking for ActiveRecord
@@ -85,6 +94,7 @@ net-analyzer/librenms 24.8.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-firewall/firehol 3.1.6-r3 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
+net-im/healthchecks 3.5.2: A cron monitoring service with a web-based dashboard, API, and notification integrations
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/guacamole-server 1.5.2-r1 1.5.3-r1 1.5.4-r2 1.5.5-r1: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 2.17.10: Production quality, multilayer virtual switch
