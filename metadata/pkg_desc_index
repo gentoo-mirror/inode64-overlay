@@ -72,7 +72,7 @@ dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 8.3.0: Python client library for MariaDB/MySQL
 dev-python/oncalendar 1.1: Systemd OnCalendar expression parser and evaluator
 dev-python/osmapi 4.1.0: Python wrapper for the OSM API
-dev-python/ovs 2.17.10: OVS bindings for python
+dev-python/ovs 2.17.11: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
@@ -101,7 +101,7 @@ net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-im/healthchecks 3.5.2: A cron monitoring service with a web-based dashboard, API, and notification integrations
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/guacamole-server 1.5.5-r1: This is the proxy-daemon used by www-apps/guacamole
-net-misc/openvswitch 2.17.10: Production quality, multilayer virtual switch
+net-misc/openvswitch 2.17.11: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-proxy/squid 6.10: Full-featured web proxy cache
 net-vpn/cloudflared 2024.8.2: Argo Tunnel client, written in GoLang
