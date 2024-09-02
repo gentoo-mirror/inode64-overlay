@@ -37,7 +37,7 @@ app-backup/duplicati-bin 2.0.7.103-r20240419 2.0.9.100-r20240530: A backup clien
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.27.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.14: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-crypt/certbot-dns-cloudflare 2.10.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-cloudflare 2.11.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.3.0: Performance Co-Pilot, system performance and analysis framework
@@ -61,7 +61,7 @@ dev-php/pecl-smbclient 1.1.1: Provides support for CIFS/SMB via samba's libsmbcl
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/cached-property 1.5.2 9999: A cached-property for decorating methods in classes
-dev-python/cloudflare 2.19.2: Python wrapper for the Cloudflare v4 API
+dev-python/cloudflare 3.1.0: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.5.2: Platform agnostic command and shell execution tool
 dev-python/cronsim 2.5: Cron expression parser and evaluator
 dev-python/django-appconf 1.0.6: A helper class for handling configuration defaults of packaged apps gracefully
@@ -71,7 +71,7 @@ dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 8.3.0: Python client library for MariaDB/MySQL
 dev-python/oncalendar 1.1: Systemd OnCalendar expression parser and evaluator
-dev-python/osmapi 4.1.0: Python wrapper for the OSM API
+dev-python/osmapi 4.2.0: Python wrapper for the OSM API
 dev-python/ovs 2.17.11: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
