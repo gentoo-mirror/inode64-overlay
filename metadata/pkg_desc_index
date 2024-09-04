@@ -85,7 +85,7 @@ dev-ruby/with_advisory_lock 5.1.0: Advisory locking for ActiveRecord
 dev-util/grunt-cli 1.4.3: The Grunt command line interface.
 dev-util/phpstorm 2024.1.6-r1 2024.2.1: A complete toolset for web, mobile and enterprise development
 mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
-mail-mta/exim 4.94.2-r12 4.97.1-r5: A highly configurable, drop-in replacement for sendmail
+mail-mta/exim 4.94.2-r12 4.98: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
