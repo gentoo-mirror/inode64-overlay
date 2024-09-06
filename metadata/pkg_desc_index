@@ -22,15 +22,15 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 323: Server Administration Web Interface
-app-admin/cockpit-files 6: A filesystem browser for Cockpit
-app-admin/cockpit-machines 318: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 93: This is the Cockpit user interface for podman containers
+app-admin/cockpit 324: Server Administration Web Interface
+app-admin/cockpit-files 7: A filesystem browser for Cockpit
+app-admin/cockpit-machines 319: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 94: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.34.0: Monitoring and managing daemons or similar programs running on a Unix system
-app-backup/autorestic 1.8.2: High level CLI utility for restic
+app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.1.0 1.4.0: A web UI and orchestrator for restic backup
 app-backup/borgmatic 1.7.15: Automatically create, prune and verify backups with borgbackup
 app-backup/duplicati-bin 2.0.7.103-r20240419 2.0.9.100-r20240530: A backup client that securely stores encrypted, incremental, compressed backups.
@@ -43,7 +43,7 @@ app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.3.0: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 1.39.1: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.39.1 1.40.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
@@ -90,7 +90,7 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-libs/grilo 0.3.16: A framework for easy media discovery and browsing
-media-video/davinci-resolve-studio 18.6.6 19.0.0: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 18.6.6 19.0.1: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.4: Ultimate camera streaming application
 net-analyzer/librenms 24.8.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
@@ -108,7 +108,7 @@ sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sess
 sys-cluster/drbd-utils 9.28.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
-sys-firmware/edk2-ovmf-bin 202202-r20240524: UEFI firmware for 64-bit x86 virtual machines
+sys-firmware/edk2-ovmf-bin 202202-r20240524 202202-r20240813: UEFI firmware for 64-bit x86 virtual machines
 sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
 sys-libs/libnbd 1.20.2: NBD client library in userspace
 sys-power/nut 2.7.4-r8 2.8.0-r2 2.8.0-r3 9999: Network-UPS Tools
