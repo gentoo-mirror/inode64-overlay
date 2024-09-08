@@ -12,5 +12,5 @@ RDEPEND=dev-java/eclipse-ecj:4.26 acct-group/tomcat acct-user/tomcat >=virtual/j
 RESTRICT=test !test? ( test )
 SLOT=8.5
 SRC_URI=mirror://apache/tomcat/tomcat-8/v8.5.100/src/apache-tomcat-8.5.100-src.tar.gz verify-sig? ( https://downloads.apache.org/tomcat/tomcat-8/v8.5.100/src/apache-tomcat-8.5.100-src.tar.gz.asc )
-_eclasses_=java-utils-2	868752320f3c0e66b5fa5dc3602d7486	java-pkg-2	9076f1296e19e8cc3f51e613f5fddbf5	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	java-ant-2	ad653f6ce057f94c49254ace4f0f8335	prefix	eab3c99d77fe00506c109c8a736186f7	verify-sig	a79ba011daaf532d71a219182474d150
+_eclasses_=java-utils-2	4d4ed3633ff7d706ae7d81e5fe4e94fc	java-pkg-2	72587187cd548a5dcdb6a13453a3614d	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	java-ant-2	ad653f6ce057f94c49254ace4f0f8335	prefix	629161311cdf29bf8596fdd036826a2c	verify-sig	a79ba011daaf532d71a219182474d150
 _md5_=8410ba666cac132ed58e115145de817b
