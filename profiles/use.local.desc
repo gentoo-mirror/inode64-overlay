@@ -119,7 +119,6 @@ mail-mta/exim:srs-alt - Use mail-filter/libsrs_alt to implement SRS support
 mail-mta/exim:srs-native - Use Exim's built-in SRS support to implement SRS support
 mail-mta/exim:tdb - Use sys-libs/tdb for internal database storage (such as hints database)
 mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
-media-libs/grilo:playlist - Enable support for playlists through dev-libs/totem-pl-parser
 media-video/davinci-resolve-studio:bundled-libs - Use bundled libraries.
 media-video/davinci-resolve-studio:developer - Include developer examples and documentation.
 net-analyzer/librenms:amqp - Enable support for AMQP alert transport
