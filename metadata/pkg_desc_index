@@ -98,7 +98,7 @@ net-firewall/firehol 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-im/healthchecks 3.5.2 3.6: A cron monitoring service and background task monitoring service
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/guacamole-server 1.5.5-r1: This is the proxy-daemon used by www-apps/guacamole
+net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 2.17.11: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/cloudflared 2024.8.2: Argo Tunnel client, written in GoLang
