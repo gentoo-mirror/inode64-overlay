@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=configure install postinst prepare
-DEPEND=kubernetes? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) net-analyzer/openbsd-netcat print? ( app-text/ghostscript-gpl[-X] ) ssh? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) telnet? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) acct-group/guacamole acct-user/guacamole dev-libs/openssl:0= || ( dev-libs/ossp-uuid sys-libs/libuuid ) encode? ( media-video/ffmpeg[encode] ) kubernetes? ( net-libs/libwebsockets ) media-libs/libpng:0= media-libs/libjpeg-turbo:0= rdp? ( <net-misc/freerdp-3:=[client(+)] ) ssh? ( net-libs/libssh2 x11-libs/pango ) telnet? ( net-libs/libtelnet x11-libs/pango ) vnc? ( net-libs/libvncserver[jpeg] pulseaudio? ( media-libs/libpulse ) ) vorbis? ( media-libs/libvorbis ) webp? ( media-libs/libwebp ) x11-libs/cairo test? ( dev-util/cunit )
+DEPEND=kubernetes? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) net-analyzer/openbsd-netcat print? ( app-text/ghostscript-gpl[-X] ) ssh? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) telnet? ( media-fonts/dejavu media-fonts/liberation-fonts media-fonts/terminus-font ) acct-group/guacamole acct-user/guacamole dev-libs/openssl:0= || ( dev-libs/ossp-uuid sys-libs/libuuid ) encode? ( media-video/ffmpeg[encode] ) kubernetes? ( net-libs/libwebsockets ) media-libs/libpng:0= media-libs/libjpeg-turbo:0= rdp? ( <net-misc/freerdp-3:=[client(+),ffmpeg,jpeg] ) ssh? ( net-libs/libssh2 x11-libs/pango ) telnet? ( net-libs/libtelnet x11-libs/pango ) vnc? ( net-libs/libvncserver[jpeg] pulseaudio? ( media-libs/libpulse ) ) vorbis? ( media-libs/libvorbis ) webp? ( media-libs/libwebp ) x11-libs/cairo test? ( dev-util/cunit )
 DESCRIPTION=This is the proxy-daemon used by www-apps/guacamole
 EAPI=8
 HOMEPAGE=https://guacamole.apache.org/
@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://mirrors.ircam.fr/pub/apache/guacamole/1.5.5/source/guacamole-server-1.5.5.tar.gz
 _eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	systemd	0f241b5c9f3758c3d3423df59a7f655a	tmpfiles	abdfd90f8841c1cb4b94575d5d109952
-_md5_=4b33e37c0a59032116f949e0a2d03107
+_md5_=95b95f92a676fcaf288a38d2ab701255
