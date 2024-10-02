@@ -22,10 +22,10 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 324: Server Administration Web Interface
-app-admin/cockpit-files 7: A filesystem browser for Cockpit
-app-admin/cockpit-machines 319: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 94: This is the Cockpit user interface for podman containers
+app-admin/cockpit 325: Server Administration Web Interface
+app-admin/cockpit-files 8: A filesystem browser for Cockpit
+app-admin/cockpit-machines 320: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 95: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
@@ -91,7 +91,7 @@ media-gfx/annotator 1.2.1: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 18.6.6 19.0.1: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.4: Ultimate camera streaming application
-net-analyzer/librenms 24.8.0: A fully featured network monitoring system
+net-analyzer/librenms 24.9.1: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.8.2: A powerful latency measurement tool
 net-firewall/firehol 3.1.7-r2: iptables firewall generator
