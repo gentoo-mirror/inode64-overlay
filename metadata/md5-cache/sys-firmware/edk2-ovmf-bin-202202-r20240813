@@ -10,5 +10,5 @@ LICENSE=BSD-2 MIT
 RDEPEND=!sys-firmware/edk2-ovmf
 SLOT=0
 SRC_URI=https://kojipkgs.fedoraproject.org/packages/edk2/20240813/1.fc42/noarch/edk2-ovmf-20240813-1.fc42.noarch.rpm
-_eclasses_=readme.gentoo-r1	32b48460d813533d85f082897cec1b80	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	secureboot	f695cce74d5a14f87f209a0ec363a01a
+_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	secureboot	b77b70edf988076b4776734f77b4f8c9
 _md5_=62e1f86811d5440e6be19c623cc2e285
