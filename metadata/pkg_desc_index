@@ -42,7 +42,7 @@ app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.3.1: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 1.39.1 1.40.0 1.40.1: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.39.1 1.40.0 1.40.1 1.40.2: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
