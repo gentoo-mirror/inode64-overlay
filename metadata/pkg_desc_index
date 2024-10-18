@@ -6,6 +6,7 @@ acct-group/guacamole 0: System group: guacamole
 acct-group/keydb 0: Keydb program group
 acct-group/librenms 0: System group: librenms
 acct-group/libvirtdbus 0: System group: libvirtdbus
+acct-group/mercure 0: System group: mercure
 acct-group/node-red 0: System group: node-red
 acct-group/pcp 0: System group: pcp
 acct-group/smokeping 0-r1: A group for net-analyzer/smokeping
@@ -18,6 +19,7 @@ acct-user/guacamole 0: A user for Guacamole Guacamole server
 acct-user/keydb 0: Keydb program user
 acct-user/librenms 0-r2: A user for Librenms
 acct-user/libvirtdbus 0: Libvirt D-Bus bridge
+acct-user/mercure 0: A user for mercure
 acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
@@ -98,6 +100,7 @@ net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-im/healthchecks 3.5.2 3.6: A cron monitoring service and background task monitoring service
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-apps/guacamole
+net-misc/mercure 0.16.3: Server-sent live updates: protocol and reference implementation
 net-misc/openvswitch 2.17.11: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/cloudflared 2024.9.1: Argo Tunnel client, written in GoLang
