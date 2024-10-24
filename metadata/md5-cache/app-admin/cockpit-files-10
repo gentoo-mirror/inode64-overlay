@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=>=app-admin/cockpit-318
 SLOT=0
-SRC_URI=https://github.com/cockpit-project/cockpit-files/releases/download/9/cockpit-files-9.tar.xz
+SRC_URI=https://github.com/cockpit-project/cockpit-files/releases/download/10/cockpit-files-10.tar.xz
 _md5_=049ea7da3cd1822784dbf7f6acbbd08a
