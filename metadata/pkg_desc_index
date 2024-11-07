@@ -41,7 +41,7 @@ app-backup/virtnbdbackup 2.15: Backup utility for libvirt kvm / qemu with increm
 app-crypt/certbot-dns-cloudflare 2.10.0 2.11.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.3.1: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.3.1 6.3.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.39.1 1.40.0 1.40.1 1.40.2: It bridges events and allows you to control your Zigbee devices via MQTT
