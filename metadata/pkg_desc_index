@@ -111,6 +111,7 @@ net-vpn/cloudflared 2024.9.1: Argo Tunnel client, written in GoLang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
+sys-block/thin-provisioning-tools 1.0.13-r1: A suite of tools for thin provisioning on Linux
 sys-cluster/drbd-utils 9.28.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
