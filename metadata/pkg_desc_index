@@ -119,7 +119,7 @@ sys-firmware/edk2-bin 202202-r20240813: UEFI firmware for 64-bit x86 virtual mac
 sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
 sys-libs/libnbd 1.20.3: NBD client library in userspace
 sys-power/nut 2.7.4-r8 2.8.0-r2 2.8.0-r3 9999: Network-UPS Tools
-sys-process/pm2 5.4.1: Process manager for Node.js applications with a built-in load balancer
+sys-process/pm2 5.4.2: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
