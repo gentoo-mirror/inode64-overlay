@@ -6,21 +6,6 @@ app-admin/cockpit:debug - Enables debug information
 app-admin/cockpit:firewalld - Enables support for manage firewall
 app-admin/cockpit:pcp - Enables support for system performance and analysis
 app-admin/cockpit:tuned - Enables support for change performance profiles
-app-admin/salt:cheetah - Enable support for dev-python/cheetah3
-app-admin/salt:cherrypy - Enable support for using cherrypy.
-app-admin/salt:genshi - Enable support for dev-python/genshi
-app-admin/salt:gnupg - Enable support for gnupg via python-gnupg.
-app-admin/salt:libcloud - Enable salt-cloud support via libcloud.
-app-admin/salt:libvirt - Support managing virtual machines with app-emulation/libvirt.
-app-admin/salt:mako - Add support for using the mako template engine for parsing salt states.
-app-admin/salt:mongodb - Support returning data to a mongodb server.
-app-admin/salt:neutron - Support the OpenStack neutron network service.
-app-admin/salt:nova - Enable support for the OpenStack Nova API
-app-admin/salt:openssl - Add support for using TLS via OpenSSL.
-app-admin/salt:portage - Add support for package state enforcement using sys-apps/portage
-app-admin/salt:raet - Add support for the new RAET transport.
-app-admin/salt:redis - Support returning data to a redis database.
-app-admin/salt:zeromq - Add support for the zeromq transport.
 app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ
 app-metrics/pcp:bind - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from BIND via its REST interface
 app-metrics/pcp:discovery - Support discover PCP services on the network
