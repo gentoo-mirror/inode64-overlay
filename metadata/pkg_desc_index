@@ -43,7 +43,7 @@ app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/pcp 6.3.1 6.3.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/node-red 3.0.2 3.1.9: A visual tool for wiring the Internet of Things.
+app-misc/node-red 3.0.2 4.0.5: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.39.1 1.40.0 1.40.1 1.40.2 1.41.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
@@ -103,10 +103,10 @@ net-im/healthchecks 3.5.2 3.6 3.7: A cron monitoring service and background task
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 3.9.0: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-apps/guacamole
-net-misc/mercure 0.16.3: Server-sent live updates: protocol and reference implementation
+net-misc/mercure 0.17.1: Server-sent live updates: protocol and reference implementation
 net-misc/openvswitch 2.17.11: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
-net-vpn/cloudflared 2024.9.1: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared 2024.11.0: Argo Tunnel client, written in GoLang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
