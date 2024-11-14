@@ -226,4 +226,3 @@ www-apps/redmine:minimagick - Enable image processing support via dev-ruby/mini_
 www-apps/redmine:passenger - Enable support for www-apache/passenger
 www-apps/redmine:standalone - Enable standalone mode with www-servers/puma
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
-www-servers/tomcat:extra-webapps - Build also the docs and examples webapp

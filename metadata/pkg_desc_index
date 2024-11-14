@@ -52,7 +52,6 @@ dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus 
 dev-db/mariadb 10.6.19: An enhanced, drop-in replacement for MySQL
 dev-db/msodbcsql 18.4.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-dotnet/gtk-sharp 2.12.45 3.22.2-r2: gtk bindings for mono
-dev-java/eclipse-ecj 4.15-r1: Eclipse Compiler for Java
 dev-lang/php 5.6.40-r8 7.3.33-r1 7.4.33-r7: The PHP language runtime engine
 dev-lang/typescript 4.9.5: Superset of JavaScript with optional static typing, classes and interfaces
 dev-libs/granite 7.5.0: Elementary OS library that extends GTK+
@@ -69,7 +68,7 @@ dev-python/command-runner 1.7.0: Platform agnostic command and shell execution t
 dev-python/cronsim 2.5 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.0.6: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
-dev-python/django-stubs-ext 5.1.0 5.1.1: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.1.1: Monkey-patching and extensions for django-stubs.
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 9.1.0: Python client library for MariaDB/MySQL
@@ -116,7 +115,6 @@ sys-cluster/drbd-utils 9.28.0: mirror/replicate block-devices across a network-c
 sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20240813: UEFI firmware for 64-bit x86 virtual machines
-sys-fs/vdo-kmod 8.2.0.21: The kernel module component of VDO which provides pools of deduplicated and/or compressed block storage.
 sys-libs/libnbd 1.20.3: NBD client library in userspace
 sys-power/nut 2.7.4-r8 2.8.0-r2 2.8.0-r3 9999: Network-UPS Tools
 sys-process/pm2 5.4.2: Process manager for Node.js applications with a built-in load balancer
@@ -124,7 +122,7 @@ sys-process/run-one 1.17-r72: Run just one instance of a command and its args at
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/guacamole-client 1.5.5 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
+www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 5.1.4: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 7.9: AWStats is short for Advanced Web Statistics
