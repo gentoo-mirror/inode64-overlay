@@ -62,7 +62,7 @@ dev-php/pecl-memcache 8.2-r1: PHP extension for using memcached
 dev-php/pecl-smbclient 1.1.1: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
-dev-python/cached-property 1.5.2 9999: A cached-property for decorating methods in classes
+dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
 dev-python/cloudflare 3.1.0: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.7.0: Platform agnostic command and shell execution tool
 dev-python/cronsim 2.5 2.6: Cron expression parser and evaluator
