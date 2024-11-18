@@ -37,7 +37,7 @@ app-backup/backrest 1.1.0 1.4.0 1.5.0 1.6.1: A web UI and orchestrator for resti
 app-backup/duplicati-bin 2.0.7.103-r20240419 2.0.9.100-r20240530: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.27.0 0.29.0: Configuration profiles manager and scheduler for restic backup
-app-backup/virtnbdbackup 2.16: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.17: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.10.0 2.11.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
@@ -77,7 +77,7 @@ dev-python/ovs 2.17.11: OVS bindings for python
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
-dev-python/rcssmin 1.1.3: CSS minifier written in python
+dev-python/rcssmin 1.2.0: CSS minifier written in python
 dev-python/rjsmin 1.2.3: Javascript minifier written in python
 dev-python/sqlite3-to-mysql 2.3.1 2.3.2: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.7.0 6.8.2: Radically simplified static file serving for Python web apps
