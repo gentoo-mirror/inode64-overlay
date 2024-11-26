@@ -33,8 +33,8 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.34.0 5.34.2: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
-app-backup/backrest 1.1.0 1.4.0 1.5.0 1.6.1: A web UI and orchestrator for restic backup
-app-backup/duplicati-bin 2.0.7.103-r20240419 2.0.9.100-r20240530: A backup client that securely stores encrypted, incremental, compressed backups.
+app-backup/backrest 1.1.0 1.4.0 1.5.0 1.6.2: A web UI and orchestrator for restic backup
+app-backup/duplicati-bin 2.0.7.103-r20240419 2.1.0.1: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.27.0 0.29.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.17: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
