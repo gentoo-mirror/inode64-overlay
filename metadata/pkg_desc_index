@@ -24,27 +24,27 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 327 329.1: Server Administration Web Interface
-app-admin/cockpit-files 10 12: A filesystem browser for Cockpit
-app-admin/cockpit-machines 322 324: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 97 99: This is the Cockpit user interface for podman containers
+app-admin/cockpit 329.1: Server Administration Web Interface
+app-admin/cockpit-files 12: A filesystem browser for Cockpit
+app-admin/cockpit-machines 324: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 99: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
-app-admin/monit 5.34.0 5.34.2: Monitoring and managing daemons or similar programs running on a Unix system
+app-admin/monit 5.34.2: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
-app-backup/backrest 1.1.0 1.4.0 1.5.0 1.6.2: A web UI and orchestrator for restic backup
-app-backup/duplicati-bin 2.0.7.103-r20240419 2.1.0.1: A backup client that securely stores encrypted, incremental, compressed backups.
+app-backup/backrest 1.1.0 1.6.2: A web UI and orchestrator for restic backup
+app-backup/duplicati-bin 2.1.0.100-r20241125: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
-app-backup/resticprofile 0.27.0 0.29.0: Configuration profiles manager and scheduler for restic backup
+app-backup/resticprofile 0.29.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.17: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-crypt/certbot-dns-cloudflare 2.10.0 2.11.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-cloudflare 2.11.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
-app-metrics/pcp 6.3.1 6.3.2: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.3.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/node-red 3.0.2 4.0.5: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 1.39.1 1.40.0 1.40.1 1.40.2 1.41.0: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/node-red 4.0.5: A visual tool for wiring the Internet of Things.
+app-misc/zigbee2mqtt 1.41.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
 app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
@@ -55,7 +55,7 @@ dev-lang/php 5.6.40-r8 7.3.33-r1 7.4.33-r7: The PHP language runtime engine
 dev-lang/typescript 4.9.5: Superset of JavaScript with optional static typing, classes and interfaces
 dev-libs/granite 7.6.0: Elementary OS library that extends GTK+
 dev-php/composer 2.8.3: Dependency Manager for PHP
-dev-php/pecl-apcu 4.0.11 5.1.23-r1 5.1.24: Stripped down version of APC supporting only user cache
+dev-php/pecl-apcu 4.0.11 5.1.24: Stripped down version of APC supporting only user cache
 dev-php/pecl-imagick 3.7.0-r3: PHP wrapper for the ImageMagick library
 dev-php/pecl-memcache 8.2-r1: PHP extension for using memcached
 dev-php/pecl-smbclient 1.1.1: Provides support for CIFS/SMB via samba's libsmbclient library
@@ -64,7 +64,7 @@ dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
 dev-python/cloudflare 3.1.0: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.7.0: Platform agnostic command and shell execution tool
-dev-python/cronsim 2.5 2.6: Cron expression parser and evaluator
+dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.0.6: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
 dev-python/django-stubs-ext 5.1.1: Monkey-patching and extensions for django-stubs.
@@ -79,8 +79,8 @@ dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime 
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.0: CSS minifier written in python
 dev-python/rjsmin 1.2.3: Javascript minifier written in python
-dev-python/sqlite3-to-mysql 2.3.1 2.3.2: A simple Python tool to transfer data from SQLite 3 to MySQL
-dev-python/whitenoise 6.7.0 6.8.2: Radically simplified static file serving for Python web apps
+dev-python/sqlite3-to-mysql 2.3.2: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/whitenoise 6.8.2: Radically simplified static file serving for Python web apps
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
 dev-ruby/with_advisory_lock 5.1.0: Advisory locking for ActiveRecord
@@ -89,16 +89,16 @@ dev-util/phpstorm 2024.2.4: A complete toolset for web, mobile and enterprise de
 mail-filter/exim-geoip 0.1-r2: MaxMind GeoIP2 dlfunc for Exim
 mail-mta/exim 4.94.2-r12 4.98: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
-media-gfx/annotator 1.2.1 2.0.0: Image annotation for Elementary OS
+media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
-media-video/davinci-resolve-studio 18.6.6 19.0.3 19.1: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 19.0.3 19.1: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.7: Ultimate camera streaming application
-net-analyzer/librenms 24.9.1 24.11.0: A fully featured network monitoring system
+net-analyzer/librenms 24.11.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.8.2: A powerful latency measurement tool
 net-firewall/firehol 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
-net-im/healthchecks 3.5.2 3.6 3.7: A cron monitoring service and background task monitoring service
+net-im/healthchecks 3.7: A cron monitoring service and background task monitoring service
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 3.9.0: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-apps/guacamole
@@ -115,7 +115,7 @@ sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20240813: UEFI firmware for 64-bit x86 virtual machines
 sys-libs/libnbd 1.20.3: NBD client library in userspace
-sys-power/nut 2.7.4-r8 2.8.0-r2 2.8.0-r3 9999: Network-UPS Tools
+sys-power/nut 2.7.4-r8 2.8.0-r3 9999: Network-UPS Tools
 sys-process/pm2 5.4.2: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 sys-process/runitor 1.3.0: A command runner with healthchecks.io integration
@@ -125,4 +125,4 @@ virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 5.1.4: Flexible project management web application using the Ruby on Rails framework
-www-misc/awstats 7.9 8.0: AWStats is short for Advanced Web Statistics
+www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
