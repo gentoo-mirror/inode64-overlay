@@ -1,0 +1,17 @@
+BDEPEND=app-arch/unzip dev-util/patchelf virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm preinst prepare pretend setup unpack
+DEPEND=app-arch/brotli app-arch/lz4 app-crypt/argon2 app-crypt/mit-krb5 dev-libs/glib dev-libs/icu dev-libs/libltdl dev-libs/nspr dev-libs/nss dev-qt/qt3d:5[gamepad,qml] dev-qt/qtvirtualkeyboard:5 gnome-base/librsvg media-gfx/graphite2 media-libs/harfbuzz media-libs/libpng-compat:1.2 net-dns/libidn2 net-libs/nghttp2 sys-apps/dbus sys-devel/gcc[openmp] sys-process/numactl virtual/libcrypt virtual/opencl virtual/opengl x11-libs/libX11 x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/libxcb !bundled-libs? ( <dev-libs/openssl-3.0 dev-cpp/tbb dev-lang/orc dev-libs/apr dev-libs/xmlsec media-gfx/graphviz media-libs/freeglut media-libs/soxr net-dns/avahi[mdnsresponder-compat] net-libs/libsrtp net-misc/curl dev-db/postgresql gnome-base/gnome-shell ) video_cards_amdgpu? ( >=dev-libs/rocm-opencl-runtime-5.5.1 ) video_cards_nvidia? ( >=x11-drivers/nvidia-drivers-550.40.07 )
+DESCRIPTION=Professional A/V post-production software suite from Blackmagic Design
+EAPI=8
+HOMEPAGE=https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=check-reqs desktop udev xdg
+IUSE=bundled-libs developer video_cards_amdgpu video_cards_nvidia
+KEYWORDS=~amd64
+LICENSE=Blackmagic
+RDEPEND=app-arch/brotli app-arch/lz4 app-crypt/argon2 app-crypt/mit-krb5 dev-libs/glib dev-libs/icu dev-libs/libltdl dev-libs/nspr dev-libs/nss dev-qt/qt3d:5[gamepad,qml] dev-qt/qtvirtualkeyboard:5 gnome-base/librsvg media-gfx/graphite2 media-libs/harfbuzz media-libs/libpng-compat:1.2 net-dns/libidn2 net-libs/nghttp2 sys-apps/dbus sys-devel/gcc[openmp] sys-process/numactl virtual/libcrypt virtual/opencl virtual/opengl x11-libs/libX11 x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/libxcb !bundled-libs? ( <dev-libs/openssl-3.0 dev-cpp/tbb dev-lang/orc dev-libs/apr dev-libs/xmlsec media-gfx/graphviz media-libs/freeglut media-libs/soxr net-dns/avahi[mdnsresponder-compat] net-libs/libsrtp net-misc/curl dev-db/postgresql gnome-base/gnome-shell ) video_cards_amdgpu? ( >=dev-libs/rocm-opencl-runtime-5.5.1 ) video_cards_nvidia? ( >=x11-drivers/nvidia-drivers-550.40.07 )
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=DaVinci_Resolve_Studio_19.1.1_Linux.zip
+_eclasses_=check-reqs	2a9731073c152554078a9a8df8fc0f1b	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	udev	f3d9a4376ebd22131726a68e1a0a058f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=e15dc0955fc8dc2b40038b2fab4d2db2
