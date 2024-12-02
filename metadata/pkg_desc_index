@@ -30,7 +30,6 @@ app-admin/cockpit-machines 324: This is the Cockpit user interface for virtual m
 app-admin/cockpit-podman 99: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
-app-admin/metricbeat-bin 8.1.0: Lightweight shipper for metrics
 app-admin/monit 5.34.2: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.1.0 1.6.2: A web UI and orchestrator for restic backup
@@ -41,6 +40,7 @@ app-backup/virtnbdbackup 2.18: Backup utility for libvirt kvm / qemu with increm
 app-crypt/certbot-dns-cloudflare 2.11.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
+app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
 app-metrics/pcp 6.3.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 4.0.5: A visual tool for wiring the Internet of Things.
