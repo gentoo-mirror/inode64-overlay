@@ -7,8 +7,8 @@ INHERIT=readme.gentoo-r1 rpm secureboot
 IUSE=secureboot
 KEYWORDS=~amd64 ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86
 LICENSE=BSD-2 MIT
-RDEPEND=!sys-firmware/edk2
+RDEPEND=!sys-firmware/edk2 >=sys-firmware/seabios-bin-1.16.3
 SLOT=0
 SRC_URI=https://kojipkgs.fedoraproject.org/packages/edk2/20241117/5.fc42/noarch/edk2-ovmf-20241117-5.fc42.noarch.rpm
 _eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	secureboot	31f758d7ccad9eee9952dad8b8c26bc3
-_md5_=1be011f7a382cfafb3198f545072434f
+_md5_=ee3cd66baa23cc198c77dcfa4ec8581e
