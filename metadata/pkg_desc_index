@@ -113,7 +113,7 @@ sys-block/thin-provisioning-tools 1.0.13-r1: A suite of tools for thin provision
 sys-cluster/drbd-utils 9.28.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
-sys-firmware/edk2-bin 202202-r20240813: UEFI firmware for 64-bit x86 virtual machines
+sys-firmware/edk2-bin 202202-r20240813 202202-r20241117: UEFI firmware for 64-bit x86 virtual machines
 sys-libs/libnbd 1.20.3: NBD client library in userspace
 sys-power/nut 9999: Network-UPS Tools
 sys-process/pm2 5.4.2: Process manager for Node.js applications with a built-in load balancer
