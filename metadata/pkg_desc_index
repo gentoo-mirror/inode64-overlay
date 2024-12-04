@@ -47,7 +47,7 @@ app-misc/node-red 4.0.5: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.42.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
-app-portage/portage-lostfiles 0.2.3: A simple script to identify files not tracked by Portage package manager
+app-portage/portage-lostfiles 0.5.5: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-db/msodbcsql 18.4.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-dotnet/gtk-sharp 2.12.45 3.22.2-r2: gtk bindings for mono
@@ -62,7 +62,7 @@ dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbcl
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
-dev-python/cloudflare 3.1.0: Python wrapper for the Cloudflare v4 API
+dev-python/cloudflare 3.1.1: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.7.0: Platform agnostic command and shell execution tool
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.0.6: A helper class for handling configuration defaults of packaged apps gracefully
