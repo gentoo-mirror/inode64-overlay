@@ -109,6 +109,14 @@ net-firewall/firehol:ipset - Use net-firewall/ipset.
 net-ftp/tftp-hpa:client - Compile and install the tftp client
 net-ftp/tftp-hpa:server - Compile and install the tftp server
 net-im/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
+net-libs/nodejs:corepack - Enable the experimental corepack package management tool
+net-libs/nodejs:inspector - Enable V8 inspector
+net-libs/nodejs:npm - Enable NPM package manager
+net-libs/nodejs:pax-kernel - Enable building under a PaX enabled kernel
+net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
+net-libs/nodejs:system-icu - Use system dev-libs/icu instead of the bundled version
+net-libs/nodejs:system-ssl - Use system OpenSSL instead of the bundled one
+net-libs/nodejs:systemtap - Enable SystemTap/DTrace tracing
 net-misc/freerdp:aad - Enable login via Azure AD
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:fuse - Clipboard with FUSE file copy support
