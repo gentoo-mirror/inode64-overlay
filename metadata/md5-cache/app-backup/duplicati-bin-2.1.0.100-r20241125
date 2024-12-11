@@ -9,5 +9,5 @@ LICENSE=LGPL-2
 RDEPEND=virtual/tmpfiles
 SLOT=0
 SRC_URI=https://github.com/duplicati/duplicati/releases/download/v2.1.0.100_canary_2024-11-25/duplicati-2.1.0.100_canary_2024-11-25-linux-x64-gui.zip
-_eclasses_=tmpfiles	9a9814db5a3fbd4f1e921c05297e7735	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=tmpfiles	9a9814db5a3fbd4f1e921c05297e7735	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
 _md5_=0cee752d08f0606968da3cf7486ef84e
