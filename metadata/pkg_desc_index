@@ -51,7 +51,7 @@ app-portage/portage-lostfiles 0.5.5: A simple script to identify files not track
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-db/msodbcsql 18.4.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-dotnet/gtk-sharp 2.12.45 3.22.2-r2: gtk bindings for mono
-dev-lang/php 5.6.40-r8 7.3.33-r1 7.4.33-r7: The PHP language runtime engine
+dev-lang/php 5.6.40-r8 7.3.33-r1 7.4.33-r7 7.4.33_p20221222: The PHP language runtime engine
 dev-lang/typescript 4.9.5: Superset of JavaScript with optional static typing, classes and interfaces
 dev-libs/granite 7.6.0: Elementary OS library that extends GTK+
 dev-php/composer 2.8.3 2.8.4: Dependency Manager for PHP
