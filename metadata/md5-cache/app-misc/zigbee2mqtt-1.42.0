@@ -10,5 +10,5 @@ LICENSE=0BSD Apache-2.0 BSD-2 CC-BY-4.0 GPL-3 ISC MIT PYTHON
 RDEPEND=acct-group/zigbee2mqtt acct-user/zigbee2mqtt app-misc/mosquitto net-libs/nodejs:= homeassistant? ( || ( >=app-misc/homeassistant-2024.4[mosquitto] >=app-misc/homeassistant-min-2024.4[mosquitto] >=app-misc/homeassistant-full-2024.4[mosquitto] ) ) virtual/tmpfiles
 SLOT=0
 SRC_URI=https://github.com/Koenkk/zigbee2mqtt/archive/1.42.0.tar.gz -> zigbee2mqtt-1.42.0.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/zigbee2mqtt-1.42.0-node_modules.tar.xz
-_eclasses_=nodejs	114d424328a4774404b2700c67523375	nodejs-mod	489fbc329570112b3938f6a8d125edd8	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_eclasses_=nodejs	114d424328a4774404b2700c67523375	nodejs-mod	489fbc329570112b3938f6a8d125edd8	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
 _md5_=68832f98fcaab88af5f30a98880c44e1
