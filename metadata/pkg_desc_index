@@ -98,7 +98,6 @@ net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.8.2: A powerful latency measurement tool
 net-firewall/firehol 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
-net-im/healthchecks 3.8.1: A cron monitoring service and background task monitoring service
 net-libs/nodejs 22.12.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 3.9.0: Free implementation of the Remote Desktop Protocol
@@ -127,3 +126,4 @@ www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desk
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 5.1.4 5.1.5: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
+www-misc/healthchecks 3.8.1: A cron monitoring service and background task monitoring service

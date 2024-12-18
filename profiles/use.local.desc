@@ -108,7 +108,6 @@ net-analyzer/smokeping:echoping - Install net-analyzer/echoping for echoping fun
 net-firewall/firehol:ipset - Use net-firewall/ipset.
 net-ftp/tftp-hpa:client - Compile and install the tftp client
 net-ftp/tftp-hpa:server - Compile and install the tftp server
-net-im/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
 net-libs/nodejs:corepack - Enable the experimental corepack package management tool
 net-libs/nodejs:inspector - Enable V8 inspector
 net-libs/nodejs:npm - Enable NPM package manager
@@ -160,3 +159,4 @@ www-apps/redmine:minimagick - Enable image processing support via dev-ruby/mini_
 www-apps/redmine:passenger - Enable support for www-apache/passenger
 www-apps/redmine:standalone - Enable standalone mode with www-servers/puma
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
+www-misc/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
