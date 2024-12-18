@@ -43,7 +43,7 @@ app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
 app-metrics/pcp 6.3.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/node-red 4.0.5: A visual tool for wiring the Internet of Things.
+app-misc/node-red 4.0.6: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.42.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
@@ -93,12 +93,12 @@ media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 19.1.1: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.7: Ultimate camera streaming application
-net-analyzer/librenms 24.11.0: A fully featured network monitoring system
+net-analyzer/librenms 24.12.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.8.2: A powerful latency measurement tool
 net-firewall/firehol 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
-net-im/healthchecks 3.8: A cron monitoring service and background task monitoring service
+net-im/healthchecks 3.8.1: A cron monitoring service and background task monitoring service
 net-libs/nodejs 22.12.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
 net-misc/freerdp 3.9.0: Free implementation of the Remote Desktop Protocol
@@ -106,7 +106,7 @@ net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-ap
 net-misc/mercure 0.17.1: Server-sent live updates: protocol and reference implementation
 net-misc/openvswitch 2.17.11: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
-net-vpn/cloudflared 2024.11.1: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared 2024.12.1: Argo Tunnel client, written in GoLang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
