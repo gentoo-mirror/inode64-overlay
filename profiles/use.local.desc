@@ -155,8 +155,8 @@ sys-power/nut:usb - Includes all UPS drivers that use USB.
 sys-power/nut:xml - Includes all UPS drivers that use XML.
 www-apps/guacamole-client:sso - Single-Sign-On authentication
 www-apps/guacamole-client:totp - TOTP two-factor authentication
+www-apps/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
 www-apps/redmine:minimagick - Enable image processing support via dev-ruby/mini_magick
 www-apps/redmine:passenger - Enable support for www-apache/passenger
 www-apps/redmine:standalone - Enable standalone mode with www-servers/puma
 www-misc/awstats:geoip2 - Enable GeoIP2 API from MaxMind
-www-misc/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
