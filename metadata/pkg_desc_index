@@ -33,7 +33,7 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/monit 5.34.2: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.1.0 1.6.2: A web UI and orchestrator for restic backup
-app-backup/duplicati-bin 2.1.0.102-r20241212: A backup client that securely stores encrypted, incremental, compressed backups.
+app-backup/duplicati-bin 2.1.0.103-r20241221: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.29.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.18: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
@@ -122,7 +122,7 @@ virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
-www-apps/healthchecks 3.8.2: A cron monitoring service and background task monitoring service
+www-apps/healthchecks 3.9: A cron monitoring service and background task monitoring service
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 5.1.4 5.1.5: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
