@@ -43,7 +43,7 @@ app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
 app-metrics/pcp 6.3.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/node-red 4.0.7: A visual tool for wiring the Internet of Things.
+app-misc/node-red 4.0.8: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.42.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
