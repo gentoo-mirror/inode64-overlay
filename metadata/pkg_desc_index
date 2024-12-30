@@ -30,7 +30,7 @@ app-admin/cockpit-machines 326: This is the Cockpit user interface for virtual m
 app-admin/cockpit-podman 99: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
-app-admin/monit 5.34.2: Monitoring and managing daemons or similar programs running on a Unix system
+app-admin/monit 5.34.3: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.1.0 1.6.2: A web UI and orchestrator for restic backup
 app-backup/duplicati-bin 2.1.0.103-r20241221: A backup client that securely stores encrypted, incremental, compressed backups.
@@ -90,7 +90,7 @@ mail-mta/exim 4.94.2-r12 4.98: A highly configurable, drop-in replacement for se
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
-media-video/davinci-resolve-studio 19.1.1: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 19.1.2: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.7: Ultimate camera streaming application
 net-analyzer/librenms 24.12.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
