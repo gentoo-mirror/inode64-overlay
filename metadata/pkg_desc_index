@@ -33,7 +33,7 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/monit 5.34.3: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.1.0 1.6.2: A web UI and orchestrator for restic backup
-app-backup/duplicati-bin 2.1.0.103-r20241221: A backup client that securely stores encrypted, incremental, compressed backups.
+app-backup/duplicati-bin 2.1.0.104-r20241231: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.29.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.18: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
@@ -99,7 +99,7 @@ net-firewall/firehol 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-libs/nodejs 22.12.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/freerdp 3.9.0: Free implementation of the Remote Desktop Protocol
+net-misc/freerdp 3.10.2: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-apps/guacamole
 net-misc/mercure 0.17.1: Server-sent live updates: protocol and reference implementation
 net-misc/openvswitch 2.17.11: Production quality, multilayer virtual switch
@@ -109,7 +109,7 @@ net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGua
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
 sys-block/thin-provisioning-tools 1.0.13-r1: A suite of tools for thin provisioning on Linux
-sys-cluster/drbd-utils 9.28.0: mirror/replicate block-devices across a network-connection
+sys-cluster/drbd-utils 9.29.0: mirror/replicate block-devices across a network-connection
 sys-cluster/glusterfs 11.1: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20240813 202202-r20241117: UEFI firmware for 64-bit x86 virtual machines
