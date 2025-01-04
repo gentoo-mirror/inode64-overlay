@@ -44,7 +44,7 @@ app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
 app-metrics/pcp 6.3.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 4.0.8: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 1.42.0: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.42.0 2.0.0: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
 app-portage/portage-lostfiles 0.5.6: A simple script to identify files not tracked by Portage package manager
@@ -92,7 +92,7 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 19.1.2: Professional A/V post-production software suite from Blackmagic Design
-media-video/go2rtc 1.9.7: Ultimate camera streaming application
+media-video/go2rtc 1.9.8: Ultimate camera streaming application
 net-analyzer/librenms 24.12.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.8.2: A powerful latency measurement tool
