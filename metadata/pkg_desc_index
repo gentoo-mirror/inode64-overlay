@@ -51,7 +51,7 @@ app-portage/portage-lostfiles 0.5.6: A simple script to identify files not track
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-db/msodbcsql 18.4.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-dotnet/gtk-sharp 2.12.45 3.22.2-r2: gtk bindings for mono
-dev-lang/php 5.6.40-r8 5.6.40-r9 5.6.40_p20241216-r2 7.3.33-r1 7.4.33-r7 7.4.33_p20221222: The PHP language runtime engine
+dev-lang/php 5.6.40-r8 5.6.40-r9 5.6.40_p20241216-r2 7.3.33-r1 7.4.33-r7 7.4.33_p20221222 7.4.33_p20241216: The PHP language runtime engine
 dev-lang/spidermonkey 115.16.0-r1: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.7.2: Superset of JavaScript with optional static typing, classes and interfaces
 dev-libs/granite 7.6.0: Elementary OS library that extends GTK+
