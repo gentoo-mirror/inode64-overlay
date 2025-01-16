@@ -63,7 +63,7 @@ dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbcl
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
-dev-python/cloudflare 3.1.1: Python wrapper for the Cloudflare v4 API
+dev-python/cloudflare 4.0.0: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.7.0: Platform agnostic command and shell execution tool
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.0.6: A helper class for handling configuration defaults of packaged apps gracefully
@@ -99,7 +99,7 @@ net-analyzer/smokeping 2.8.2: A powerful latency measurement tool
 net-firewall/firehol 3.1.7-r2: iptables firewall generator
 net-ftp/tftp-hpa 5.2-r3: Port of the OpenBSD TFTP server
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/freerdp 3.10.2: Free implementation of the Remote Desktop Protocol
+net-misc/freerdp 3.10.3: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-apps/guacamole
 net-misc/mercure 0.18.1: Server-sent live updates: protocol and reference implementation
 net-misc/openvswitch 2.17.11: Production quality, multilayer virtual switch
