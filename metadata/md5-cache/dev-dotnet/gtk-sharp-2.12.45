@@ -12,5 +12,5 @@ RDEPEND=x11-libs/gtk+:2 glade? ( dev-util/glade )
 RESTRICT=test
 SLOT=2
 SRC_URI=https://download.mono-project.com/sources/gtk-sharp212/gtk-sharp-2.12.45.tar.gz
-_eclasses_=mono-env	de65900415c861786a591376c62844cb	dotnet	dcb5437ccc10ffd0d8aa02b0ffdee9e6
+_eclasses_=mono-env	de65900415c861786a591376c62844cb	dotnet	39b605c06a0444c406948bb8e5fbd9af
 _md5_=58f935a071d870cd6392b40011407b47
