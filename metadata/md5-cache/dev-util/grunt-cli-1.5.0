@@ -10,4 +10,4 @@ RDEPEND=net-libs/nodejs
 SLOT=0
 SRC_URI=https://github.com/gruntjs/grunt-cli/archive/refs/tags/v1.5.0.tar.gz -> grunt-cli-1.5.0.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/grunt-cli-1.5.0-node_modules.tar.xz
 _eclasses_=nodejs	114d424328a4774404b2700c67523375	nodejs-mod	e7ebd401c34588353f8df23b1b3780f5
-_md5_=18ea8896bd88f0e63d31117c7e502022
+_md5_=4352e0dc4f3a7552fcb3054bc43f104c

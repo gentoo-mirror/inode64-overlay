@@ -7,4 +7,4 @@ LICENSE=LGPL-2.1
 RDEPEND=>=app-admin/cockpit-318
 SLOT=0
 SRC_URI=https://github.com/cockpit-project/cockpit-files/releases/download/14/cockpit-files-14.tar.xz
-_md5_=049ea7da3cd1822784dbf7f6acbbd08a
+_md5_=9ad6febddaa88bff8e57e5d30375b898
