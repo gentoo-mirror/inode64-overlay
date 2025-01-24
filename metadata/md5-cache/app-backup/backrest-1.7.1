@@ -1,0 +1,15 @@
+BDEPEND=test? ( app-backup/restic ) >=dev-lang/go-1.20:= app-arch/unzip net-libs/nodejs[npm] virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DESCRIPTION=A web UI and orchestrator for restic backup
+EAPI=8
+HOMEPAGE=https://github.com/garethgeorge/backrest
+INHERIT=go-module nodejs nodejs-mod systemd tmpfiles
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=app-backup/restic virtual/tmpfiles
+RESTRICT=!test? ( test ) strip
+SLOT=0
+SRC_URI=https://github.com/garethgeorge/backrest/archive/v1.7.1.tar.gz -> backrest-1.7.1.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/backrest-1.7.1-vendor.tar.xz https://www.inode64.com/dist/backrest-1.7.1-node_modules.tar.xz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	go-env	90efbc8636d2f02d9654183330e84cf7	go-module	df32d29550d40a92da723d3b8e17b467	nodejs	114d424328a4774404b2700c67523375	nodejs-mod	e7ebd401c34588353f8df23b1b3780f5	systemd	54bd206bb5c4efac6ae28b6b006713b0	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_md5_=ee05ffe8c1e6863c90eab17616ceb5b7
