@@ -119,7 +119,6 @@ net-misc/openvswitch:xdp - Enable support eXpress Data Path (Experimental)
 sys-auth/consolekit:evdev - For handling VT switching with a session controller.
 sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
 sys-block/thin-provisioning-tools:io-uring - Enable experimental support for io-uring.
-sys-cluster/drbd-utils:84support - Enable support for drbd driver/module 8.4
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
 sys-cluster/glusterfs:firewalld - Enables support for manage firewall
