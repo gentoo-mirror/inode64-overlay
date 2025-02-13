@@ -24,10 +24,10 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 332: Server Administration Web Interface
-app-admin/cockpit-files 15: A filesystem browser for Cockpit
+app-admin/cockpit 333: Server Administration Web Interface
+app-admin/cockpit-files 16: A filesystem browser for Cockpit
 app-admin/cockpit-machines 327: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 100: This is the Cockpit user interface for podman containers
+app-admin/cockpit-podman 101: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/monit 5.34.4: Monitoring and managing daemons or similar programs running on a Unix system
