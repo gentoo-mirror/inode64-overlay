@@ -33,7 +33,7 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/monit 5.34.4: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.7.2: A web UI and orchestrator for restic backup
-app-backup/duplicati-bin 2.1.0.109-r20250211: A backup client that securely stores encrypted, incremental, compressed backups.
+app-backup/duplicati-bin 2.1.0.110-r20250228: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.29.1: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.21: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
@@ -52,7 +52,7 @@ dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus 
 dev-db/msodbcsql 18.4.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-lang/php 5.6.40_p20241216-r2 7.3.33-r1 7.4.33_p20241216: The PHP language runtime engine
 dev-lang/spidermonkey 115.16.0-r1: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
-dev-lang/typescript 5.7.3: Superset of JavaScript with optional static typing, classes and interfaces
+dev-lang/typescript 5.8.2: Superset of JavaScript with optional static typing, classes and interfaces
 dev-libs/granite 7.6.0: Elementary OS library that extends GTK+
 dev-php/composer 2.8.6: Dependency Manager for PHP
 dev-php/pecl-apcu 4.0.11 5.1.24: Stripped down version of APC supporting only user cache
@@ -84,7 +84,7 @@ dev-python/whitenoise 6.9.0: Radically simplified static file serving for Python
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
 dev-util/grunt-cli 1.5.0: The Grunt command line interface.
-dev-util/phpstorm 2024.3.3: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2024.3.4: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
