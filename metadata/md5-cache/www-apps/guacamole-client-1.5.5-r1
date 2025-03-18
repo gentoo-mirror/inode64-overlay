@@ -1,14 +1,14 @@
 BDEPEND=>=dev-java/maven-bin-3.9.6 virtual/jre:11
-DEFINED_PHASES=compile install pretend unpack
+DEFINED_PHASES=compile install unpack
 DESCRIPTION=Apache Guacamole is a clientless remote desktop gateway
 EAPI=8
 HOMEPAGE=https://guacamole.apache.org/
 IUSE=ldap +mysql postgres radius sso test totp
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=ldap? ( net-nds/openldap ) virtual/jre www-servers/tomcat:9
+RDEPEND=ldap? ( net-nds/openldap ) >=virtual/jre-11:* www-servers/tomcat:9
 REQUIRED_USE=|| ( mysql postgres )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://mirrors.ircam.fr/pub/apache/guacamole/1.5.5/source/guacamole-client-1.5.5.tar.gz https://www.inode64.com/dist/guacamole-client-1.5.5-r1-node_modules.tar.xz https://www.inode64.com/dist/guacamole-client-1.5.5-r1-mvn.tar.xz mysql? ( https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-8.3.0.tar.gz ) postgres? ( https://jdbc.postgresql.org/download/postgresql-42.7.3.jar )
-_md5_=1e2af5c0eb59d6b0893fdf897ab4ceb1
+_md5_=c6d7ae84c2955e242eacecde0dcf146b
