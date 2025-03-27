@@ -33,7 +33,7 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/monit 5.34.4: Monitoring and managing daemons or similar programs running on a Unix system
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.7.3: A web UI and orchestrator for restic backup
-app-backup/duplicati-bin 2.1.0.111-r20250315: A backup client that securely stores encrypted, incremental, compressed backups.
+app-backup/duplicati-bin 2.1.0.112-r20250326: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.29.1: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.24: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
@@ -80,7 +80,7 @@ dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime 
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
-dev-python/sqlite3-to-mysql 2.3.2: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/sqlite3-to-mysql 2.4.0: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.9.0: Radically simplified static file serving for Python web apps
 dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
