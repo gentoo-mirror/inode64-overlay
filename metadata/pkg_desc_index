@@ -41,7 +41,7 @@ app-crypt/certbot-dns-cloudflare 2.11.0 3.3.0: Cloudflare DNS Authenticator plug
 app-crypt/sscg 3.0.5: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
-app-metrics/pcp 6.3.6: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 6.3.7: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 4.0.9: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.1.3: It bridges events and allows you to control your Zigbee devices via MQTT
