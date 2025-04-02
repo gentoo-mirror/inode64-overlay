@@ -36,7 +36,7 @@ app-backup/backrest 1.7.3: A web UI and orchestrator for restic backup
 app-backup/duplicati-bin 2.1.0.112-r20250326: A backup client that securely stores encrypted, incremental, compressed backups.
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.29.1: Configuration profiles manager and scheduler for restic backup
-app-backup/virtnbdbackup 2.24: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.25: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.11.0 3.3.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.6: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
