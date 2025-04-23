@@ -86,7 +86,7 @@ dev-ruby/liquid 2.6.3: Template engine for Ruby
 dev-ruby/redmine_crm 0.0.63: Common libraries for RedmineCRM plugins for Redmine
 dev-util/grunt-cli 1.5.0: The Grunt command line interface.
 dev-util/phpstorm 2024.3.5 2025.1: A complete toolset for web, mobile and enterprise development
-mail-mta/exim 4.98: A highly configurable, drop-in replacement for sendmail
+mail-mta/exim 4.98.2: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
