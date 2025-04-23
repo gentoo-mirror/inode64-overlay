@@ -38,7 +38,7 @@ app-backup/rest-server 0.13.0: High-performance HTTP server that implements rest
 app-backup/resticprofile 0.30.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.28: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.11.0 4.0.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
-app-crypt/sscg 3.0.6: Simple Signed Certificate Generator
+app-crypt/sscg 3.0.7: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
 app-metrics/pcp 6.3.8: Performance Co-Pilot, system performance and analysis framework
