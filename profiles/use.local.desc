@@ -137,15 +137,6 @@ sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsys
 sys-cluster/glusterfs:uring - Control whether or not glusterfs is compiled with uring support or not.
 sys-libs/libnbd:fuse - Install the sys-fs/fuse powered nbdfuse.
 sys-libs/libnbd:go - Build bindings for dev-lang/go
-sys-power/nut:gpio - Includes all UPS drivers that use GPIO.
-sys-power/nut:i2c - Includes all UPS drivers that use I2C.
-sys-power/nut:ipmi - Includes all UPS drivers that use ipmi.
-sys-power/nut:modbus - Includes all UPS drivers that use MODBUS.
-sys-power/nut:monitor - Add a QT5 gui monitor.
-sys-power/nut:serial - Includes all UPS drivers that use SERIAL.
-sys-power/nut:snmp - Includes all UPS drivers that use SNMP.
-sys-power/nut:usb - Includes all UPS drivers that use USB.
-sys-power/nut:xml - Includes all UPS drivers that use XML.
 www-apps/guacamole-client:sso - Single-Sign-On authentication
 www-apps/guacamole-client:totp - TOTP two-factor authentication
 www-apps/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
