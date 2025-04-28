@@ -37,7 +37,7 @@ app-backup/duplicati-bin 2.1.0.116-r20250417: A backup client that securely stor
 app-backup/rest-server 0.13.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.30.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.28: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-crypt/certbot-dns-cloudflare 2.11.0 4.0.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.7: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
@@ -63,7 +63,7 @@ dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbcl
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
-dev-python/cloudflare 4.1.0: Python wrapper for the Cloudflare v4 API
+dev-python/cloudflare 2.19.4 4.1.0: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.7.3: Platform agnostic command and shell execution tool
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
