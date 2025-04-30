@@ -123,5 +123,5 @@ virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
 www-apps/healthchecks 3.9: A cron monitoring service and background task monitoring service
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
-www-apps/redmine 5.1.7: Flexible project management web application using the Ruby on Rails framework
+www-apps/redmine 5.1.7 6.0.5: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
