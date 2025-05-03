@@ -49,7 +49,7 @@ app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
 app-portage/portage-lostfiles 0.5.6: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
-dev-db/msodbcsql 18.4.1.1: Microsoft ODBC Driver 18 for SQL Server
+dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-java/javaparser-core 3.13.10: Java 1-17 Parser and Abstract Syntax Tree for Java
 dev-lang/php 5.6.40_p20241216-r2 5.6.40_p20250331 7.3.33-r1 7.4.33_p20241216 7.4.33_p20250331: The PHP language runtime engine
 dev-lang/spidermonkey 115.16.0-r1: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
@@ -104,7 +104,7 @@ net-misc/mercure 0.18.1: Server-sent live updates: protocol and reference implem
 net-misc/openvswitch 2.17.11 3.4.1 3.5.0: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-proxy/squid 6.13: Full-featured web proxy cache
-net-vpn/cloudflared 2025.4.0: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared 2025.4.2: Argo Tunnel client, written in GoLang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/consolekit 1.2.6: Framework for defining and tracking users, login sessions and seats
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
