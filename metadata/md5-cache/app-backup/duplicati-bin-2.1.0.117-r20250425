@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2
 RDEPEND=virtual/tmpfiles
 SLOT=0
-SRC_URI=https://github.com/duplicati/duplicati/releases/download/v2.1.0.116_canary_2025-04-17/duplicati-2.1.0.116_canary_2025-04-17-linux-x64-gui.zip
+SRC_URI=https://github.com/duplicati/duplicati/releases/download/v2.1.0.117_canary_2025-04-25/duplicati-2.1.0.117_canary_2025-04-25-linux-x64-gui.zip
 _eclasses_=tmpfiles	9a9814db5a3fbd4f1e921c05297e7735	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=04b1140a499aa999cfc46a327aa2c75e
