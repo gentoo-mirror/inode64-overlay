@@ -120,6 +120,7 @@ sys-process/runitor 1.3.0: A command runner with healthchecks.io integration
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
+www-apps/dolibarr 21.0.1: Dolibarr ERP CRM: modern software package to manage your company
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
 www-apps/healthchecks 3.10: A cron monitoring service and background task monitoring service
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
