@@ -100,8 +100,6 @@ net-analyzer/librenms-agent:snmp - Enable IPMI things
 net-analyzer/smokeping:dig - Install net-dns/bind-tools for dig functionality
 net-analyzer/smokeping:echoping - Install net-analyzer/echoping for echoping functionality
 net-firewall/firehol:ipset - Use net-firewall/ipset.
-net-ftp/tftp-hpa:client - Compile and install the tftp client
-net-ftp/tftp-hpa:server - Compile and install the tftp server
 net-misc/freerdp:aad - Enable login via Azure AD
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:fuse - Clipboard with FUSE file copy support
@@ -124,8 +122,6 @@ net-proxy/squid:wccp - Enable Web Cache Coordination Protocol
 net-proxy/squid:wccpv2 - Enable Web Cache Coordination V2 Protocol
 net-vpn/cloudflare-warp:dex - Install warp-dex for Digital Experience Monitoring tests
 net-vpn/cloudflare-warp:systray - Enable systray indicator of whether WARP is active
-sys-auth/consolekit:evdev - For handling VT switching with a session controller.
-sys-auth/consolekit:policykit - Use the PolicyKit framework (sys-auth/polkit) to get authorization for suspend/shutdown.
 sys-block/thin-provisioning-tools:io-uring - Enable experimental support for io-uring.
 sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
