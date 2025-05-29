@@ -123,7 +123,6 @@ net-proxy/squid:wccpv2 - Enable Web Cache Coordination V2 Protocol
 net-vpn/cloudflare-warp:dex - Install warp-dex for Digital Experience Monitoring tests
 net-vpn/cloudflare-warp:systray - Enable systray indicator of whether WARP is active
 sys-block/thin-provisioning-tools:io-uring - Enable experimental support for io-uring.
-sys-cluster/drbd-utils:pacemaker - Enable Pacemaker integration
 sys-cluster/drbd-utils:xen - Enable Xen integration
 sys-cluster/glusterfs:firewalld - Enables support for manage firewall
 sys-cluster/glusterfs:fuse - Add FUSE mount helper
@@ -136,7 +135,6 @@ sys-cluster/glusterfs:uring - Control whether or not glusterfs is compiled with 
 sys-libs/libnbd:fuse - Install the sys-fs/fuse powered nbdfuse.
 sys-libs/libnbd:go - Build bindings for dev-lang/go
 sys-libs/libnbd:rust - Build bindings for dev-lang/rust
-sys-libs/libnbd:uri-support - Enable nbd:// URI support via dev-libs/libxml2.
 www-apps/guacamole-client:sso - Single-Sign-On authentication
 www-apps/guacamole-client:totp - TOTP two-factor authentication
 www-apps/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
