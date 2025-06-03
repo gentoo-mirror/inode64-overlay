@@ -118,6 +118,7 @@ virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/dolibarr 21.0.1: Dolibarr ERP CRM: modern software package to manage your company
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
 www-apps/healthchecks 3.10: A cron monitoring service and background task monitoring service
+www-apps/matomo 5.3.2: Matomo is the leading Free/Libre open analytics platform.
 www-apps/onlyoffice-documentserver-bin 7.5.1: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 6.0.5: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
