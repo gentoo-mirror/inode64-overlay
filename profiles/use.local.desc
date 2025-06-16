@@ -143,7 +143,9 @@ sys-libs/libnbd:go - Build bindings for dev-lang/go
 sys-libs/libnbd:rust - Build bindings for dev-lang/rust
 www-apps/guacamole-client:sso - Single-Sign-On authentication
 www-apps/guacamole-client:totp - TOTP two-factor authentication
+www-apps/healthchecks:apache - Install Apache required applications
 www-apps/healthchecks:apprise - Allow backup monitoring to send notification to a wide variety of services, using dev-python/apprise
+www-apps/healthchecks:nginx - Install Nginx required applications
 www-apps/redmine:minimagick - Enable image processing support via dev-ruby/mini_magick
 www-apps/redmine:passenger - Enable support for www-apache/passenger
 www-apps/redmine:standalone - Enable standalone mode with www-servers/puma
