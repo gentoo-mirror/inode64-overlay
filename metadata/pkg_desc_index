@@ -37,7 +37,7 @@ app-backup/backrest 1.8.1: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.31.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.29: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
-app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0 4.1.1: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.7: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
@@ -90,19 +90,18 @@ media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 20.0: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.9: Ultimate camera streaming application
-net-analyzer/librenms 25.5.0: A fully featured network monitoring system
+net-analyzer/librenms 25.6.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.9.0: A powerful latency measurement tool
 net-firewall/firehol 3.1.8: iptables firewall generator
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/freerdp 3.15.0: Free implementation of the Remote Desktop Protocol
+net-misc/freerdp 3.16.0: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.5.5-r1 9999: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 3.5.1: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
 net-vpn/cloudflare-warp 2025.4.943.0: Cloudflare Warp Client
-net-vpn/cloudflared 2025.5.0: Argo Tunnel client, written in GoLang
-net-vpn/cloudflared-bin 2025.5.0: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared-bin 2025.6.0: Argo Tunnel client, written in GoLang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
 sys-block/thin-provisioning-tools 1.0.13-r1 1.1.0-r2: A suite of tools for thin provisioning on Linux
