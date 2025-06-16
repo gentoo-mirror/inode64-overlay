@@ -69,6 +69,7 @@ dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
 dev-python/django-stubs-ext 5.2.0: Monkey-patching and extensions for django-stubs.
+dev-python/fido2 1.2.0: Python based FIDO 2.0 library
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 9.3.0: Python client library for MariaDB/MySQL
