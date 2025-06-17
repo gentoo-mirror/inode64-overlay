@@ -102,7 +102,7 @@ net-misc/openvswitch 3.5.1: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
 net-vpn/cloudflare-warp 2025.4.943.0: Cloudflare Warp Client
-net-vpn/cloudflared-bin 2025.6.0: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared-bin 2025.6.1: Argo Tunnel client, written in GoLang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
 sys-block/thin-provisioning-tools 1.0.13-r1 1.1.0-r2: A suite of tools for thin provisioning on Linux
