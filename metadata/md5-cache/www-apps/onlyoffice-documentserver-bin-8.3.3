@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=config install postinst prepare unpack
+DEPEND=acct-group/ds acct-user/ds
+DESCRIPTION=Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
+EAPI=8
+HOMEPAGE=https://www.onlyoffice.com/
+INHERIT=unpacker systemd tmpfiles
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+RDEPEND=acct-group/ds acct-user/ds app-admin/sudo dev-db/postgresql dev-db/redis net-misc/rabbitmq-server www-servers/nginx virtual/tmpfiles
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/ONLYOFFICE/DocumentServer/releases/download/v8.3.3/onlyoffice-documentserver_amd64.deb -> onlyoffice-documentserver-bin-8.3.3_amd64.deb
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	systemd	a964c0cbe818b5729da1dbfcee5be861	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_md5_=5732c058a510d6001b0933e8b707cc33
