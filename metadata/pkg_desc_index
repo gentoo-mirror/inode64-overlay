@@ -59,6 +59,7 @@ dev-php/composer 2.8.9: Dependency Manager for PHP
 dev-php/pecl-apcu 4.0.11 5.1.24: Stripped down version of APC supporting only user cache
 dev-php/pecl-imagick 3.7.0-r3 3.8.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-memcache 8.2-r1: PHP extension for using memcached
+dev-php/pecl-rdkafka 6.0.5: AProduction-ready, stable Kafka client for PHP
 dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
