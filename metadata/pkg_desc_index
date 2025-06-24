@@ -114,7 +114,7 @@ sys-firmware/edk2-bin 202202-r20241117 202202-r20250221: UEFI firmware for 64-bi
 sys-libs/libnbd 1.22.2: NBD client library in userspace
 sys-process/pm2 6.0.8: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
-sys-process/runitor 1.4.0: A command runner with healthchecks.io integration
+sys-process/runitor 1.4.1: A command runner with healthchecks.io integration
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
