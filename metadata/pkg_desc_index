@@ -25,9 +25,9 @@ acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 app-admin/cockpit 340: Server Administration Web Interface
-app-admin/cockpit-files 22: A filesystem browser for Cockpit
-app-admin/cockpit-machines 333: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 107: This is the Cockpit user interface for podman containers
+app-admin/cockpit-files 23: A filesystem browser for Cockpit
+app-admin/cockpit-machines 334: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 108: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
@@ -69,7 +69,7 @@ dev-python/command-runner 1.7.4: Platform agnostic command and shell execution t
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
-dev-python/django-stubs-ext 5.2.0: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.2.1: Monkey-patching and extensions for django-stubs.
 dev-python/fido2 1.2.0: Python based FIDO 2.0 library
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
