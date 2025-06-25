@@ -24,7 +24,7 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 340: Server Administration Web Interface
+app-admin/cockpit 341: Server Administration Web Interface
 app-admin/cockpit-files 23: A filesystem browser for Cockpit
 app-admin/cockpit-machines 334: This is the Cockpit user interface for virtual machines
 app-admin/cockpit-podman 108: This is the Cockpit user interface for podman containers
