@@ -31,7 +31,7 @@ app-admin/cockpit-podman 108: This is the Cockpit user interface for podman cont
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
-app-admin/salt 3007.4: Salt is a remote execution and configuration manager
+app-admin/salt 3007.5: Salt is a remote execution and configuration manager
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.8.1: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
@@ -85,7 +85,7 @@ dev-python/rjsmin 1.2.4: Javascript minifier written in python
 dev-python/sqlite3-to-mysql 2.4.0: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.9.0: Radically simplified static file serving for Python web apps
 dev-ruby/redmineup 1.0.11: Common libraries for RedmineCRM plugins for Redmine
-dev-util/phpstorm 2025.1.2: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2025.1.3: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
@@ -108,7 +108,7 @@ net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGua
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
 sys-block/thin-provisioning-tools 1.0.13-r1 1.1.0-r2: A suite of tools for thin provisioning on Linux
 sys-cluster/drbd-utils 9.31.0: mirror/replicate block-devices across a network-connection
-sys-cluster/glusterfs 11.1-r2: GlusterFS is a powerful network/cluster filesystem
+sys-cluster/glusterfs 11.1-r2 11.2: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20241117 202202-r20250221: UEFI firmware for 64-bit x86 virtual machines
 sys-libs/libnbd 1.22.2: NBD client library in userspace
