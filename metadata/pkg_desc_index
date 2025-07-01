@@ -105,6 +105,7 @@ net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
 net-vpn/cloudflare-warp 2025.5.893.0: Cloudflare Warp Client
 net-vpn/cloudflared-bin 2025.6.1: Argo Tunnel client, written in GoLang
 net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
+sys-apps/firejail 0.9.70: Security sandbox for any type of processes
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
 sys-block/thin-provisioning-tools 1.0.13-r1 1.1.0-r2: A suite of tools for thin provisioning on Linux
 sys-cluster/drbd-utils 9.31.0: mirror/replicate block-devices across a network-connection

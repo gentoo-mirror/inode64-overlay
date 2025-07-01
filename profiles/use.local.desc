@@ -128,6 +128,16 @@ net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applic
 net-misc/openvswitch:xdp - Enable support eXpress Data Path (Experimental)
 net-vpn/cloudflare-warp:dex - Install warp-dex for Digital Experience Monitoring tests
 net-vpn/cloudflare-warp:systray - Enable systray indicator of whether WARP is active
+sys-apps/firejail:X - Enable X11 sandboxing
+sys-apps/firejail:apparmor - Enable support for custom AppArmor profiles
+sys-apps/firejail:chroot - Enable chrooting to custom directory
+sys-apps/firejail:contrib - Install contrib scripts
+sys-apps/firejail:dbusproxy - Enable DBus proxying to filter access in supporting profiles
+sys-apps/firejail:file-transfer - Enable file transfers between sandboxes and the host system
+sys-apps/firejail:globalcfg - Enable global config file
+sys-apps/firejail:network - Enable networking features
+sys-apps/firejail:private-home - Enable private home feature
+sys-apps/firejail:userns - Enable attaching a new user namespace to a sandbox (--noroot option)
 sys-block/thin-provisioning-tools:io-uring - Enable experimental support for io-uring.
 sys-cluster/drbd-utils:xen - Enable Xen integration
 sys-cluster/glusterfs:firewalld - Enables support for manage firewall
