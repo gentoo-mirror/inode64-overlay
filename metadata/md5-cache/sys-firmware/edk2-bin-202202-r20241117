@@ -10,5 +10,5 @@ LICENSE=BSD-2 MIT
 RDEPEND=!sys-firmware/edk2 >=sys-firmware/seabios-bin-1.16.3
 SLOT=0
 SRC_URI=https://kojipkgs.fedoraproject.org/packages/edk2/20241117/5.fc42/noarch/edk2-ovmf-20241117-5.fc42.noarch.rpm
-_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	linux-info	efd923656513c879204fec6638eadee5	secureboot	d98b63e30a9468e1f1c06d3d7c66e760
+_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	linux-info	efd923656513c879204fec6638eadee5	secureboot	d98b63e30a9468e1f1c06d3d7c66e760
 _md5_=1a023234fe38b987a2dee9e8eeb5b278
