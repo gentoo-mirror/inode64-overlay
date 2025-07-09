@@ -36,7 +36,7 @@ app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.8.1: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.31.0: Configuration profiles manager and scheduler for restic backup
-app-backup/virtnbdbackup 2.29: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.30: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0 4.1.1: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.7: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
@@ -51,7 +51,7 @@ app-portage/portage-lostfiles 0.5.6: A simple script to identify files not track
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-java/javaparser-core 3.13.10: Java 1-17 Parser and Abstract Syntax Tree for Java
-dev-lang/php 5.6.40_p20241216-r2 5.6.40_p20250331 7.3.33-r1 7.4.33_p20241216 7.4.33_p20250331: The PHP language runtime engine
+dev-lang/php 5.6.40_p20241216-r2 5.6.40_p20250331 5.6.40_p20250703 7.3.33-r1 7.4.33_p20241216 7.4.33_p20250331 7.4.33_p20250703: The PHP language runtime engine
 dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.8.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-libs/granite 7.6.0: Elementary OS library that extends GTK+
@@ -84,7 +84,7 @@ dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
 dev-python/sqlite3-to-mysql 2.4.0: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.9.0: Radically simplified static file serving for Python web apps
-dev-ruby/redmineup 1.0.11: Common libraries for RedmineCRM plugins for Redmine
+dev-ruby/redmineup 1.0.12: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2025.1.3: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
