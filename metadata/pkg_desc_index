@@ -69,7 +69,7 @@ dev-python/command-runner 1.7.4: Platform agnostic command and shell execution t
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
-dev-python/django-stubs-ext 5.2.1: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.2.2: Monkey-patching and extensions for django-stubs.
 dev-python/fido2 1.2.0: Python based FIDO 2.0 library
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
@@ -92,7 +92,7 @@ media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 20.0 20.0.1: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.9: Ultimate camera streaming application
-net-analyzer/librenms 25.6.0: A fully featured network monitoring system
+net-analyzer/librenms 25.7.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.9.0: A powerful latency measurement tool
 net-firewall/firehol 3.1.8: iptables firewall generator
@@ -112,7 +112,7 @@ sys-cluster/drbd-utils 9.31.0: mirror/replicate block-devices across a network-c
 sys-cluster/glusterfs 11.1-r2 11.2: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20241117 202202-r20250221: UEFI firmware for 64-bit x86 virtual machines
-sys-libs/libnbd 1.22.2: NBD client library in userspace
+sys-libs/libnbd 1.22.3: NBD client library in userspace
 sys-process/pm2 6.0.8: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 sys-process/runitor 1.4.1: A command runner with healthchecks.io integration
