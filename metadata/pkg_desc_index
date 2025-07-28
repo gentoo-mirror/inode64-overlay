@@ -36,7 +36,7 @@ app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.8.1: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.31.0: Configuration profiles manager and scheduler for restic backup
-app-backup/virtnbdbackup 2.30: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.32: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0 4.1.1: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.8: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
@@ -56,10 +56,14 @@ dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.8.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-libs/granite 7.6.0: Elementary OS library that extends GTK+
 dev-php/composer 2.8.9: Dependency Manager for PHP
+dev-php/pecl-amqp 2.1.2: PHP Bindings for AMQP 0-9-1 compatible brokers
 dev-php/pecl-apcu 4.0.11 5.1.24: Stripped down version of APC supporting only user cache
+dev-php/pecl-http 4.2.6: Extended HTTP Support for PHP
 dev-php/pecl-imagick 3.7.0-r3 3.8.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-memcache 8.2-r1: PHP extension for using memcached
+dev-php/pecl-raphf 2.0.1-r3: A reusable, persistent handle and resource factory API
 dev-php/pecl-rdkafka 6.0.5: AProduction-ready, stable Kafka client for PHP
+dev-php/pecl-redis 6.2.0: PHP extension for interfacing with Redis
 dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
