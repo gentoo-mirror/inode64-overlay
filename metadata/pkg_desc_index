@@ -36,7 +36,7 @@ app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.9.0: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.31.0: Configuration profiles manager and scheduler for restic backup
-app-backup/virtnbdbackup 2.33: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
+app-backup/virtnbdbackup 2.34: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0 4.1.1: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/sscg 3.0.8: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
