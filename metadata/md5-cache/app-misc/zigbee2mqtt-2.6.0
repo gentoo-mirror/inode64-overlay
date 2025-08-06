@@ -11,4 +11,4 @@ RDEPEND=acct-group/zigbee2mqtt acct-user/zigbee2mqtt app-misc/mosquitto net-libs
 SLOT=0
 SRC_URI=https://github.com/Koenkk/zigbee2mqtt/archive/2.6.0.tar.gz -> zigbee2mqtt-2.6.0.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/zigbee2mqtt-2.6.0-node_modules.tar.xz
 _eclasses_=nodejs	0b747499e449b114cfd87717ca6d8799	nodejs-mod	988a9898f60f7ccb4afd7e36e3f573a5	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
-_md5_=57ae112ce5f3394e034f481e1e6744a8
+_md5_=9e3dc0ae760df492e67b67b865327b21
