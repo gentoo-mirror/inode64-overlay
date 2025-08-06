@@ -24,10 +24,10 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 343: Server Administration Web Interface
-app-admin/cockpit-files 25: A filesystem browser for Cockpit
-app-admin/cockpit-machines 336: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 110: This is the Cockpit user interface for podman containers
+app-admin/cockpit 344: Server Administration Web Interface
+app-admin/cockpit-files 26: A filesystem browser for Cockpit
+app-admin/cockpit-machines 337: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 111: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
@@ -54,7 +54,7 @@ dev-java/javaparser-core 3.13.10: Java 1-17 Parser and Abstract Syntax Tree for 
 dev-lang/php 5.6.40_p20241216-r2 5.6.40_p20250331 5.6.40_p20250703 7.3.33-r1 7.4.33_p20241216 7.4.33_p20250331 7.4.33_p20250703: The PHP language runtime engine
 dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.9.2: Superset of JavaScript with optional static typing, classes and interfaces
-dev-php/composer 2.8.9: Dependency Manager for PHP
+dev-php/composer 2.8.9 2.8.10: Dependency Manager for PHP
 dev-php/pecl-amqp 2.1.2: PHP Bindings for AMQP 0-9-1 compatible brokers
 dev-php/pecl-apcu 4.0.11 5.1.26: Stripped down version of APC supporting only user cache
 dev-php/pecl-http 4.2.6: Extended HTTP Support for PHP
