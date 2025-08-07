@@ -33,7 +33,6 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/salt 3007.6: Salt is a remote execution and configuration manager
 app-backup/autorestic 1.8.3: High level CLI utility for restic
-app-backup/backrest 1.9.1: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.31.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.34: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
