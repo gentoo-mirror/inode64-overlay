@@ -21,6 +21,13 @@ app-admin/salt:portage - Add support for package state enforcement using sys-app
 app-admin/salt:raet - Add support for the new RAET transport.
 app-admin/salt:redis - Support returning data to a redis database.
 app-admin/salt:zeromq - Add support for the zeromq transport.
+app-backup/wal-g:etcd - Enable etcd support
+app-backup/wal-g:fdb - Enable FoundationDB support
+app-backup/wal-g:gp - Enable GreenplumDB support
+app-backup/wal-g:mongo - Enable MongoDB support
+app-backup/wal-g:redis - Enable Redis support
+app-backup/wal-g:sodium - Use dev-libs/libsodium
+app-backup/wal-g:sqlserver - Enable MSSQL support
 app-metrics/pcp:activemq - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from ActiveMQ
 app-metrics/pcp:bind - Enable PCP Performance Metrics Domain Agent (PMDA) for collecting metrics from BIND via its REST interface
 app-metrics/pcp:discovery - Support discover PCP services on the network
