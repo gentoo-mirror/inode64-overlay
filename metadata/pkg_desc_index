@@ -95,7 +95,7 @@ mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
-media-video/davinci-resolve-studio 20.0 20.0.1 20.1: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 20.0 20.0.1 20.1 20.1.1: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.9: Ultimate camera streaming application
 net-analyzer/librenms 25.8.0: A fully featured network monitoring system
 net-analyzer/librenms-agent 9999: Agent for librenms
