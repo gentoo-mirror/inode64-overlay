@@ -55,13 +55,13 @@ dev-java/javaparser-core 3.13.10: Java 1-17 Parser and Abstract Syntax Tree for 
 dev-lang/php 5.6.40_p20241216-r2 5.6.40_p20250331 5.6.40_p20250703 7.3.33-r1 7.4.33_p20241216 7.4.33_p20250331 7.4.33_p20250703: The PHP language runtime engine
 dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.9.2: Superset of JavaScript with optional static typing, classes and interfaces
-dev-php/composer 2.8.9 2.8.10 2.8.11: Dependency Manager for PHP
+dev-php/composer 2.8.9 2.8.11: Dependency Manager for PHP
 dev-php/pecl-amqp 2.1.2: PHP Bindings for AMQP 0-9-1 compatible brokers
-dev-php/pecl-apcu 4.0.11 5.1.26: Stripped down version of APC supporting only user cache
+dev-php/pecl-apcu 4.0.11 5.1.27: Stripped down version of APC supporting only user cache
 dev-php/pecl-http 4.2.6: Extended HTTP Support for PHP
 dev-php/pecl-imagick 3.7.0-r3 3.8.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-memcache 8.2-r1: PHP extension for using memcached
-dev-php/pecl-raphf 2.0.1-r3: A reusable, persistent handle and resource factory API
+dev-php/pecl-raphf 2.0.2: A reusable, persistent handle and resource factory API
 dev-php/pecl-rdkafka 6.0.5: AProduction-ready, stable Kafka client for PHP
 dev-php/pecl-redis 6.2.0: PHP extension for interfacing with Redis
 dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbclient library
@@ -127,7 +127,7 @@ virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/dolibarr 21.0.1 21.0.2 22.0.0: Dolibarr ERP CRM: modern software package to manage your company
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
-www-apps/healthchecks 3.10: A cron monitoring service and background task monitoring service
+www-apps/healthchecks 3.11: A cron monitoring service and background task monitoring service
 www-apps/matomo 5.3.2 5.4.0: Matomo is the leading Free/Libre open analytics platform.
 www-apps/onlyoffice-documentserver-bin 7.5.1 8.3.3: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 6.0.6: Flexible project management web application using the Ruby on Rails framework
