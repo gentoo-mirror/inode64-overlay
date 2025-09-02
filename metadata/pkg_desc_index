@@ -86,7 +86,7 @@ dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime 
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
-dev-python/sqlite3-to-mysql 2.4.3: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/sqlite3-to-mysql 2.4.4: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.9.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
@@ -125,9 +125,9 @@ sys-process/runitor 1.4.1: A command runner with healthchecks.io integration
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/dolibarr 21.0.1 21.0.2 22.0.0: Dolibarr ERP CRM: modern software package to manage your company
+www-apps/dolibarr 21.0.1 21.0.2 22.0.1: Dolibarr ERP CRM: modern software package to manage your company
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
-www-apps/healthchecks 3.11.1: A cron monitoring service and background task monitoring service
+www-apps/healthchecks 3.11.2: A cron monitoring service and background task monitoring service
 www-apps/matomo 5.3.2 5.4.0: Matomo is the leading Free/Libre open analytics platform.
 www-apps/onlyoffice-documentserver-bin 7.5.1 8.3.3: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 6.0.6: Flexible project management web application using the Ruby on Rails framework
