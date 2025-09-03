@@ -119,7 +119,7 @@ sys-cluster/glusterfs 11.1-r2 11.2: GlusterFS is a powerful network/cluster file
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20241117 202202-r20250221: UEFI firmware for 64-bit x86 virtual machines
 sys-libs/libnbd 1.22.4: NBD client library in userspace
-sys-process/pm2 6.0.9: Process manager for Node.js applications with a built-in load balancer
+sys-process/pm2 6.0.9 6.0.10: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 sys-process/runitor 1.4.1: A command runner with healthchecks.io integration
 virtual/developer-gentoo 0: Tools needed for developing applications in php
