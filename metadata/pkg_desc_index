@@ -51,7 +51,6 @@ app-portage/livecheck 9999: Tool to update ebuilds.
 app-portage/portage-lostfiles 0.5.6: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver 18 for SQL Server
-dev-java/javaparser-core 3.13.10: Java 1-17 Parser and Abstract Syntax Tree for Java
 dev-lang/php 5.6.40_p20241216-r2 5.6.40_p20250331 5.6.40_p20250703 7.3.33-r1 7.4.33_p20241216 7.4.33_p20250331 7.4.33_p20250703: The PHP language runtime engine
 dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.9.2: Superset of JavaScript with optional static typing, classes and interfaces
@@ -97,7 +96,6 @@ media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 20.0 20.0.1 20.1 20.2: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.9: Ultimate camera streaming application
 net-analyzer/librenms 25.8.0: A fully featured network monitoring system
-net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.9.0: A powerful latency measurement tool
 net-firewall/firehol 3.1.8: iptables firewall generator
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
@@ -108,8 +106,7 @@ net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant m
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
 net-vpn/cloudflare-warp 2025.6.1335.0: Cloudflare Warp Client
 net-vpn/cloudflared-bin 2025.8.1: Argo Tunnel client, written in GoLang
-net-vpn/nebula 1.9.6: A scalable overlay networking tool with a focus on performance, simplicity and security
-net-vpn/wg-meshconf 2.5.1: Tool to generate peer configuration files for WireGuard mesh networks
+net-vpn/nebula 1.9.6: Nebula connects devices worldwide with a secure, simple, scalable network
 sys-apps/firejail 0.9.70: Security sandbox for any type of processes
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
 sys-block/thin-provisioning-tools 1.0.13-r1 1.1.0-r2: A suite of tools for thin provisioning on Linux

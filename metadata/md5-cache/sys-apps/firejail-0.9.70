@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/netblue30/firejail/releases/download/0.9.70/firejail-0.9.70.tar.xz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	b7eb9c3a6dc6662368634584aab44a2c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	linux-info	efd923656513c879204fec6638eadee5
-_md5_=ac92d18a4dd5199e490b56b6ddbee55b
+_md5_=86605280e9c4efd35048cd36f03547ff
