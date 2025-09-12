@@ -73,7 +73,7 @@ dev-python/command-runner 1.7.5: Platform agnostic command and shell execution t
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
-dev-python/django-stubs-ext 5.2.2: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.2.4: Monkey-patching and extensions for django-stubs.
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 9.4.0: Python client library for MariaDB/MySQL
@@ -101,7 +101,7 @@ net-analyzer/librenms-agent 9999: Agent for librenms
 net-analyzer/smokeping 2.9.0: A powerful latency measurement tool
 net-firewall/firehol 3.1.8: iptables firewall generator
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
-net-misc/freerdp 3.17.1: Free implementation of the Remote Desktop Protocol
+net-misc/freerdp 3.9.0: Free implementation of the Remote Desktop Protocol
 net-misc/guacamole-server 1.6.0 9999: This is the proxy-daemon used by www-apps/guacamole
 net-misc/openvswitch 3.6.0: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
