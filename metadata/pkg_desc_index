@@ -51,10 +51,10 @@ app-portage/livecheck 9999: Tool to update ebuilds.
 app-portage/portage-lostfiles 0.5.6: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver 18 for SQL Server
-dev-lang/php 5.6.40_p20241216-r2 5.6.40_p20250331 5.6.40_p20250703 7.3.33-r1 7.4.33_p20241216 7.4.33_p20250331 7.4.33_p20250703: The PHP language runtime engine
+dev-lang/php 5.6.40_p20250703 7.4.33_p20250703: The PHP language runtime engine
 dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.9.2: Superset of JavaScript with optional static typing, classes and interfaces
-dev-php/composer 2.8.9 2.8.11: Dependency Manager for PHP
+dev-php/composer 2.8.11: Dependency Manager for PHP
 dev-php/pecl-amqp 2.1.2: PHP Bindings for AMQP 0-9-1 compatible brokers
 dev-php/pecl-apcu 4.0.11 5.1.27: Stripped down version of APC supporting only user cache
 dev-php/pecl-http 4.2.6: Extended HTTP Support for PHP
@@ -72,7 +72,7 @@ dev-python/command-runner 1.7.5: Platform agnostic command and shell execution t
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
-dev-python/django-stubs-ext 5.2.4: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.2.5: Monkey-patching and extensions for django-stubs.
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 9.4.0: Python client library for MariaDB/MySQL
@@ -93,7 +93,7 @@ mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
-media-video/davinci-resolve-studio 20.0 20.0.1 20.1 20.2: Professional A/V post-production software suite from Blackmagic Design
+media-video/davinci-resolve-studio 20.2: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.9: Ultimate camera streaming application
 net-analyzer/librenms 25.8.0: A fully featured network monitoring system
 net-analyzer/smokeping 2.9.0: A powerful latency measurement tool
@@ -111,21 +111,21 @@ sys-apps/firejail 0.9.70: Security sandbox for any type of processes
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
 sys-block/thin-provisioning-tools 1.0.13-r1 1.1.0-r2: A suite of tools for thin provisioning on Linux
 sys-cluster/drbd-utils 9.32.0: mirror/replicate block-devices across a network-connection
-sys-cluster/glusterfs 11.1-r2 11.2: GlusterFS is a powerful network/cluster filesystem
+sys-cluster/glusterfs 11.2: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20241117 202202-r20250221: UEFI firmware for 64-bit x86 virtual machines
 sys-libs/libnbd 1.22.4: NBD client library in userspace
-sys-process/pm2 6.0.9 6.0.11: Process manager for Node.js applications with a built-in load balancer
+sys-process/pm2 6.0.11: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 sys-process/runitor 1.4.1: A command runner with healthchecks.io integration
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/dolibarr 21.0.1 21.0.2 22.0.1: Dolibarr ERP CRM: modern software package to manage your company
+www-apps/dolibarr 22.0.1: Dolibarr ERP CRM: modern software package to manage your company
 www-apps/guacamole-client 1.5.5-r1: Apache Guacamole is a clientless remote desktop gateway
 www-apps/healthchecks 3.11.2: A cron monitoring service and background task monitoring service
-www-apps/matomo 5.3.2 5.4.0: Matomo is the leading Free/Libre open analytics platform.
-www-apps/onlyoffice-documentserver-bin 7.5.1 8.3.3: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
+www-apps/matomo 5.4.0: Matomo is the leading Free/Libre open analytics platform.
+www-apps/onlyoffice-documentserver-bin 8.3.3: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 6.0.6: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
-www-servers/varnish 7.6.3 7.6.5: Varnish is a state-of-the-art, high-performance HTTP accelerator
+www-servers/varnish 7.6.5: Varnish is a state-of-the-art, high-performance HTTP accelerator
