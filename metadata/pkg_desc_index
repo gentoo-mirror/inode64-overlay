@@ -66,6 +66,7 @@ dev-php/pecl-redis 6.2.0: PHP extension for interfacing with Redis
 dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
+dev-python/bascom 0.0.1: Core library used in Tatsh projects.
 dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
 dev-python/cloudflare 2.19.4 4.1.0 4.2.0 4.3.1: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.7.5: Platform agnostic command and shell execution tool
