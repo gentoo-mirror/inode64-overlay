@@ -24,9 +24,9 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 346: Server Administration Web Interface
+app-admin/cockpit 347: Server Administration Web Interface
 app-admin/cockpit-files 28: A filesystem browser for Cockpit
-app-admin/cockpit-machines 339: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-machines 340: This is the Cockpit user interface for virtual machines
 app-admin/cockpit-podman 113: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
@@ -85,7 +85,7 @@ dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime 
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
-dev-python/sqlite3-to-mysql 2.4.5: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/sqlite3-to-mysql 2.4.6: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.10.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
