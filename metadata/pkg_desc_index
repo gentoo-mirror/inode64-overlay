@@ -31,7 +31,7 @@ app-admin/cockpit-podman 113: This is the Cockpit user interface for podman cont
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
-app-admin/salt 3007.7: Salt is a remote execution and configuration manager
+app-admin/salt 3007.8: Salt is a remote execution and configuration manager
 app-backup/autorestic 1.8.3: High level CLI utility for restic
 app-backup/backrest 1.9.2: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
@@ -106,7 +106,7 @@ net-misc/openvswitch 3.6.0: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
 net-vpn/cloudflare-warp 2025.6.1335.0: Cloudflare Warp Client
-net-vpn/cloudflared-bin 2025.8.1: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared-bin 2025.9.0: Argo Tunnel client, written in GoLang
 net-vpn/nebula 1.9.6: Nebula connects devices worldwide with a secure, simple, scalable network
 sys-apps/firejail 0.9.70: Security sandbox for any type of processes
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
