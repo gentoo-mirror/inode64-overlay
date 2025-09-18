@@ -86,7 +86,7 @@ dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
 dev-python/sqlite3-to-mysql 2.4.6: A simple Python tool to transfer data from SQLite 3 to MySQL
-dev-python/whitenoise 6.10.0: Radically simplified static file serving for Python web apps
+dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
 dev-util/phpstorm 2025.2.1: A complete toolset for web, mobile and enterprise development
