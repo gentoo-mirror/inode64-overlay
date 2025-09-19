@@ -89,7 +89,7 @@ dev-python/sqlite3-to-mysql 2.4.6: A simple Python tool to transfer data from SQ
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
-dev-util/phpstorm 2025.2.1: A complete toolset for web, mobile and enterprise development
+dev-util/phpstorm 2025.2.2: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
