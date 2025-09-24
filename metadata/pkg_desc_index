@@ -92,6 +92,7 @@ dev-python/python-socketio 5.13.0: Python implementation of the Socket.IO realti
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
+dev-python/sortedcollections 2.1.0: Apache2 licensed Python sorted collections library
 dev-python/sqlite3-to-mysql 2.5.0: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
