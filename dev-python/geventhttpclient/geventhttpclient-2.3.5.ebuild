@@ -21,8 +21,13 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 DEPEND="
-  app-arch/brotli[python]
-  dev-python/certifi
-  dev-python/gevent
-  dev-python/urllib3
+    app-arch/brotli[python]
+    dev-python/certifi
+    dev-python/gevent
+    dev-python/urllib3
+    net-libs/llhttp
 "
+
+PATCHES=(
+    "${FILESDIR}"/update_llhttp.patch
+)
