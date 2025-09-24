@@ -66,7 +66,9 @@ dev-php/pecl-redis 6.2.0: PHP extension for interfacing with Redis
 dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbclient library
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
+dev-python/aspectlib 2.0.0 9999: Aspect-oriented programming, monkey-patch and decorators library
 dev-python/bascom 0.0.1: Core library used in Tatsh projects.
+dev-python/bidict 0.23.1: The bidirectional mapping library for Python
 dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
 dev-python/cloudflare 2.19.4 4.1.0 4.2.0 4.3.1: Python wrapper for the Cloudflare v4 API
 dev-python/command-runner 1.7.5: Platform agnostic command and shell execution tool
@@ -74,14 +76,18 @@ dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
 dev-python/django-stubs-ext 5.2.5: Monkey-patching and extensions for django-stubs.
+dev-python/gevent 25.5.1: Coroutine-based network library
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
 dev-python/mysql-connector-python 9.4.0: Python client library for MariaDB/MySQL
 dev-python/oncalendar 1.1: Systemd OnCalendar expression parser and evaluator
 dev-python/osmapi 4.3.0: Python wrapper for the OSM API
 dev-python/ovs 3.6.0: OVS bindings for python
+dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module for pygal
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
+dev-python/pytest-benchmark 5.1.0 9999: py.test fixture for benchmarking code
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
+dev-python/python-socketio 5.13.0: Python implementation of the Socket.IO realtime server
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
@@ -89,6 +95,7 @@ dev-python/sqlite3-to-mysql 2.5.0: A simple Python tool to transfer data from SQ
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
+dev-util/locust 2.40.5: Developer friendly load testing framework
 dev-util/phpstorm 2025.2.2: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
