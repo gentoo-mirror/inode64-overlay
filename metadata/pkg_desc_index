@@ -136,6 +136,6 @@ www-apps/guacamole-client 1.5.5-r1 1.6.0: Apache Guacamole is a clientless remot
 www-apps/healthchecks 3.11.2: A cron monitoring service and background task monitoring service
 www-apps/matomo 5.4.0: Matomo is the leading Free/Libre open analytics platform.
 www-apps/onlyoffice-documentserver-bin 8.3.3: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
-www-apps/redmine 6.0.6: Flexible project management web application using the Ruby on Rails framework
+www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
 www-servers/varnish 7.6.5: Varnish is a state-of-the-art, high-performance HTTP accelerator
