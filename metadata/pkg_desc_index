@@ -93,7 +93,7 @@ dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
 dev-python/sortedcollections 2.1.0: Apache2 licensed Python sorted collections library
-dev-python/sqlite3-to-mysql 2.5.0: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/sqlite3-to-mysql 2.5.1: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
@@ -104,7 +104,7 @@ mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 20.2.1: Professional A/V post-production software suite from Blackmagic Design
-media-video/go2rtc 1.9.9: Ultimate camera streaming application
+media-video/go2rtc 1.9.10: Ultimate camera streaming application
 net-analyzer/librenms 25.9.1: A fully featured network monitoring system
 net-analyzer/smokeping 2.9.0: A powerful latency measurement tool
 net-firewall/firehol 3.1.8: iptables firewall generator
