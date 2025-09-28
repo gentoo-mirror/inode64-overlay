@@ -97,7 +97,7 @@ dev-python/sqlite3-to-mysql 2.5.1: A simple Python tool to transfer data from SQ
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
-dev-util/locust 2.40.5: Developer friendly load testing framework
+dev-util/locust 2.40.5 2.41.1: Developer friendly load testing framework
 dev-util/phpstorm 2025.2.2: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
@@ -131,7 +131,7 @@ sys-process/runitor 1.4.1: A command runner with healthchecks.io integration
 virtual/developer-gentoo 0: Tools needed for developing applications in php
 virtual/developer-php 0: Tools needed for developing applications in php
 virtual/developer-python 0: Tools needed for developing in gentoo
-www-apps/dolibarr 22.0.1: Dolibarr ERP CRM: modern software package to manage your company
+www-apps/dolibarr 22.0.2: Dolibarr ERP CRM: modern software package to manage your company
 www-apps/guacamole-client 1.5.5-r1 1.6.0: Apache Guacamole is a clientless remote desktop gateway
 www-apps/healthchecks 3.11.2: A cron monitoring service and background task monitoring service
 www-apps/matomo 5.4.0: Matomo is the leading Free/Libre open analytics platform.
