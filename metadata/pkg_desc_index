@@ -67,7 +67,7 @@ dev-php/pecl-smbclient 1.1.2: Provides support for CIFS/SMB via samba's libsmbcl
 dev-php/smarty 3.1.48: A template engine for PHP
 dev-php/xdebug 3.1.6: A PHP debugging and profiling extension
 dev-python/aspectlib 2.0.0 9999: Aspect-oriented programming, monkey-patch and decorators library
-dev-python/bascom 0.0.1: Core library used in Tatsh projects.
+dev-python/bascom 0.0.2: Core library used in Tatsh projects.
 dev-python/bidict 0.23.1: The bidirectional mapping library for Python
 dev-python/cached-property 1.5.2 2.0.1 9999: A cached-property for decorating methods in classes
 dev-python/cloudflare 2.19.4 4.1.0 4.2.0 4.3.1: Python wrapper for the Cloudflare v4 API
