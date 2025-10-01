@@ -53,7 +53,7 @@ dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus 
 dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver 18 for SQL Server
 dev-lang/php 5.6.40_p20250703 7.4.33_p20250703: The PHP language runtime engine
 dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
-dev-lang/typescript 5.9.2: Superset of JavaScript with optional static typing, classes and interfaces
+dev-lang/typescript 5.9.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-php/composer 2.8.11 2.8.12: Dependency Manager for PHP
 dev-php/pecl-amqp 2.1.2: PHP Bindings for AMQP 0-9-1 compatible brokers
 dev-php/pecl-apcu 4.0.11 5.1.27: Stripped down version of APC supporting only user cache
@@ -88,7 +88,7 @@ dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module fo
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/pytest-benchmark 5.1.0 9999: py.test fixture for benchmarking code
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
-dev-python/python-socketio 5.13.0: Python implementation of the Socket.IO realtime server
+dev-python/python-socketio 5.14.0: Python implementation of the Socket.IO realtime server
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.1: CSS minifier written in python
 dev-python/rjsmin 1.2.4: Javascript minifier written in python
@@ -97,7 +97,7 @@ dev-python/sqlite3-to-mysql 2.5.1: A simple Python tool to transfer data from SQ
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
-dev-util/locust 2.40.5 2.41.1: Developer friendly load testing framework
+dev-util/locust 2.40.5 2.41.2: Developer friendly load testing framework
 dev-util/phpstorm 2025.2.2: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
@@ -114,7 +114,7 @@ net-misc/guacamole-server 1.6.0 9999: This is the proxy-daemon used by www-apps/
 net-misc/openvswitch 3.6.0: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
-net-vpn/cloudflare-warp 2025.6.1335.0: Cloudflare Warp Client
+net-vpn/cloudflare-warp 2025.7.176.0: Cloudflare Warp Client
 net-vpn/cloudflared-bin 2025.9.1: Argo Tunnel client, written in GoLang
 net-vpn/nebula 1.9.6: Nebula connects devices worldwide with a secure, simple, scalable network
 sys-apps/firejail 0.9.70: Security sandbox for any type of processes
