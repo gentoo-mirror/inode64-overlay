@@ -96,7 +96,7 @@ dev-python/sortedcollections 2.1.0: Apache2 licensed Python sorted collections l
 dev-python/sqlite3-to-mysql 2.5.1: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
-dev-ruby/redmineup 1.1.0: Common libraries for RedmineCRM plugins for Redmine
+dev-ruby/redmineup 1.1.1: Common libraries for RedmineCRM plugins for Redmine
 dev-util/locust 2.40.5 2.41.2: Developer friendly load testing framework
 dev-util/phpstorm 2025.2.2: A complete toolset for web, mobile and enterprise development
 mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
