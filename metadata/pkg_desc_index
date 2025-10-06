@@ -75,7 +75,7 @@ dev-python/command-runner 1.7.5: Platform agnostic command and shell execution t
 dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/django-appconf 1.1.0: A helper class for handling configuration defaults of packaged apps gracefully
 dev-python/django-compressor 4.5.1: Compresses linked and inline JavaScript or CSS into single cached files
-dev-python/django-stubs-ext 5.2.5: Monkey-patching and extensions for django-stubs.
+dev-python/django-stubs-ext 5.2.6: Monkey-patching and extensions for django-stubs.
 dev-python/gevent 25.5.1: Coroutine-based network library
 dev-python/geventhttpclient 2.3.5: Coroutine-based network library
 dev-python/interruptingcow 0.8: A watchdog that interrupts long running code
