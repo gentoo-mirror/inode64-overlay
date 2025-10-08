@@ -114,7 +114,7 @@ net-misc/guacamole-server 1.6.0 9999: This is the proxy-daemon used by www-apps/
 net-misc/openvswitch 3.6.0: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
-net-vpn/cloudflare-warp 2025.7.176.0: Cloudflare Warp Client
+net-vpn/cloudflare-warp 2025.8.779.0: Cloudflare Warp Client
 net-vpn/cloudflared-bin 2025.9.1: Argo Tunnel client, written in GoLang
 net-vpn/nebula 1.9.6: Nebula connects devices worldwide with a secure, simple, scalable network
 sys-apps/firejail 0.9.70: Security sandbox for any type of processes
@@ -134,7 +134,7 @@ virtual/developer-python 0: Tools needed for developing in gentoo
 www-apps/dolibarr 22.0.2: Dolibarr ERP CRM: modern software package to manage your company
 www-apps/guacamole-client 1.5.5-r1 1.6.0: Apache Guacamole is a clientless remote desktop gateway
 www-apps/healthchecks 3.11.2: A cron monitoring service and background task monitoring service
-www-apps/matomo 5.4.0: Matomo is the leading Free/Libre open analytics platform.
+www-apps/matomo 5.5.0: Matomo is the leading Free/Libre open analytics platform.
 www-apps/onlyoffice-documentserver-bin 8.3.3: Online office suite comprising viewers and editors for texts, spreadsheets and presentations (binary version)
 www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
 www-misc/awstats 8.0: AWStats is short for Advanced Web Statistics
