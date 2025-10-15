@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3+
 RDEPEND=amqp? ( dev-php/pecl-amqp ) app-admin/sudo >=dev-lang/php-8.1:*[bcmath,cli,curl,fpm,gd,mysqli,ldap?,pdo,session,simplexml,snmp,xml,zip] dev-php/pecl-imagick dev-php/pecl-memcache ipmi? ( sys-apps/ipmitool ) media-gfx/graphviz >=net-analyzer/fping-4.2[suid] net-analyzer/mtr net-analyzer/net-snmp net-analyzer/nmap net-analyzer/rrdtool[rrdcached] net-misc/whois radius? ( dev-php/pecl-radius ) redis? ( dev-db/redis ) sys-apps/acl virtual/cron virtual/mysql dev-python/command-runner dev-python/pip dev-python/psutil dev-python/pymysql dev-python/python-dotenv dev-python/python-memcached dev-python/redis
 SLOT=0
-SRC_URI=https://github.com/librenms/librenms/archive/25.9.1.tar.gz -> librenms-25.9.1.tar.gz
+SRC_URI=https://github.com/librenms/librenms/archive/25.10.0.tar.gz -> librenms-25.10.0.tar.gz
 _md5_=cdedc2688d4a7dc6e6dad4070650b961

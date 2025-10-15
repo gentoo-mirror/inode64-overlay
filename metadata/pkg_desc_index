@@ -24,10 +24,10 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 348: Server Administration Web Interface
-app-admin/cockpit-files 29: A filesystem browser for Cockpit
-app-admin/cockpit-machines 341: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 114: This is the Cockpit user interface for podman containers
+app-admin/cockpit 349: Server Administration Web Interface
+app-admin/cockpit-files 30: A filesystem browser for Cockpit
+app-admin/cockpit-machines 342: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 115: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
@@ -42,7 +42,7 @@ app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0 4.1.1 4.2.0 5.0.0 5.1.0: Cl
 app-crypt/sscg 3.0.8: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
-app-metrics/pcp 7.0.1: Performance Co-Pilot, system performance and analysis framework
+app-metrics/pcp 7.0.2: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
 app-misc/node-red 4.1.1: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.6.1: It bridges events and allows you to control your Zigbee devices via MQTT
@@ -51,7 +51,7 @@ app-portage/livecheck 9999: Tool to update ebuilds.
 app-portage/portage-lostfiles 0.5.6: A simple script to identify files not tracked by Portage package manager
 dev-db/keydb 6.3.4 9999: KeyDB is a high performance fork of Redis with a focus on multithreading
 dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver 18 for SQL Server
-dev-lang/php 5.6.40_p20250703 7.4.33_p20250703 7.4.33_p20251009 7.4.33_p20251011: The PHP language runtime engine
+dev-lang/php 5.6.40_p20250703 7.4.33_p20251011: The PHP language runtime engine
 dev-lang/spidermonkey 128.10.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/typescript 5.9.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-php/composer 2.8.11 2.8.12: Dependency Manager for PHP
@@ -105,7 +105,7 @@ media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
 media-video/davinci-resolve-studio 20.2.2: Professional A/V post-production software suite from Blackmagic Design
 media-video/go2rtc 1.9.10: Ultimate camera streaming application
-net-analyzer/librenms 25.9.1: A fully featured network monitoring system
+net-analyzer/librenms 25.10.0: A fully featured network monitoring system
 net-analyzer/smokeping 2.9.0: A powerful latency measurement tool
 net-firewall/firehol 3.1.8: iptables firewall generator
 net-misc/bt-mqtt-gateway 9999: Bluetooth MQTT gateway
