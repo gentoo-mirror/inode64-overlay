@@ -44,7 +44,7 @@ app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
 app-metrics/pcp 7.0.1: Performance Co-Pilot, system performance and analysis framework
 app-misc/mqtt-exporter 9999: Simple and generic Prometheus exporter for MQTT
-app-misc/node-red 4.1.0: A visual tool for wiring the Internet of Things.
+app-misc/node-red 4.1.1: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.6.1: It bridges events and allows you to control your Zigbee devices via MQTT
 app-portage/glus 9999: Gentoo Linux update system
 app-portage/livecheck 9999: Tool to update ebuilds.
@@ -115,7 +115,7 @@ net-misc/openvswitch 3.6.0: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
 net-vpn/cloudflare-warp 2025.8.779.0: Cloudflare Warp Client
-net-vpn/cloudflared-bin 2025.9.1: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared-bin 2025.10.0: Argo Tunnel client, written in GoLang
 net-vpn/nebula 1.9.7: Nebula connects devices worldwide with a secure, simple, scalable network
 sys-apps/firejail 0.9.70: Security sandbox for any type of processes
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
