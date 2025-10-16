@@ -88,7 +88,7 @@ dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module fo
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/pytest-benchmark 5.1.0 9999: py.test fixture for benchmarking code
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
-dev-python/python-socketio 5.14.1: Python implementation of the Socket.IO realtime server
+dev-python/python-socketio 5.14.2: Python implementation of the Socket.IO realtime server
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.2: CSS minifier written in python
 dev-python/rjsmin 1.2.5: Javascript minifier written in python
