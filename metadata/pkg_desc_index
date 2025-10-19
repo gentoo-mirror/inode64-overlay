@@ -99,7 +99,7 @@ dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.1: Common libraries for RedmineCRM plugins for Redmine
 dev-util/locust 2.40.5 2.41.3: Developer friendly load testing framework
 dev-util/phpstorm 2025.2.3: A complete toolset for web, mobile and enterprise development
-mail-mta/exim 4.98.2-r1: A highly configurable, drop-in replacement for sendmail
+mail-mta/exim 4.98.2-r2: A highly configurable, drop-in replacement for sendmail
 mail-mta/mailhog-bin 1.0.1: Runs an SMTP server, catches and displays email in a web interface.
 media-gfx/annotator 2.0.0: Image annotation for Elementary OS
 media-gfx/gpr-tools 9999: The General Purpose Raw (GPR) tools for gopro
