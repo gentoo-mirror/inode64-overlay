@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=acct-group/go2rtc acct-user/go2rtc media-video/ffmpeg[x264,x265,opus] virtual/tmpfiles
 SLOT=0
-SRC_URI=https://github.com/AlexxIT/go2rtc/archive/refs/tags/v1.9.10.tar.gz -> go2rtc-1.9.10.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/go2rtc-1.9.10-vendor.tar.xz
+SRC_URI=https://github.com/AlexxIT/go2rtc/archive/refs/tags/v1.9.11.tar.gz -> go2rtc-1.9.11.tar.gz https://raw.githubusercontent.com/inode64/inode64-overlay/main/dist/go2rtc-1.9.11-vendor.tar.xz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885	systemd	a964c0cbe818b5729da1dbfcee5be861	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
 _md5_=5c06cdf76262abedf49b44dcfb9f2844
