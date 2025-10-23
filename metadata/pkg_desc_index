@@ -39,7 +39,7 @@ app-backup/resticprofile 0.32.0: Configuration profiles manager and scheduler fo
 app-backup/virtnbdbackup 2.38: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
 app-backup/wal-g 3.0.7: Archival restoration tool for databases
 app-crypt/certbot-dns-cloudflare 2.11.0 2.11.1 4.0.0 4.1.1 4.2.0 5.0.0 5.1.0: Cloudflare DNS Authenticator plugin for Certbot (Let's Encrypt Client)
-app-crypt/sscg 3.0.8: Simple Signed Certificate Generator
+app-crypt/sscg 4.0.0: Simple Signed Certificate Generator
 app-emulation/libvirt-dbus 1.4.1: DBus protocol binding for libvirt native C API
 app-metrics/metricbeat-bin 8.16.1: Lightweight shipper for metrics
 app-metrics/pcp 7.0.2: Performance Co-Pilot, system performance and analysis framework
@@ -124,7 +124,7 @@ sys-cluster/drbd-utils 9.32.0: mirror/replicate block-devices across a network-c
 sys-cluster/glusterfs 11.2: GlusterFS is a powerful network/cluster filesystem
 sys-firmware/cc2538-bsl 9999: Script to communicate with Texas Instruments CC13xx/CC2538/CC26xx Serial Boot Loader
 sys-firmware/edk2-bin 202202-r20241117 202202-r20250221: UEFI firmware for 64-bit x86 virtual machines
-sys-libs/libnbd 1.22.4: NBD client library in userspace
+sys-libs/libnbd 1.22.5: NBD client library in userspace
 sys-process/pm2 6.0.13: Process manager for Node.js applications with a built-in load balancer
 sys-process/run-one 1.17-r72: Run just one instance of a command and its args at a time
 sys-process/runitor 1.4.1: A command runner with healthchecks.io integration
