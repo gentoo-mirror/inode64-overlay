@@ -1,11 +1,14 @@
-DEFINED_PHASES=install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
 DESCRIPTION=AWStats is short for Advanced Web Statistics
 EAPI=8
 HOMEPAGE=https://www.awstats.org/ https://github.com/eldy/AWStats
+INHERIT=git-r3
 IUSE=geoip2 ipv6
 KEYWORDS=~amd64 ~riscv ~x86
 LICENSE=GPL-3
+PROPERTIES=live
 RDEPEND=>=dev-lang/perl-5.6.1 dev-perl/URI virtual/perl-Time-Local geoip2? ( dev-perl/GeoIP2 ) ipv6? ( dev-perl/Net-DNS dev-perl/Net-IP )
 SLOT=0
-SRC_URI=https://www.awstats.org/files/awstats-8.0.tar.gz
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=0c024c72fb76d2086cc6f3a07b419029
