@@ -24,10 +24,10 @@ acct-user/node-red 0: A user for node-red
 acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
-app-admin/cockpit 349: Server Administration Web Interface
-app-admin/cockpit-files 30: A filesystem browser for Cockpit
-app-admin/cockpit-machines 342: This is the Cockpit user interface for virtual machines
-app-admin/cockpit-podman 115: This is the Cockpit user interface for podman containers
+app-admin/cockpit 350: Server Administration Web Interface
+app-admin/cockpit-files 31: A filesystem browser for Cockpit
+app-admin/cockpit-machines 343: This is the Cockpit user interface for virtual machines
+app-admin/cockpit-podman 116: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
 app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
@@ -88,12 +88,12 @@ dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module fo
 dev-python/pylspci 0.4.3: A Python parser for the lspci command from the pciutils package
 dev-python/pytest-benchmark 5.1.0 9999: py.test fixture for benchmarking code
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
-dev-python/python-socketio 5.14.2: Python implementation of the Socket.IO realtime server
+dev-python/python-socketio 5.14.3: Python implementation of the Socket.IO realtime server
 dev-python/pytimeparse2 1.7.1: MySQL driver written in Python
 dev-python/rcssmin 1.2.2: CSS minifier written in python
 dev-python/rjsmin 1.2.5: Javascript minifier written in python
 dev-python/sortedcollections 2.1.0: Apache2 licensed Python sorted collections library
-dev-python/sqlite3-to-mysql 2.5.1: A simple Python tool to transfer data from SQLite 3 to MySQL
+dev-python/sqlite3-to-mysql 2.5.2: A simple Python tool to transfer data from SQLite 3 to MySQL
 dev-python/whitenoise 6.11.0: Radically simplified static file serving for Python web apps
 dev-ruby/rbpdf 1.21.4: Ruby on Rails RBPDF plugin
 dev-ruby/redmineup 1.1.1: Common libraries for RedmineCRM plugins for Redmine
