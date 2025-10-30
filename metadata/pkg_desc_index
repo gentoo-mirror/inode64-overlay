@@ -115,7 +115,7 @@ net-misc/openvswitch 3.6.0: Production quality, multilayer virtual switch
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-vpn/bitbucketrunner 3.23.0: Bitbucket self-hosted Pipelines runner
 net-vpn/cloudflare-warp 2025.8.779.0: Cloudflare Warp Client
-net-vpn/cloudflared-bin 2025.10.0: Argo Tunnel client, written in GoLang
+net-vpn/cloudflared-bin 2025.10.1: Argo Tunnel client, written in GoLang
 net-vpn/nebula 1.9.7: Nebula connects devices worldwide with a secure, simple, scalable network
 sys-apps/firejail 0.9.70: Security sandbox for any type of processes
 sys-auth/pam_ldap 186-r4: PAM LDAP Module
