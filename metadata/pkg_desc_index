@@ -25,7 +25,7 @@ acct-user/pcp 0: Performance Co-Pilot
 acct-user/smokeping 0-r1: A user for net-analyzer/smokeping
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 app-admin/cockpit 350: Server Administration Web Interface
-app-admin/cockpit-files 31: A filesystem browser for Cockpit
+app-admin/cockpit-files 31.1: A filesystem browser for Cockpit
 app-admin/cockpit-machines 343: This is the Cockpit user interface for virtual machines
 app-admin/cockpit-podman 116: This is the Cockpit user interface for podman containers
 app-admin/cockpit-sensors 1.1: This is the Cockpit user interface for sensors
@@ -33,7 +33,7 @@ app-admin/filebeat 7.17.2: Lightweight log shipper for Logstash and Elasticsearc
 app-admin/monit 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/salt 3007.8: Salt is a remote execution and configuration manager
 app-backup/autorestic 1.8.3: High level CLI utility for restic
-app-backup/backrest 1.9.2: A web UI and orchestrator for restic backup
+app-backup/backrest 1.10.1: A web UI and orchestrator for restic backup
 app-backup/rest-server 0.14.0: High-performance HTTP server that implements restic's REST backend API
 app-backup/resticprofile 0.32.0: Configuration profiles manager and scheduler for restic backup
 app-backup/virtnbdbackup 2.38: Backup utility for libvirt kvm / qemu with incremental backup support via NBD
